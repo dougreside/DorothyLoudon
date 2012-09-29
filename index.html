@@ -31,7 +31,7 @@
 	  $.backstretch("images/background.jpg", {speed: 150});
 	</script>
 	
-
+  	<link rel="stylesheet" href="css/style.css"/>
  <link type="text/css" rel="stylesheet" href="./vendor/rcarousel/widget/css/rcarousel.css" />
 		<style type="text/css">
 			#slidecontainer {
@@ -83,8 +83,20 @@
 				width: 150px;
 				margin: 0 auto;
 			}
-			.selectedRow{
+		
+			.showTitle{
+			width: 100%;
+			}
+			.showTitle:hover{
 				background: none repeat scroll 0 0 cyan;
+				color: red;
+			}
+			.showTitle>a{
+			text-decoration: none;
+			}
+				.selectedRow{
+				
+				color: red;
 			}
 </style>
 			<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery.ui.core.js"></script>
@@ -94,78 +106,64 @@
   <script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
  
     <script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  
   <link type="text/css" rel="stylesheet" href="./vendor/fancybox/jquery.fancybox-1.3.4.css"></link>
 	<script type="text/javascript">
-	fb = $.fancybox;
-	$(window).bind('hashchange', function() {
-		
-		  url = window.location.href;
-			
-		  hash = url.substring(url.indexOf("#")+1);
-		 alert(hash);
-		  if (hash.substring(0,4)=="item"){
-		
-			  parts = hash.split("/");  
-			framestring = "<iframe id='bookframe' height=900 width=1000 src='./LoudonPages.html#"+parts[1]+"/1'></iframe>";
-		
-			fb(framestring, {
-				'hideOnOverlayClick' : false,
-				'hideOnContentClick' : false,
-				'scrolling' : true,
-				'autoScale' : false,
-				'autoDimensions' : true,
-				'onCleanup' : function(e) {
-					$("#bookframe").focus();
-				}
-				}
-			);
-			fb.resize();
-		}
-		}
-		);
+
 	
 	jQuery(function($) {
-		function generatePages() {
-			var _total, i, _link;
+		fb = $.fancybox;
+	
+		function processHash(){
+			 hash = window.location.hash;
 			
-			_total = $( "#carousel" ).rcarousel( "getTotalPages" );
+			 if (hash.length>1){	
+			  if (hash.indexOf("#")>0){
+				  hash = hash.substring(hash.indexOf("#")+1);
+			  }	 
+			 
+		
+			 
+			  parts = hash.split("/");  
+			  if (parts.length>1){
+				  
+			  slide = parseInt(parts[1]);
+			 
+			  $( "#carousel" ).rcarousel( "goToPage", slide );
+			  }
+			  if (parts.length>3){	  
+			  			
+				 
+				framestring = "<iframe id='bookframe' height=900 width=1000 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			
-			for ( i = 0; i < _total; i++ ) {
-				_link = $( "<a href='#'></a>" );
-				
-				$(_link)
-					.bind("click", {page: i},
-						function( event ) {
-							$( "#carousel" ).rcarousel( "goToPage", event.data.page );
-							event.preventDefault();
-						}
-					)
-					.addClass( "bullet off" )
-					.appendTo( "#pages" );
-			}
-			
-			// mark first page as active
-			$( "a:eq(0)", "#pages" )
-				.removeClass( "off" )
-				.addClass( "on" )
-				.css( "background-image", "url(images/page-on.png)" );
-
+				fb(framestring, {
+					'hideOnOverlayClick' : false,
+					'hideOnContentClick' : false,
+					'scrolling' : true,
+					'autoScale' : false,
+					'autoDimensions' : true,
+					'onCleanup' : function(e) {
+						$("#bookframe").focus();
+					}
+					}
+				);
+				fb.resize();
+			  }
+			  }
 		}
 
 		function pageLoaded( event, data ) {
-
-			row = $("#overviewTable").find("tr").eq(parseInt(data.page)).find("td");
-		
+			if (data.page>0){
+			row = $("#overviewTable").find("tr").eq(parseInt(data.page-1)).find("a");
+			
 			$(".selectedRow").removeClass("selectedRow");
 			$(row).addClass("selectedRow");
-			$( "a.on", "#pages" )
-				.removeClass( "on" )
-				.css( "background-image", "url(images/page-off.png)" );
-
-			$( "a", "#pages" )
-				.eq( data.page )
-				.addClass( "on" )
-				.css( "background-image", "url(images/page-on.png)" );
+			window.location.hash = "event/"+data.page
+			}
+			else{
+				$(".selectedRow").removeClass("selectedRow");
+				window.location.hash = "";
+			}
 		}
 		$(document).ready(function(){
 		sorted = _.sortBy(LoudonTimeline.date,function(val){
@@ -173,22 +171,29 @@
 		} );
 	
 		$.each(sorted,function(key,val){
-			$("#carousel").append("<div class='slide'><div class='span-8 append-1 clear'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+val.startDate+"</div>"+val.text+"</div></div>");
-			console.log(key);
-			//if (parseInt(key)%4==0){
-			
-				$("#overviewTable").append("<tr><td>"+val.headline+"</td></tr>");
+			$("#carousel").append("<div class='slide'><div class='span-8 append-1 clear'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+val.startDate+"</div>"+val.text+"</div></div>");	
+				$("#overviewTable").append("<tr><td><span class='showTitle'><a class='showLink' id='event_"+(key+1)+"'>"+val.headline+"</a></span></td></tr>");
 				
-			//}
-			/*else{
-			
-				$("#overviewTable").find("tr").last().append("<td>"+val.headline+"</td>");
-			}*/
-		});	
-		startCarousel();
 		
 		});
-		
+		$(".showLink").click(function(e){
+			id = $(this).attr("id");
+			page = id.substring(id.indexOf("_")+1);
+			row = $("#overviewTable").find("tr").eq(parseInt(page)).find("a");
+			$(".selectedRow").removeClass("selectedRow");
+			$(row).addClass("selectedRow");
+			
+		    window.location.hash= "#event/"+page;
+			processHash();
+			e.preventDefault();
+
+		})
+		startCarousel();
+		processHash();
+		});
+	function generatePages(){
+		return;
+	}	
 	function startCarousel(){
 
 		$("#carousel").rcarousel(
@@ -222,7 +227,7 @@
 	
 	
 	</script>
-	  	<link rel="stylesheet" href="css/style.css"/>
+	
     <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body id="home">
