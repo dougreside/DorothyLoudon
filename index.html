@@ -207,7 +207,9 @@
 			);
 	}	
 
-	
+	$(window).on("hashchange",function(path,parts){
+		  processHash();
+	});
 	$(document).ready(function(){
 		sorted = _.sortBy(LoudonTimeline.date,function(val){
 			return val.startDate;
