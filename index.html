@@ -117,7 +117,8 @@
 		function processHash(){
 			 hash = window.location.hash;
 			
-			 if (hash.length>1){	
+			 if (hash.length>1){
+			 
 			  if (hash.indexOf("#")>0){
 				  hash = hash.substring(hash.indexOf("#")+1);
 			  }	 
@@ -131,11 +132,17 @@
 			 
 			  $( "#carousel" ).rcarousel( "goToPage", slide );
 			  }
-			  if (parts.length>3){	  
-			  			
+			  if (parts.length>2){
+				 switch (parts[2]){
+				 case "items":
+					 framestring = "<iframe id='itemList' height=900 width=1000 src='./itemList.html#"+parts[1]+"'></iframe>";
+						 
+				break;
+				 case "item":
 				 
 				framestring = "<iframe id='bookframe' height=900 width=1000 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
-			
+			     break;
+	}
 				fb(framestring, {
 					'hideOnOverlayClick' : false,
 					'hideOnContentClick' : false,
@@ -150,6 +157,7 @@
 				fb.resize();
 			  }
 			  }
+			
 		}
 
 		function pageLoaded( event, data ) {
@@ -165,32 +173,7 @@
 				window.location.hash = "";
 			}
 		}
-		$(document).ready(function(){
-		sorted = _.sortBy(LoudonTimeline.date,function(val){
-			return val.startDate;
-		} );
-	
-		$.each(sorted,function(key,val){
-			$("#carousel").append("<div class='slide'><div class='span-8 append-1 clear'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+val.startDate+"</div>"+val.text+"</div></div>");	
-				$("#overviewTable").append("<tr><td><span class='showTitle'><a class='showLink' id='event_"+(key+1)+"'>"+val.headline+"</a></span></td></tr>");
-				
 		
-		});
-		$(".showLink").click(function(e){
-			id = $(this).attr("id");
-			page = id.substring(id.indexOf("_")+1);
-			row = $("#overviewTable").find("tr").eq(parseInt(page)).find("a");
-			$(".selectedRow").removeClass("selectedRow");
-			$(row).addClass("selectedRow");
-			
-		    window.location.hash= "#event/"+page;
-			processHash();
-			e.preventDefault();
-
-		})
-		startCarousel();
-		processHash();
-		});
 	function generatePages(){
 		return;
 	}	
@@ -223,9 +206,41 @@
 				}
 			);
 	}	
+
+	
+	$(document).ready(function(){
+		sorted = _.sortBy(LoudonTimeline.date,function(val){
+			return val.startDate;
+		} );
+	
+		$.each(sorted,function(key,val){
+			$("#carousel").append("<div class='slide'><div class='span-8 append-1 clear'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+val.startDate+"</div><div class=\"relatedHead\"><a class='relatedItems' href='#items'>View items related to this event</a></div><div>"+val.text+"</div></div>");	
+				$("#overviewTable").append("<tr><td><span class='showTitle'><a class='showLink' id='event_"+(key+1)+"'>"+val.headline+"</a></span></td></tr>");
+				
+		
+		});
+		$(".showLink").click(function(e){
+			id = $(this).attr("id");
+			page = id.substring(id.indexOf("_")+1);
+			row = $("#overviewTable").find("tr").eq(parseInt(page)).find("a");
+			$(".selectedRow").removeClass("selectedRow");
+			$(row).addClass("selectedRow");
+			
+		    window.location.hash= "#event/"+page;
+			processHash();
+			e.preventDefault();
+
+		});
+		$(".relatedItems").click(function(e){
+			 window.location.hash= window.location.hash+"/items";
+				processHash();
+				e.preventDefault();
+		});
+		startCarousel();
+		processHash();
+		});	
+	
 	});
-	
-	
 	</script>
 	
     <link rel="shortcut icon" href="images/favicon.ico" />
