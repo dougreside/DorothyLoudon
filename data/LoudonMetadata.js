@@ -1,11 +1,8 @@
-LoudonEventItems = [
-                    
-                    
-                    ]
+
 LoudonMMS = [
 		{
 			"id" : "262497",
-			"title" : "Cabaret/Nightclubs/Early Career -- II",
+			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "Newsroom notes [left; Daily Eagle; April 30, 1960]",
@@ -297,7 +294,7 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262500",
-			"title" : "Cabaret/Nightclubs/Early Career -- III",
+			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume III)]",
@@ -6719,7 +6716,7 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262495",
-			"title" : "Cabaret/Nightclubs/Early Career -- I",
+			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume I)]",
@@ -9494,7 +9491,7 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261989",
-			"title" : "No Where to Go But Up, 1962",
+			"title" : "Scrapbook:  Nowhere to Go But Up, 1962",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Nowhere to Go But Up and Sweet Potato]",
@@ -10134,7 +10131,7 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261463",
-			"title" : "Annie I",
+			"title" : "Annie Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 1)]",
@@ -10383,7 +10380,7 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261515",
-			"title" : "Annie II",
+			"title" : "Annie Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 2)]",

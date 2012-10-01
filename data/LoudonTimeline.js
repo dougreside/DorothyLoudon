@@ -37,7 +37,8 @@ LoudonTimeline=
                     "media":"http://images.nypl.org/index.php?t=w&id=4062310",
                     "credit":"",
                     "caption":"<a href=\"#item/12\">Scrapbook</a>"
-                }
+                },
+            	"relatedItems":[262495,262497,262500]
             },
     
 			{
@@ -50,7 +51,8 @@ LoudonTimeline=
                     "media":"http://images.nypl.org/index.php?t=w&id=4061446",
                     "credit":"",
                     "caption":"<a href=\"#item/35\">Scrapbook</a>"
-                }
+                },
+            	"relatedItems":[261989]
             },
             {
                 "startDate":"1963,9,24",
