@@ -47,9 +47,11 @@ function loadPage(page, pageElement) {
 	});
 
 	// Load the page
-	lPage = Loudon[showNum].images[page-1];
+	lPage = itemImages[page-1].image;
+	console.log(itemImages[page-1].caption)
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
-
+	console.log('http://images.nypl.org/index.php?t=w&id=' +  lPage);
+	
 	loadRegions(page, pageElement);
 
 }
@@ -147,7 +149,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 	
-	lPage = Loudon[showNum].images[page-1];
+	lPage = itemImages[page-1].image;
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
 
 }
@@ -163,7 +165,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	lPage = Loudon[showNum].images[page-1];
+	lPage = itemImages[page-1].image;
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
 
 }

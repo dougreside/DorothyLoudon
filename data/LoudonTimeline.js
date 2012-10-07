@@ -13,7 +13,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062443",
                     "credit":"",
-                    "caption":"<a href=\"#event/1/item/12\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 }
             },
             {
@@ -24,7 +24,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062310",
                     "credit":"",
-                    "caption":"<a href=\"#event/2/item/12\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 }
             },
             {
@@ -36,7 +36,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062310",
                     "credit":"",
-                    "caption":"<a href=\"#event/3/item/12\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
             	"relatedItems":[262495,262497,262500]
             },
@@ -50,7 +50,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061446",
                     "credit":"",
-                    "caption":"<a href=\"#event/4/item/35\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
             	"relatedItems":[261989]
             },
@@ -63,7 +63,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061332",
                     "credit":"",
-                    "caption":"<a href=\"#event/5/item/58\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
                 "relatedItems": [261926]
             
@@ -77,7 +77,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061466",
                     "credit":"",
-                    "caption":"<a href=\"#event/6/item/35\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
             "relatedItems": [261969]
             },
@@ -90,7 +90,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061945",
                     "credit":"",
-                    "caption":"<a href=\"#event/7/item/62\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
                 "relatedItems": [262300]
             },
@@ -103,7 +103,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061262",
                     "credit":"",
-                    "caption":"<a href=\"#event/8/item/56\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
                 "relatedItems": [261851]
             },
@@ -116,7 +116,7 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061220",
                     "credit":"",
-                    "caption":"<a href=\"#event/9/item/56\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
                 "relatedItems":[261851,262550]
             },
@@ -124,64 +124,67 @@ LoudonTimeline=
              "startDate":"1973,4,23",
                 "endDate":"1973,6,17",
                 "headline":"The Women",
-                "text":"",
+                "text":"Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith.. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061967",
                     "credit":"",
-                    "caption":"<a href=\"#event/10/item/62\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
-                "relatedItems":[262300,262545,]
+                "relatedItems":[262300]
             },
 
 			{
                          "startDate":"1977,4,21",
                 "endDate":"1978,8,14",
                 "headline":"Annie",
-                "text":"",
+                "text":"Loudon won a Tony Award and finally, at 52, became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism (and of modernist, Sondheim-era musical theatre). It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in Annie&rsquo;s tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4048317",
                     "credit":"",
-                    "caption":"<a href=\"#event/11/item/2\">Scrapbook</a>"
+                    "caption":"Scrapbook"
                 },
-                "relatedItems":[261551]
+                "relatedItems":[262545,261463,261515,26551,261183]
             },
 			{
                 "startDate":"1978,12,14",
                    "endDate":"1979,3,24",
                 "headline":"Ballroom",
-                "text":"",
+                "text":"After sixteen months in Annie (which would run until 1983, with several replacement Miss Hannigans), Loudon left to begin workshopping this more intimate musical adapted from Jerome Kass&rsquo;s made-for-TV-movie Queen of the Stardust Ballroom. &nbsp;A recent widow herself, Loudon played Bronx widow Bea Asher (based on Kass&rsquo;s own mother), who finds middle-aged romance on the dance floor with a courtly mailman (Vincent Gardenia). &nbsp;All the principals were Tony-nominated, but director-choreographer Michael Bennett&rsquo;s highly-anticipated follow-up to A Chorus Line was only a modest hit, closing after 116 performances.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4060979",
                     "credit":"",
-                    "caption":"<a href=\"#event/12/item/9\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261671,261709,262547]
             },
 			{
                 "startDate":"1980,3,26",
                 "endDate":"1980,6,29",
                 "headline":"Sweeney Todd",
-                "text":"",
+                "text":"A year into its Broadway run, Dorothy Loudon and George Hearn took over for original stars Angela Lansbury and Len Cariou in this demanding Sondheim show. Though the replacements received universally positive reviews, the production closed four months later. &ldquo;[I[f you know Steve&rsquo;s and my history, our shows seem to get to this number of performances and no more,&rdquo; director Hal Prince sighed in a farewell note to Loudon. Incidentally, it wasn&rsquo;t the first time Loudon had performed Sondheim; she&rsquo;d sung &ldquo;Truly Content,&rdquo; his one-off contribution to the Off-Broadway revue The World of Jules Feiffer, in 1962.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061871",
                     "credit":"",
-                    "caption":"<a href=\"#event/13/item/51\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262251]
             },
 			{
                 "startDate":"1981,11,19",
                 "endDate":"1982,3,13",
                 "headline":"The West Side Waltz",
-                "text":"",
+                "text":"A follow-up to his hit play On Golden Pond, this comedy-drama by Ernest Thompson also dealt with the hardships of aging and also starred Katharine Hepburn, who had done the film version of On Golden Pond. Loudon auditioned to play a violinist neighbor to Hepburn&rsquo;s irascible, widowed pianist, and claimed in interviews that Hepburn selected her after rejecting 500 other actresses. The play received mixed reviews and, after tryouts on the West Coast, ran for 126 performances on Broadway.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062070",
                     "credit":"",
-                    "caption":"<a href=\"#event/14/item/59\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262360,262385,262428]
             },
 			{
                 "startDate":"1983,12,11",
@@ -192,20 +195,22 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061479",
                     "credit":"",
-                    "caption":"<a href=\"#event/15/item/36\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262042,262091,262128,261361,262551]
             },
 			{
                 "startDate":"1985,12,18",
                   "endDate":"1986,4,20",
                 "headline":"Jerry's Girls",
-                "text":"",
+                "text":"This revue of Jerry Herman songs had a protracted, four-year cabaret and touring history (including a version featuring Annie&rsquo;s Andrea McArdle) before it arrived on Broadway at the St. James Theatre (once home to Herman&rsquo;s Hello, Dolly!), with headliners Leslie Uggams, Chita Rivera, and Loudon backed by a large all-female chorus. Loudon comedic material, but also &ldquo;Song on the Sand&rdquo; from La Cage aux Folles and &ldquo;Time Heals Everything&rdquo; from Mack &amp; Mabel. The opening was pushed back a week after Loudon, who had injured her leg just before Annie opened, broke her foot during previews.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061760",
                     "credit":"",
-                    "caption":"<a href=\"#event/16/item/44\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262158,261289]
             },
             {
                 "startDate":"1989,12,22",
@@ -216,20 +221,22 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4048513",
                     "credit":"",
-                    "caption":"<a href=\"#event/17/item/1\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261592,261222,261545]
             },
             {
                 "startDate":"1971,10",
                   "endDate":"1972,2",
-                "headline":"The Effect of Gamma Rays on Man-in-the-Moon Marigolds",
+                "headline":"The Effect of Gamma Rays<br/> on Man-in-the-Moon Marigolds",
                 "text":"",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061170",
                     "credit":"",
-                    "caption":"<a href=\"#event/18/item/55\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261804,262548]
             },
             {
                 "startDate":"1988",
@@ -240,8 +247,9 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061076",
                     "credit":"",
-                    "caption":"<a href=\"#event/19/item/17\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261746]
             },
       
             {
@@ -253,8 +261,9 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061976",
                     "credit":"",
-                    "caption":"<a href=\"#event/20/item/62\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262300]
             },
             {
                 "startDate":"1992,6,10",
@@ -264,8 +273,9 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061276",
                     "credit":"",
-                    "caption":"<a href=\"#event/21/item/21\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261882]
             },
             {
                 "startDate":"1994",
@@ -275,8 +285,9 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061899",
                     "credit":"",
-                    "caption":"<a href=\"#event/22/item/51\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262251]
             },
             {
                 "startDate":"1996",
@@ -286,30 +297,33 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061847",
                     "credit":"",
-                    "caption":"<a href=\"#event/23/item/47\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262225]
             },
             {
                 "startDate":"1982",
                 "headline":"Princess Grace and the Fazzaris",
-                "text":"",
+                "text":"Loudon&rsquo;s entry in the 1982 theatre season was a one-woman show, in which she played three members in the party of a New Jersey Italian wedding taking place on the same day in 1956 as Grace Kelly&rsquo;s marriage to the Prince of Monaco. The generally well-reviewed play, by Marc Alan Zagoren, closed during its Chicago tryout, perhaps because of a horrible bit of timing: the real Princess Grace died in a car accident the day after the opening.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061728",
                     "credit":"",
-                    "caption":"<a href=\"#event/24/item/44\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[262158]
             },
             {
                 "startDate":"1984",
                 "headline":"Garbo Talks",
-                "text":"",
+                "text":"Loudon made her film debut as a reclusive cat lady in this comedy from Sidney Lumet (the director of her first Broadway show). As with her only other feature, Clint Eastwood&rsquo;s Midnight in the Garden of Good and Evil (1997), it was a good part but only a cameo. Loudon never broke the curse of the cinema: Carol Burnett played Miss Hannigan in Annie, Doris Day was to replace her in an unmade movie of The West Side Waltz, and - most intriguingly - she dropped out of Jerry Lewis&rsquo;s The Ladies Man (1961), in a role (later recast, then cut) that might have made Hollywood beckon.",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061307",
                     "credit":"",
-                    "caption":"<a href=\"#event/25/item/21\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+            "relatedItems":[261882]
             },
             {
                 "startDate":"1965",
@@ -320,8 +334,9 @@ LoudonTimeline=
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061416",
                     "credit":"",
-                    "caption":"<a href=\"#event/26/item/34\">Scrapbook</a>"
-                }
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261960,261321,260974]
             }
 			
         ]

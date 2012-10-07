@@ -8,7 +8,7 @@ body {
 	color:#4b3134;
 }
 .container {
-	margin:30px 0 0 30px;
+	margin:30px auto;
 }
 .spotlight {
 	position:fixed;
@@ -30,16 +30,26 @@ h2 {
 	color:#fff;
 }
 h3 {
-	font-size:1.3em;
-	margin-top:.7em;
-	margin-bottom:.5em;
+	font-size:1.7em;
+	color:#9c5a37;
+	font-weight:bold;
+	margin:.5em 0;
 }
+
 p {
 	font-size:.8em;
 	line-height:1.7em;
 	margin-top:1.7em;
 	color:#322423;
 	letter-spacing:.1em;
+}
+.title {
+	padding:0;
+	margin:0;
+	font-style:italic;
+	font-size:.6em;
+	padding-left:10px;
+	color:#9c5a37;
 }
 strong {
 	font-weight:bold;
@@ -63,7 +73,7 @@ strong {
 ul#nav  {
 	display:block;
 	height:80px;
-	margin-top:25px;
+	margin-top:28px;
 	margin-bottom:50px;
 }
 #nav li {
@@ -108,23 +118,78 @@ ul#nav  {
 	background:#6a5e58 url(../images/nav4.png) no-repeat 0 -80px;
 }
 /* main styles ----------------- */
-#main h3 {
-	font-size:2em;
-	color:#9c5a37;
-	font-weight:bold;
-	text-indent:-9999px;
-	line-height:39px;
+
+
+/* Carousel styles */
+#ui-carousel-next, #ui-carousel-prev {
+	width: 70px;
+	height: 300px;
+	background:url(../images/prev.gif) no-repeat 50% 50%;
+	display: block;
+	top: 0;
+	z-index: 100;
 }
-#home #main h3 { background:url(../images/welcome.png) no-repeat; }
-#home #main h3.showTitle { font-size: 16pt; background: none; opacity: 1; }
-#biography #main h3 { background:url(../images/biography.png) no-repeat; }
-#works #main h3 { background:url(../images/majorworks.png) no-repeat; }
-#guide #main h3 { background:url(../images/collectionguide.png) no-repeat; }
-.title {
-	padding:0;
-	margin:0;
-	font-style:italic;
-	font-size:.6em;
-	padding-left:10px;
+#carousel #home-img {
+	margin-top:25px;
+}
+#ui-carousel-next {
+	background:url(../images/next.gif) no-repeat 50% 50%;
+}
+#ui-carousel-next > span, #ui-carousel-prev > span {
+	display: none;
+}
+.slide {
+	margin: 0;
+	position: relative;
+}
+#pages { /* not sure what this style is for?? */
+	width: 150px;
+	margin: 0 auto;
+}
+.date {
+	font-size:.9em;
+	padding-bottom:10px;
+	color:#9C5A37;
+}
+.relatedHead {
+	font-size:.9em;
+}
+.relatedHead span.relatedItems {
+	background:url(../images/arrow-2.gif) no-repeat;
+	padding-left:30px;
+	color:#7B1F29;
+	text-decoration:none;
+	line-height:25px;
+}
+.relatedHead a.relatedItems:hover, .relatedHead a.relatedItems:active {
+	border-bottom:1px dotted #7b1f29;	
+}
+/* show-list styles */
+#show-list {
+	font-size: .8em;
+	line-height:1.7em;
+}
+
+#show-list li {
+	width:80%;
+	margin-bottom:.5em;
+}
+#show-list li a:link {
+	width:80%;
+	color:#7B1F29;
+	text-decoration:none;
+	display: block;
+	width:100%;
+	padding:4px;
+}
+#show-list li a:visited { 
 	color:#9c5a37;
 }
+#show-list li a:hover, #show-list li a:active {
+	color:#4B3134;
+	background-color:#f7cc8a;
+	
+}
+
+
+

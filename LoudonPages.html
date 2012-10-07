@@ -8,7 +8,7 @@
 <script type="text/javascript" src="./vendor/extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="./vendor/extras/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="./js/hash.js"></script>
-<script type="text/javascript" src="./data/LoudonImages.json"></script>
+<script type="text/javascript" src="./data/LoudonMetadata.js"></script>
 <script type="text/javascript" src="./js/underscore-min.js"></script>
 </head>
 <body>
@@ -31,21 +31,33 @@
 </div>
 
 <script type="text/javascript">
-showNum=2;
-function loadApp() {
+itemImages=[];
+showNum=262505;
+function loadApp(hashparts) {
+ if (hashparts==undefined){
 
+	 hashparts=getHashParts();
+ }
+
+ showNum = hashparts[0];
+
+ itemImages=[];
+ console.log("SEARCHING For Container: "+showNum)
+ thisItem= _.find(LoudonMMS,function(val){
+	 return val.id==showNum;
+ });
+ _.each(thisItem.images,function(val,key){
+	if (val.imgNums.length>1) {
+		_.each(val.imgNums,function(img){
+			itemImages.push({"caption":val.titles,"image":val.imgNums[0]});
+		})
+	}
+	else{
+			itemImages.push({"caption":val.titles,"image":val.imgNums[0]});
+	}
+ });
  $('#all').fadeIn(1000);
-console.log(Loudon[showNum].images.length);
-/*
-_.each(Loudon[showNum].images,function(i,n){
-	
-	$(".thumbnails>div>ul").append("<li class='i'>"+
-			"<img src='http://images.nypl.org/index.php?t=r&id="+i+"' width='76' height='100' class='page-"+n+"'>"+
-	"<span>"+n+"</span></li>");
-	
-	
-	
-});*/
+
 
 
 	// Create the flipbook
@@ -78,7 +90,7 @@ _.each(Loudon[showNum].images,function(i,n){
 
 			// The number of pages
 
-			pages: Loudon[showNum].images.length,
+			pages: itemImages.length,
 
 			// Events
 			when: {
@@ -242,7 +254,7 @@ _.each(Loudon[showNum].images,function(i,n){
 	});
 
 	// URIs - Format #/page/1 
-
+/*
 	Hash.on('^([0-9]+)\/([0-9]+)$', {
 		yep: function(path, parts) {
 			console.log(path);
@@ -270,7 +282,35 @@ _.each(Loudon[showNum].images,function(i,n){
 		}
 	});
 
-
+*/
+	function getHashParts(){
+	hashparts=[];
+	hash = window.location.href;
+	if (hash.indexOf("#")>0){
+ 		 hash = hash.substring(hash.indexOf("#")+1);
+ 		 
+ 		 hashparts = hash.split("/");
+	 }
+	
+	 return hashparts;
+	}
+ 	$(window).on("hashchange",function(){
+ 
+ 		hashparts = getHashParts();
+ 		 if (hashparts.length>0){
+ 
+ 		 if (hashparts[0]!=showNum){
+ 		 	$(".thumbnails>div>ul").empty();
+		 	$(".magazine").turn("destroy");
+ 			loadApp(parts);
+ 		 }
+ 		
+ 			if (page!==undefined) {
+				if ($('.magazine').turn('is'))
+					$('.magazine').turn('page', page);
+				}
+ 			}
+ 	});
 	$(window).resize(function() {
 		resizeViewport();
 	}).bind('orientationchange', function() {
