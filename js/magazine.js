@@ -48,9 +48,9 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 	lPage = itemImages[page-1].image;
-	console.log(itemImages[page-1].caption)
+
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
-	console.log('http://images.nypl.org/index.php?t=w&id=' +  lPage);
+	
 	
 	loadRegions(page, pageElement);
 
@@ -193,11 +193,14 @@ function disableControls(page) {
 // Set the width and height for the viewport
 
 function resizeViewport() {
-
-	var width = $(window).width(),
-		height = $(window).height(),
+	
+	var width = parseInt($(window).width());
+	console.log("FIRST WIDTH: "+width);
+	width = width-200;
+	width=width+"px";
+	var height = $(window).height(),
 		options = $('.magazine').turn('options');
-
+	console.log("SIZE:  "+width+" "+height);
 	$('.magazine').removeClass('animated');
 
 	$('.magazine-viewport').css({
