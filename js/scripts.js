@@ -26,12 +26,12 @@
 			  if (parts.length>2){
 				 switch (parts[2]){
 				 case "items":
-					 framestring = "<iframe id='itemList' height=900 width=1000 src='./itemList.html#"+parts[1]+"'></iframe>";
+					 framestring = "<iframe id='itemList' height=700 width=1000 src='./itemList.html#"+parts[1]+"'></iframe>";
 					 
 				break;
 				 case "item":
 			 
-				framestring = "<iframe id='bookframe' height=900 width=1000 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
+				framestring = "<iframe id='bookframe' height=700 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
 				 }
 				fb(framestring, {
@@ -82,7 +82,7 @@
 					enabled: false
 				},
 				width: 790,
-				height: 400,
+				height: 410,
 				start: generatePages,
 				pageLoaded: pageLoaded
 			}

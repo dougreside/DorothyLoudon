@@ -58,7 +58,7 @@ LoudonTimeline=
                 "startDate":"1963,9,24",
                 "endDate":"1964,6,16",
                 "headline":"Garry Moore Show",
-                "text":"",
+                "text":"<p>Loudon received her first national exposure on this television variety program, in which she performed songs and appeared in comedy sketches with host Moore and his sidekick Durward Kirby. Although the press depicted her as a replacement for the hugely popular Carol Burnett, who had left Moore&rsquo;s program in 1962, Loudon - following several unsuccessful auditions - was in fact summoned as a last-minute substitute for an ailing Judy Holliday. Good reviews led to a contract for eleven more appearances, but Loudon&rsquo;s shot at television stardom was thwarted when CBS cancelled Moore&rsquo;s show in 1964.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061332",
@@ -111,7 +111,7 @@ LoudonTimeline=
                 "startDate":"1969,1,2",
                 "endDate":"1969,1,6",
                 "headline":"The Fig Leaves are Falling",
-                "text":"<p>This satire of suburban mores, in the vein of The Seven Year Itch, featured Loudon as the wife of a Larchmont commuter (Barry Nelson) who contemplates a dalliance with his hippie secretary.  The critics were brutal but almost universally spared Loudon, who had three good numbers (particularly \"All of My Laughter\") and copped a Tony nomination even though the show folded after four performances. A cult item because of the names attached - George Abbott directed, Albert Hague composed, and popular song parodist Allan Sherman did the book and lyrics - Fig Leaves also featured future pop idol David Cassidy as Loudon\'s son.</p>",
+                "text":"<p>This satire of suburban mores featured Loudon as the wife of a Larchmont commuter (Barry Nelson) who contemplates a dalliance with his hippie secretary.  The critics were brutal but almost universally spared Loudon, who had three good numbers (particularly \"All of My Laughter\") and copped a Tony nomination even though the show folded after four performances. A cult item because of the names attached - George Abbott directed, Albert Hague composed, and popular song parodist Allan Sherman did the book and lyrics - Fig Leaves also featured future pop idol David Cassidy as Loudon\'s son.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061220",
@@ -124,7 +124,7 @@ LoudonTimeline=
              "startDate":"1973,4,23",
                 "endDate":"1973,6,17",
                 "headline":"The Women",
-                "text":"Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith.. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)",
+                "text":"<p>Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith.. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061967",
@@ -138,7 +138,7 @@ LoudonTimeline=
                          "startDate":"1977,4,21",
                 "endDate":"1978,8,14",
                 "headline":"Annie",
-                "text":"Loudon won a Tony Award and finally, at 52, became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism (and of modernist, Sondheim-era musical theatre). It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in Annie&rsquo;s tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.",
+                "text":"<p>Loudon won a Tony Award and finally became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism. It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in Annie&rsquo;s tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4048317",
@@ -151,7 +151,7 @@ LoudonTimeline=
                 "startDate":"1978,12,14",
                    "endDate":"1979,3,24",
                 "headline":"Ballroom",
-                "text":"After sixteen months in Annie (which would run until 1983, with several replacement Miss Hannigans), Loudon left to begin workshopping this more intimate musical adapted from Jerome Kass&rsquo;s made-for-TV-movie Queen of the Stardust Ballroom. &nbsp;A recent widow herself, Loudon played Bronx widow Bea Asher (based on Kass&rsquo;s own mother), who finds middle-aged romance on the dance floor with a courtly mailman (Vincent Gardenia). &nbsp;All the principals were Tony-nominated, but director-choreographer Michael Bennett&rsquo;s highly-anticipated follow-up to A Chorus Line was only a modest hit, closing after 116 performances.",
+                "text":"<p>After sixteen months in Annie (which would run until 1983, with several replacement Miss Hannigans), Loudon left to begin workshopping this more intimate musical adapted from Jerome Kass&rsquo;s made-for-TV-movie Queen of the Stardust Ballroom. &nbsp;A recent widow herself, Loudon played Bronx widow Bea Asher (based on Kass&rsquo;s own mother), who finds middle-aged romance on the dance floor with a courtly mailman (Vincent Gardenia). &nbsp;All the principals were Tony-nominated, but director-choreographer Michael Bennett&rsquo;s highly-anticipated follow-up to A Chorus Line was only a modest hit, closing after 116 performances.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4060979",
@@ -164,7 +164,7 @@ LoudonTimeline=
                 "startDate":"1980,3,26",
                 "endDate":"1980,6,29",
                 "headline":"Sweeney Todd",
-                "text":"A year into its Broadway run, Dorothy Loudon and George Hearn took over for original stars Angela Lansbury and Len Cariou in this demanding Sondheim show. Though the replacements received universally positive reviews, the production closed four months later. &ldquo;[I[f you know Steve&rsquo;s and my history, our shows seem to get to this number of performances and no more,&rdquo; director Hal Prince sighed in a farewell note to Loudon. Incidentally, it wasn&rsquo;t the first time Loudon had performed Sondheim; she&rsquo;d sung &ldquo;Truly Content,&rdquo; his one-off contribution to the Off-Broadway revue The World of Jules Feiffer, in 1962.",
+                "text":"<p>A year into its Broadway run, Dorothy Loudon and George Hearn took over for original stars Angela Lansbury and Len Cariou in this demanding Sondheim show. Though the replacements received universally positive reviews, the production closed four months later. &ldquo;[I[f you know Steve&rsquo;s and my history, our shows seem to get to this number of performances and no more,&rdquo; director Hal Prince sighed in a farewell note to Loudon. Incidentally, it wasn&rsquo;t the first time Loudon had performed Sondheim; she&rsquo;d sung &ldquo;Truly Content,&rdquo; his one-off contribution to the Off-Broadway revue The World of Jules Feiffer, in 1962.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061871",
@@ -177,7 +177,7 @@ LoudonTimeline=
                 "startDate":"1981,11,19",
                 "endDate":"1982,3,13",
                 "headline":"The West Side Waltz",
-                "text":"A follow-up to his hit play On Golden Pond, this comedy-drama by Ernest Thompson also dealt with the hardships of aging and also starred Katharine Hepburn, who had done the film version of On Golden Pond. Loudon auditioned to play a violinist neighbor to Hepburn&rsquo;s irascible, widowed pianist, and claimed in interviews that Hepburn selected her after rejecting 500 other actresses. The play received mixed reviews and, after tryouts on the West Coast, ran for 126 performances on Broadway.",
+                "text":"<p>A follow-up to his hit play On Golden Pond, this comedy-drama by Ernest Thompson also dealt with the hardships of aging and also starred Katharine Hepburn, who had done the film version of On Golden Pond. Loudon auditioned to play a violinist neighbor to Hepburn&rsquo;s irascible, widowed pianist, and claimed in interviews that Hepburn selected her after rejecting 500 other actresses. The play received mixed reviews and, after tryouts on the West Coast, ran for 126 performances on Broadway.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062070",
@@ -190,7 +190,7 @@ LoudonTimeline=
                 "startDate":"1983,12,11",
                 "endDate":"1985,1,28",
                 "headline":"Noises Off",
-                "text":"",
+                "text":"<p>Loudon headed the ensemble in this big hit, a fast-moving slapstick romp that writer Michael Frayn and director Michael Blakemore transposed from the London stage. Frayn&rsquo;s conceit was to interweave the romantic entanglements of a third-rate theater troupe with performances of the bad play they&rsquo;re performing.  Loudon, who played Dotty Otley (and her alter ego, the housekeeper Mrs. Clackett) thought that the play was a bigger hit in New York than in London because American audiences - having never suffered the idiotic sex farces that Noises Off spoofed - were laughing with the play-within-a-play rather than at it.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061479",
@@ -203,7 +203,7 @@ LoudonTimeline=
                 "startDate":"1985,12,18",
                   "endDate":"1986,4,20",
                 "headline":"Jerry's Girls",
-                "text":"This revue of Jerry Herman songs had a protracted, four-year cabaret and touring history (including a version featuring Annie&rsquo;s Andrea McArdle) before it arrived on Broadway at the St. James Theatre (once home to Herman&rsquo;s Hello, Dolly!), with headliners Leslie Uggams, Chita Rivera, and Loudon backed by a large all-female chorus. Loudon comedic material, but also &ldquo;Song on the Sand&rdquo; from La Cage aux Folles and &ldquo;Time Heals Everything&rdquo; from Mack &amp; Mabel. The opening was pushed back a week after Loudon, who had injured her leg just before Annie opened, broke her foot during previews.",
+                "text":"<p>This revue of Jerry Herman songs had a protracted, four-year cabaret and touring history (including a version featuring Annie&rsquo;s Andrea McArdle) before it arrived on Broadway at the St. James Theatre (once home to Herman&rsquo;s Hello, Dolly!), with headliners Leslie Uggams, Chita Rivera, and Loudon backed by a large all-female chorus. Loudon comedic material, but also &ldquo;Song on the Sand&rdquo; from La Cage aux Folles and &ldquo;Time Heals Everything&rdquo; from Mack &amp; Mabel. The opening was pushed back a week after Loudon, who had injured her leg just before Annie opened, broke her foot during previews.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061760",
@@ -216,7 +216,7 @@ LoudonTimeline=
                 "startDate":"1989,12,22",
                   "endDate":"1990,1,20",
                 "headline":"Annie 2",
-                "text":"",
+                "text":"<p>In development throughout the 1980s, Annie 2 reunited the creative team from the first one: director/lyricist Martin Charnin, librettist Thomas Meehan, composer Charles Strouse, and Loudon, who as Miss Hannigan moved up from popular supporting character to full-fledged star. Ronny Graham, like Loudon a veteran of the 1950s Manhattan cabaret scene, played Miss Hannigan&rsquo;s partner in crime and romance. But the idea backfired - audiences wanted less villainy and more of the orphans - and after a Kennedy Center tryout the chaotic $7 million production closed without moving to New York.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4048513",
@@ -229,7 +229,7 @@ LoudonTimeline=
                 "startDate":"1971,10",
                   "endDate":"1972,2",
                 "headline":"The Effect of Gamma Rays<br/> on Man-in-the-Moon Marigolds",
-                "text":"",
+                "text":"<p>Paul Zindel&rsquo;s intense, all-female drama was the off-Broadway hit of 1970, winning Obies for Best Play and for Sada Thompson&rsquo;s performance as the monstrous mother of two fragile teenagers. Loudon, playing her first significant straight dramatic part, took Thompson&rsquo;s place for the touring company, which traveled to Detroit, Baltimore, and San Francisco. Loudon delayed her wedding in order to play Beatrice, a role she often cited in interviews as one of her favorites.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061170",
@@ -242,7 +242,7 @@ LoudonTimeline=
                 "startDate":"1988",
                   "endDate":"1989",
                 "headline":"Driving Miss Daisy",
-                "text":"",
+                "text":"<p>Alfred Uhry&rsquo;s hugely popular, Pulitzer Prize-winning off-Broadway hit also enjoyed a long run in Chicago. The third Tony winner to step that production, following Sada Thompson and Ellen Burstyn, Loudon assumed the title role eight months into the run, playing opposite familiar character Bill Cobbs as the chauffeur Hoke. After almost a year in Chicago, Loudon briefly reprised Miss Daisy for a 1994 production in Hartford, Connecticut, with The Love Boat&rsquo;s Ted Lange as Hoke.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061076",
@@ -256,7 +256,7 @@ LoudonTimeline=
                 "startDate":"1991,7",
                 "endDate":"1991,8",
                 "headline":"The Matchmaker",
-                "text":"",
+                "text":"<p>Although Loudon might have seemed a natural to succeed Carol Channing in Hello, Dolly, she would not play Dolly Levi until this off-Broadway revival of Thornton Wilder&rsquo;s straight play The Matchmaker. This brief run at the Roundabout, Loudon&rsquo;s first New York production since Jerry&rsquo;s Girls, was also trouble-plagued: the opening was delayed when her leading man, Kenneth Mars, was replaced by Joseph Bova, and then again after Loudon damaged her vocal cords.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061976",
@@ -268,7 +268,7 @@ LoudonTimeline=
             {
                 "startDate":"1992,6,10",
                 "headline":"Sondheim: A Celebration at Carnegie Hall",
-                "text":"",
+                "text":"<p>Directed by Scott Ellis and choreographed by Susan Stroman, this gala benefit assembled big Broadway names (Patti LuPone, Glenn Close, Bernadette Peters), as well as opera, ballet, and pop performers, all doing Sondheim. Loudon&rsquo;s inventive, seriocomic medley of &ldquo;Losing My Mind,&rdquo; from Follies, and &ldquo;You Could Drive a Person Crazy,&rdquo; from Company, &ldquo;stopped the show,&rdquo; according to Rex Reed. A taped version aired on PBS&rsquo;s Great Performance series in March 1993.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061276",
@@ -280,7 +280,7 @@ LoudonTimeline=
             {
                 "startDate":"1994",
                 "headline":"Comedy Tonight",
-                "text":"",
+                "text":"<p>Loudon headlined alongside juggler Michael Davis and comedians Joy Behar and Mort Sahl in this ill-fated attempt at reviving the revue. Critics complained that the performers&rsquo; acts didn&rsquo;t mesh well and the show closed on Christmas Day, after nine performances. It was Loudon&rsquo;s only Broadway show for impresario Alexander H. Cohen, although she gave some of her best-remembered performances in the Tony Awards broadcasts that Cohen produced for television.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061899",
@@ -292,7 +292,7 @@ LoudonTimeline=
             {
                 "startDate":"1996",
                 "headline":"Show Boat",
-                "text":"",
+                "text":"<p>Loudon&rsquo;s final significant stage role was in this Chicago staging of Harold Prince&rsquo;s successful revival of the Rodgers &amp; Hammerstein classic. John McMartin, as Cap&rsquo;n Andy, went west to head up the Chicago cast, while Loudon filled in for Broadway&rsquo;s Elaine Stritch as Parthy. (The Fifth Dimension&rsquo;s Marilyn McCoo was Julie.) Loudon remained with the company from March through December, at which point Joyce Van Patten took over. </p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061847",
@@ -304,7 +304,7 @@ LoudonTimeline=
             {
                 "startDate":"1982",
                 "headline":"Princess Grace and the Fazzaris",
-                "text":"Loudon&rsquo;s entry in the 1982 theatre season was a one-woman show, in which she played three members in the party of a New Jersey Italian wedding taking place on the same day in 1956 as Grace Kelly&rsquo;s marriage to the Prince of Monaco. The generally well-reviewed play, by Marc Alan Zagoren, closed during its Chicago tryout, perhaps because of a horrible bit of timing: the real Princess Grace died in a car accident the day after the opening.",
+                "text":"<p>Loudon&rsquo;s entry in the 1982 theatre season was a one-woman show, in which she played three members in the party of a New Jersey Italian wedding taking place on the same day in 1956 as Grace Kelly&rsquo;s marriage to the Prince of Monaco. The generally well-reviewed play, by Marc Alan Zagoren, closed during its Chicago tryout, perhaps because of a horrible bit of timing: the real Princess Grace died in a car accident the day after the opening.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061728",
@@ -316,7 +316,7 @@ LoudonTimeline=
             {
                 "startDate":"1984",
                 "headline":"Garbo Talks",
-                "text":"Loudon made her film debut as a reclusive cat lady in this comedy from Sidney Lumet (the director of her first Broadway show). As with her only other feature, Clint Eastwood&rsquo;s Midnight in the Garden of Good and Evil (1997), it was a good part but only a cameo. Loudon never broke the curse of the cinema: Carol Burnett played Miss Hannigan in Annie, Doris Day was to replace her in an unmade movie of The West Side Waltz, and - most intriguingly - she dropped out of Jerry Lewis&rsquo;s The Ladies Man (1961), in a role (later recast, then cut) that might have made Hollywood beckon.",
+                "text":"<p>Loudon made her film debut as a reclusive cat lady in this comedy from Sidney Lumet (the director of her first Broadway show). As with her only other feature, Clint Eastwood&rsquo;s Midnight in the Garden of Good and Evil (1997), it was a good part but only a cameo. Loudon never broke the curse of the cinema: Carol Burnett played Miss Hannigan in Annie, Doris Day was to replace her in an unmade movie of The West Side Waltz, and - most intriguingly - she dropped out of Jerry Lewis&rsquo;s The Ladies Man (1961), in a role (later recast, then cut) that might have made Hollywood beckon.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061307",

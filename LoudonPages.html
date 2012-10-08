@@ -10,12 +10,26 @@
 <script type="text/javascript" src="./js/hash.js"></script>
 <script type="text/javascript" src="./data/LoudonMetadata.js"></script>
 <script type="text/javascript" src="./js/underscore-min.js"></script>
+<style type="text/css">
+#sidebar{
+float:left;
+width: 200px;
+background-color: #666;
+height: 100%
+}
+#all{
+background-color: cyan;
+float:left;
+left:200px;
+position:absolute;
+}
+</style>
 </head>
 <body>
-<div class="Instructions">Double click to zoom</div>
+<div id="sidebar">Double click to zoom</div>
 <div id="all">
 
-<div class="magazine-viewport">
+<div id="magazine-viewport" class="magazine-viewport">
 	<div class="container">
 		<div class="magazine">
 			<!-- Next button -->
@@ -66,11 +80,11 @@ function loadApp(hashparts) {
 			page: 1,
 			// Magazine width
 
-			width: 922,
+			width: 800,
 
 			// Magazine height
 
-			height: 600,
+			height: 521,
 
 			// Elevation will move the peeling corner this number of pixels by default
 
@@ -305,7 +319,7 @@ function loadApp(hashparts) {
  			loadApp(parts);
  		 }
  		
- 			if (page!==undefined) {
+ 			if (page!=undefined) {
 				if ($('.magazine').turn('is'))
 					$('.magazine').turn('page', page);
 				}
