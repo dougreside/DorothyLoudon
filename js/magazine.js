@@ -194,7 +194,7 @@ function disableControls(page) {
 
 function resizeViewport() {
 	
-	var width = parseInt($(window).width());
+	var width = parseInt($("#all").width());
 	console.log("FIRST WIDTH: "+width);
 	width = width-200;
 	width=width+"px";

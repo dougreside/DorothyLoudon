@@ -31,7 +31,7 @@
 				break;
 				 case "item":
 			 
-				framestring = "<iframe id='bookframe' height=600 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
+				framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
 				 }
 				fb(framestring, {
@@ -45,7 +45,12 @@
 					}
 					}
 				);
-				fb.resize();
+				fb.init();
+				$(window).on("resize",function(){
+					console.log("resize");
+					console.log(fb);
+					fb.resize();
+				})
 			  }
 			  
 		

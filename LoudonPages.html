@@ -20,8 +20,9 @@ height: 100%
 #all{
 
 float:left;
-left:200px;
+left:230px;
 position:absolute;
+width:90%
 }
 </style>
 </head>
@@ -145,7 +146,9 @@ function loadApp(hashparts) {
 				if (page==1) { 
 					$(this).turn('peel', 'br');
 				}
-
+				else{
+				$("#sidebar").html("<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div><br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div></div>");
+				}
 			},
 
 			missing: function (event, pages) {
@@ -319,7 +322,7 @@ function loadApp(hashparts) {
  			loadApp(parts);
  		 }
  		
- 			if (page!=undefined) {
+ 			if (page!==undefined) {
 				if ($('.magazine').turn('is'))
 					$('.magazine').turn('page', page);
 				}
