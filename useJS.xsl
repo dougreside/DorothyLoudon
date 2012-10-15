@@ -4,6 +4,25 @@
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="ead xsi xlink" version="1.0">
 
+<xsl:template name="string-replace-all">
+  <xsl:param name="text"/>
+  <xsl:param name="replace"/>
+  <xsl:param name="by"/>
+  <xsl:choose>
+    <xsl:when test="contains($text,$replace)">
+      <xsl:value-of select="substring-before($text,$replace)"/>
+      <xsl:value-of select="$by"/>
+      <xsl:call-template name="string-replace-all">
+        <xsl:with-param name="text" select="substring-after($text,$replace)"/>
+        <xsl:with-param name="replace" select="$replace"/>
+        <xsl:with-param name="by" select="$by"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$text"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
 
     <xsl:template match="/">
@@ -112,9 +131,7 @@
 		padding-left:50px;
 		}
 		
-		.c02>.did{
-		font-weight: bold;
-		}
+	
 		.c02{
 		padding-left:20px;
 		}
@@ -152,11 +169,9 @@
 		
 		padding: 10px;
 		display: inline;
-		border-bottom: thin grey dotted;
 		padding-bottom:1px;
 		cursor: pointer;
 		}
-	
 		
 		.container{
 		display:inline;
@@ -184,6 +199,10 @@
 		color: white;
 		}
 		.headlink{
+		text-decoration: none;
+		color: white;
+		}
+		.seriestitle{
 		text-decoration: none;
 		color: white;
 		}
@@ -223,6 +242,11 @@
 <xsl:for-each select="//ead:archdesc/*/ead:head">
 <li><a class='headlink' href='#'><xsl:value-of select="."/></a></li>
 </xsl:for-each>
+<ul>
+<xsl:for-each select="//ead:c01/ead:did/ead:unittitle">
+<li><a class='seriestitle' href='#'><xsl:value-of select="."/></a></li>
+</xsl:for-each>
+</ul>
 </ul>
 </div>
 <div id="mainContent">
@@ -251,13 +275,7 @@
 
 
 
-  <xsl:template match="//ead:archdesc/*/ead:head">
-  
-     <xsl:variable name="headanchor" select="."/>
-     <a><xsl:attribute name="id"><xsl:value-of select="headanchor"></xsl:value-of></xsl:attribute>
-         <xsl:apply-templates/>
-     </a>
-   </xsl:template>
+
    <xsl:template match="//ead:eadheader">
   
    </xsl:template>
@@ -269,16 +287,16 @@
       <xsl:variable name="conType" select="@type"/>
      <div>
       <xsl:attribute name="class"><xsl:value-of select="$conType"/></xsl:attribute>
-        <xsl:value-of select="$conType"/>: <xsl:apply-templates/>
-    </div>
+        <xsl:value-of select="$conType"/> <xsl:text> </xsl:text><xsl:apply-templates/> 
+    </div><xsl:text> </xsl:text>
   </xsl:when>
   <xsl:otherwise>
     <xsl:variable name="myname" select="local-name()"/>
+ 
+ 
   <div>
   <xsl:attribute name="class"><xsl:value-of select="$myname"/></xsl:attribute>
- <xsl:attribute name="id"><xsl:text>EAD_</xsl:text>
- <xsl:number/>
- </xsl:attribute>
+
   <xsl:apply-templates/>
   </div> 
   </xsl:otherwise>

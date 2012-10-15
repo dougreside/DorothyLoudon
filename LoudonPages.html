@@ -64,13 +64,14 @@ function loadApp(hashparts) {
  _.each(thisItem.images,function(val,key){
 	if (val.imgNums.length>1) {
 		_.each(val.imgNums,function(img){
-			itemImages.push({"caption":val.titles,"image":val.imgNums[0]});
+			itemImages.push({"caption":val.titles,"image":img});
 		})
 	}
 	else{
 			itemImages.push({"caption":val.titles,"image":val.imgNums[0]});
 	}
  });
+
  $('#all').fadeIn(1000);
 
 
@@ -147,7 +148,12 @@ function loadApp(hashparts) {
 					$(this).turn('peel', 'br');
 				}
 				else{
-				$("#sidebar").html("<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div><br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div></div>");
+				sidebarText = "<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div>";
+					if (itemImages[page-1].caption!=itemImages[page].caption){
+						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div>";
+				
+					}
+					$("#sidebar").html(sidebarText+"</div>");
 				}
 			},
 

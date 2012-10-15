@@ -114,6 +114,21 @@ $(document).ready(function(){
 	uri = window.location.href;
 	$('#mainContent').css({'height':mainH+'px'});
 	$('#sidebar').css({'height':mainH+'px'});
+	$('#sidebar .headlink').each(function(key,val){
+		$(val).attr({"href":"#head_"+key});
+	});
+	$('.archdesc>*>.head').each(function(key,val){
+		$(val).attr({"id":"head_"+key});
+	});
+	$('#sidebar .seriestitle ').each(function(key,val){
+		$(val).attr({"href":"#st_"+key});
+	});
+	$('.c01>.did>.unittitle').each(function(key,val){
+		$(val).attr({"id":"st_"+key});
+	});
+	
+		
+	
 	
 	
 })
