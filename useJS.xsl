@@ -4,9 +4,10 @@
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="ead xsi xlink" version="1.0">
 
-  <xsl:output method="html"/>
+
 
     <xsl:template match="/">
+    
 <html>
 <head>
 <title><xsl:value-of select="//ead:titleproper"></xsl:value-of></title>
@@ -151,6 +152,9 @@
 		
 		padding: 10px;
 		display: inline;
+		border-bottom: thin grey dotted;
+		padding-bottom:1px;
+		cursor: pointer;
 		}
 	
 		
@@ -159,7 +163,7 @@
 		}
 		#mainContent{
 		float:left;
-		width: 75%;
+		width: 50%;
 		overflow: auto;
 		padding-left: 50px;
 		}
@@ -192,33 +196,42 @@
 		#popBox{
 		display: none;
 		}
+		#viewBar{
+	
+		float: left;
+		padding-left:2px;
+		width: 25%;
+		overflow:auto;
+		}
+		
 </style>
-<script type="text/JavaScript" src="jquery-1.6.4.min.js"></script>
-<script type="text/JavaScript" src="./sarissa/sarissa.js"></script>
-<script type="text/javascript" src="./eadui.js"></script>
-<script type="text/javascript" src="./jquery-scrollTo.js"></script>
-	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-		<script type="text/javascript" src="./TildenImages.js"></script>
-			<script type="text/javascript" src="./underscore-min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/JavaScript" src="./js/jquery-1.6.4.min.js"></script>
+<script type="text/JavaScript" src="./js/sarissa/sarissa.js"></script>
+<script type="text/javascript" src="./js/eadui.js"></script>
+<script type="text/javascript" src="./js/jquery-scrollTo.js"></script>
+	<script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+			<script type="text/javascript" src="./js/underscore-min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./vendor/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 </head>
 <body>
-<div id="header">
-<a href="#pdf">PDF</a> | <a href="XML">XML</a> | <a href="#browse">Browse Digitized Items</a> | <label for="search">Search</label> <input type="text" id="search"></input>
-</div>
+
 <div id="bodyContent">
 <div class="sidebar" id="sidebar">
 <ul id="navBar">
 
+<xsl:for-each select="//ead:archdesc/*/ead:head">
+<li><a class='headlink' href='#'><xsl:value-of select="."/></a></li>
+</xsl:for-each>
 </ul>
 </div>
 <div id="mainContent">
 <div id="NYPLFA_body">
 <xsl:apply-templates/>
 </div>
+</div>
+<div id="viewBar">
 
- 
 </div>
 </div>
 <div id="footer">
@@ -233,15 +246,24 @@
      </xsl:template>
           <xsl:template match="eadheader">
      </xsl:template>
+   
 
 
 
 
+  <xsl:template match="//ead:archdesc/*/ead:head">
+  
+     <xsl:variable name="headanchor" select="."/>
+     <a><xsl:attribute name="id"><xsl:value-of select="headanchor"></xsl:value-of></xsl:attribute>
+         <xsl:apply-templates/>
+     </a>
+   </xsl:template>
    <xsl:template match="//ead:eadheader">
   
    </xsl:template>
 
   <xsl:template match="//ead:*">
+	
   <xsl:choose>
   <xsl:when test="local-name()='container'">
       <xsl:variable name="conType" select="@type"/>
@@ -254,11 +276,16 @@
     <xsl:variable name="myname" select="local-name()"/>
   <div>
   <xsl:attribute name="class"><xsl:value-of select="$myname"/></xsl:attribute>
+ <xsl:attribute name="id"><xsl:text>EAD_</xsl:text>
+ <xsl:number/>
+ </xsl:attribute>
   <xsl:apply-templates/>
   </div> 
   </xsl:otherwise>
 </xsl:choose> 
  
   </xsl:template>
-
+  
+  
+  
 </xsl:stylesheet>

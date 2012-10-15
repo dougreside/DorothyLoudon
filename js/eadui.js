@@ -114,21 +114,6 @@ $(document).ready(function(){
 	uri = window.location.href;
 	$('#mainContent').css({'height':mainH+'px'});
 	$('#sidebar').css({'height':mainH+'px'});
-	$.ajax( {
-		type : "GET",
-		url : uri,
-		async : false,
-		success : function(ead) {
-			$.ajax( {
-				type : "GET",
-				url : "eadMain.xsl",
-				async : false,
-				success : function(xsl) {
-				
-				
-			loadXML(ead,xsl);
-				
-		}});
-	}});
+	
 	
 })
