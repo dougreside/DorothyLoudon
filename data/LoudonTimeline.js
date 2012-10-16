@@ -8,7 +8,7 @@ LoudonTimeline=
             {
                 "startDate":"1925,9,25",
                 "headline":"Childhood",
-                "text":"<ul><p>Born in Connecticut, Dorothy Loudon lived in...</p></div>",
+                "text":"<ul><p>Born in Boston, Dorothy Loudon grew up in Indianapolis and, primarily, the small town of Claremont, New Hampshire. Both parents were musicians - her father was an amateur saxophonist and her mother, a pianist, at one point played the organ in Filene\'s Department Store - and before her professional debut, Dorothy could play 1500 standards. After graduating from Claremont\'s Stevens High School in 1943, Loudon spent two years at Syracuse University, then dropped out to study at the Alviene School for Dramatics and then the American Theater Wing in Manhattan.</p></div>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062443",
@@ -330,6 +330,19 @@ LoudonTimeline=
                   "endDate":"1966",
                 "headline":"Luv",
                 "text":"<p>Alongside Tom Bosley and Herb Edelman, Loudon spent ten months touring in this quirky hit comedy by Murray Schisgal.  (On Broadway, the cast consisted of Anne Jackson, Eli Wallach, and Alan Arkin, under the direction of Mike Nichols, who had worked with Loudon in nightclubs and on live television.)  Loudon\'s letters from the road to her friend and housesitter Arthur Gorton offer a remarkably detailed and witty chronicle of clashing egos, unresponsive audiences, and other travails of living out of a trunk. </p>",
+                "asset":
+                {
+                    "media":"http://images.nypl.org/index.php?t=w&id=4061416",
+                    "credit":"",
+                    "caption":"Scrapbook"
+                },
+                "relatedItems":[261960,261321,260974]
+            },
+            {
+                "startDate":"1996",
+                  "endDate":"2003",
+                "headline":"Legacy",
+                "text":"<p>Sidelined by health problems during her last few years, Loudon made a Broadway comeback as Carlotta Vance in the 2002 revival of <em>Dinner at Eight</em>. But it was not to be: Loudon fell ill with chronic labyrinthitis and dropped out after the first preview; Marian Seldes replaced her. She died a year later, of cancer, on November 14, 2003. A shy person off-stage (her principal hobby was sewing), Loudon was nonetheless a self-proclaimed \"benefit queen,\" devoting much of her spare time to raising money for AIDS research, not-for profit theatre, the Actors\' Fund, and other causes. The Dorothy Loudon Foundation continues this charitable work.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061416",

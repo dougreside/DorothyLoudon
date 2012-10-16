@@ -21,7 +21,9 @@ h1 {
 	font-size:2em;
 	color:#62101a;
 }
-
+em{
+	font-style:italic;
+}
 h2 {
 	font-size:1.3em;
 	font-weight:bold;

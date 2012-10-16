@@ -1,6 +1,7 @@
 
 	jQuery(function($) {
 		fb = $.fancybox;
+		//monthstring = ["Unknown","January","February","March","April","May","June","July","August","September","October","November","December"];
 		sorted = [];
 		function getHash(){
 			 hash = window.location.hash;
@@ -122,7 +123,10 @@
 			if (val.relatedItems!=undefined){
 				captionLink ="#element/"+(key+1)+"/item/"+val.relatedItems[0];
 			}
-			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+val.startDate+"</div><div class=\"relatedHead\"><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
+			dateparts = val.startDate.split(",");
+			humanyear = dateparts[0]; 
+			
+			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+humanyear+"</div><div class=\"relatedHead\"><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
 			
 			relatedItems = val.relatedItems;
 			
