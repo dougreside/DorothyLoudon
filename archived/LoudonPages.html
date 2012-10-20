@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Using turn.js and the new zoom feature</title>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<link rel="icon" type="image/png" href="../../pics/favicon.png" />
+<script type="text/javascript" src="./vendor/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="./vendor/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./vendor/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="./js/hash.js"></script>
+<script type="text/javascript" src="./data/LoudonMetadata.js"></script>
+<script type="text/javascript" src="./js/underscore-min.js"></script>
+<style type="text/css">
+#sidebar{
+float:left;
+width: 200px;
+background-color: #666;
+height: 100%
+}
+#all{
+
+float:left;
+left:230px;
+position:absolute;
+width:90%
+}
+</style>
+</head>
+<body>
+<div id="sidebar">Double click to zoom</div>
+<div id="all">
+
+<div id="magazine-viewport" class="magazine-viewport">
+	<div class="container">
+		<div class="magazine">
+			<!-- Next button -->
+			<div ignore="1" class="next-button"></div>
+			<!-- Previous button -->
+			<div ignore="1" class="previous-button"></div>
+		</div>
+	</div>
+</div>
+
+
+
+</div>
+
+<script type="text/javascript">
+itemImages=[];
+showNum=262505;
+function loadApp(hashparts) {
+ if (hashparts==undefined){
+
+	 hashparts=getHashParts();
+ }
+
+ showNum = hashparts[0];
+
+ itemImages=[];
+ console.log("SEARCHING For Container: "+showNum)
+ thisItem= _.find(LoudonMMS,function(val){
+	 return val.id==showNum;
+ });
+ _.each(thisItem.images,function(val,key){
+	if (val.imgNums.length>1) {
+		_.each(val.imgNums,function(img){
+			itemImages.push({"caption":val.titles,"image":img});
+		})
+	}
+	else{
+			itemImages.push({"caption":val.titles,"image":val.imgNums[0]});
+	}
+ });
+
+ $('#all').fadeIn(1000);
+
+
+
+	// Create the flipbook
+
+	$('.magazine').turn({
+			page: 1,
+			// Magazine width
+
+			width: 800,
+
+			// Magazine height
+
+			height: 521,
+
+			// Elevation will move the peeling corner this number of pixels by default
+
+			elevation: 50,
+			
+			// Hardware acceleration
+
+			acceleration: !isChrome(),
+
+			// Enables gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true,
+
+			// The number of pages
+
+			pages: itemImages.length,
+
+			// Events
+			when: {
+
+			turning: function(event, page, view) {
+				
+				var book = $(this),
+				currentPage = book.turn('page'),
+				pages = book.turn('pages');
+			
+				// Update the current URI
+				console.log("TURNING TO "+page);
+				Hash.go(showNum+'/' + page).update();
+
+				// Show and hide navigation buttons
+
+				disableControls(page);
+				
+
+				$('.thumbnails .page-'+currentPage).
+					parent().
+					removeClass('current');
+
+				$('.thumbnails .page-'+page).
+					parent().
+					addClass('current');
+
+
+
+			},
+
+			turned: function(event, page, view) {
+
+				disableControls(page);
+
+				$(this).turn('center');
+
+				if (page==1) { 
+					$(this).turn('peel', 'br');
+				}
+				else{
+				sidebarText = "<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div>";
+					if (itemImages[page-1].caption!=itemImages[page].caption){
+						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div>";
+				
+					}
+					$("#sidebar").html(sidebarText+"</div>");
+				}
+			},
+
+			missing: function (event, pages) {
+
+				// Add pages that aren't in the magazine
+
+				for (var i = 0; i < pages.length; i++)
+					addPage(pages[i], $(this));
+
+			}
+		}
+
+	});
+	//resizeViewport();
+	// Zoom.js
+
+	$('.magazine-viewport').zoom({
+		flipbook: $('.magazine'),
+		max: function() { 
+			
+			return largeMagazineWidth()/$('.magazine').width();
+
+		}, 
+		when: {
+			doubleTap: function(event) {
+
+				if ($(this).zoom('value')==1) {
+					$('.magazine').
+						removeClass('animated').
+						addClass('zoom-in');
+					$(this).zoom('zoomIn', event);
+				} else {
+					$(this).zoom('zoomOut');
+				}
+			},
+
+			resize: function(event, scale, page, pageElement) {
+
+				if (scale==1)
+					loadSmallPage(page, pageElement);
+				else
+					loadLargePage(page, pageElement);
+
+			},
+
+			zoomIn: function () {
+				
+				$('.thumbnails').hide();
+				$('.made').hide();
+				$('.magazine').addClass('zoom-in');
+
+				if (!window.escTip && !$.isTouch) {
+					escTip = true;
+
+					$('<div />', {'class': 'esc'}).
+						html('<div>Press ESC to exit</div>').
+							appendTo($('body')).
+							delay(2000).
+							animate({opacity:0}, 500, function() {
+								$(this).remove();
+							});
+				}
+			},
+
+			zoomOut: function () {
+
+				$('.esc').hide();
+				$('.thumbnails').fadeIn();
+				$('.made').fadeIn();
+
+				setTimeout(function(){
+					$('.magazine').addClass('animated').removeClass('zoom-in');
+					resizeViewport();
+				}, 0);
+
+			},
+
+			swipeLeft: function() {
+
+				$('.magazine').turn('next');
+
+			},
+
+			swipeRight: function() {
+				
+				$('.magazine').turn('previous');
+
+			}
+		}
+	});
+
+	// Using arrow keys to turn the page
+	$(document).unbind("keydown");
+	$(document).keydown(function(e){
+
+		var previous = 37, next = 39, esc = 27;
+
+		switch (e.keyCode) {
+			case previous:
+
+				// left arrow
+				$('.magazine').turn('previous');
+				e.preventDefault();
+
+			break;
+			case next:
+				console.log("RIGHT ARROW");
+				//right arrow
+				$('.magazine').turn('next');
+				e.preventDefault();
+
+			break;
+			case esc:
+				
+				$('.magazine-viewport').zoom('zoomOut');	
+				e.preventDefault();
+
+			break;
+		}
+	});
+
+	// URIs - Format #/page/1 
+/*
+	Hash.on('^([0-9]+)\/([0-9]+)$', {
+		yep: function(path, parts) {
+			console.log(path);
+			var page = parseInt(parts[2]);
+			console.log("YEP "+parts[2]);
+			
+			if (showNum != parseInt(parts[1])){
+				console.log("new show");
+			 showNum = parseInt(parts[1]);
+			 $(".thumbnails>div>ul").empty();
+			 $(".magazine").turn("destroy");
+			 loadApp();
+			}
+			
+			if (page!==undefined) {
+				if ($('.magazine').turn('is'))
+					$('.magazine').turn('page', page);
+			}
+
+		},
+		nop: function(path) {
+			console.log("NOPE");
+			if ($('.magazine').turn('is'))
+				$('.magazine').turn('page', 1);
+		}
+	});
+
+*/
+	function getHashParts(){
+	hashparts=[];
+	hash = window.location.href;
+	if (hash.indexOf("#")>0){
+ 		 hash = hash.substring(hash.indexOf("#")+1);
+ 		 
+ 		 hashparts = hash.split("/");
+	 }
+	
+	 return hashparts;
+	}
+ 	$(window).on("hashchange",function(){
+ 
+ 		hashparts = getHashParts();
+ 		 if (hashparts.length>0){
+ 
+ 		 if (hashparts[0]!=showNum){
+ 		 	$(".thumbnails>div>ul").empty();
+		 	$(".magazine").turn("destroy");
+ 			loadApp(parts);
+ 		 }
+ 		
+ 			if (page!==undefined) {
+				if ($('.magazine').turn('is'))
+					$('.magazine').turn('page', page);
+				}
+ 			}
+ 	});
+	$(window).resize(function() {
+		resizeViewport();
+	}).bind('orientationchange', function() {
+		resizeViewport();
+	});
+
+	// Events for thumbnails
+
+	$('.thumbnails').click(function(event) {
+		
+		var page;
+
+		if (event.target && (page=/page-([0-9]+)/.exec($(event.target).attr('class'))) ) {
+		
+			$('.magazine').turn('page', page[1]);
+		}
+	});
+
+	$('.thumbnails li').
+		bind($.mouseEvents.over, function() {
+			
+			$(this).addClass('thumb-hover');
+
+		}).bind($.mouseEvents.out, function() {
+			
+			$(this).removeClass('thumb-hover');
+
+		});
+
+	if ($.isTouch) {
+	
+		$('.thumbnails').
+			addClass('thumbanils-touch').
+			bind($.mouseEvents.move, function(event) {
+				event.preventDefault();
+			});
+
+	} else {
+
+		$('.thumbnails ul').mouseover(function() {
+
+			$('.thumbnails').addClass('thumbnails-hover');
+
+		}).mousedown(function() {
+
+			return false;
+
+		}).mouseout(function() {
+
+			$('.thumbnails').removeClass('thumbnails-hover');
+
+		});
+
+	}
+
+
+	// Regions
+
+	if ($.isTouch) {
+		$('.magazine').bind('touchstart', regionClick);
+	} else {
+		$('.magazine').click(regionClick);
+	}
+
+	// Events for the next button
+
+	$('.next-button').bind($.mouseEvents.over, function() {
+		
+		$(this).addClass('next-button-hover');
+
+	}).bind($.mouseEvents.out, function() {
+		
+		$(this).removeClass('next-button-hover');
+
+	}).bind($.mouseEvents.down, function() {
+		
+		$(this).addClass('next-button-down');
+
+	}).bind($.mouseEvents.up, function() {
+		
+		$(this).removeClass('next-button-down');
+
+	}).click(function() {
+		
+		$('.magazine').turn('next');
+
+	});
+
+	// Events for the next button
+	
+	$('.previous-button').bind($.mouseEvents.over, function() {
+		
+		$(this).addClass('previous-button-hover');
+
+	}).bind($.mouseEvents.out, function() {
+		
+		$(this).removeClass('previous-button-hover');
+
+	}).bind($.mouseEvents.down, function() {
+		
+		$(this).addClass('previous-button-down');
+
+	}).bind($.mouseEvents.up, function() {
+		
+		$(this).removeClass('previous-button-down');
+
+	}).click(function() {
+		
+		$('.magazine').turn('previous');
+
+	});
+
+
+	resizeViewport();
+
+	$('.magazine').addClass('animated');
+
+}
+
+ $('#all').hide();
+
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['./vendor/lib/turn.js'],
+	nope: ['./vendor/lib/turn.html4.min.js'],
+	both: ['./vendor/lib/zoom.min.js', './js/magazine.js', './css/magazine.css'],
+	complete: loadApp
+});
+
+</script>
+
+</body>
+</html>

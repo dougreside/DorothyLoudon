@@ -167,6 +167,7 @@
 			
 	
 		});
+		$("#show-list>div").last().addClass("last");
 		$(".showLink").click(function(e){
 			id = $(this).attr("id");
 			page = id.substring(id.indexOf("_")+1);

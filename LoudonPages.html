@@ -14,8 +14,22 @@
 #sidebar{
 float:left;
 width: 200px;
-background-color: #666;
 height: 100%
+}
+#sidebar h3 {
+	font-size:1.7em;
+	color:#9c5a37;
+	font-weight:bold;
+	margin:.5em 0;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+#sidebar p, #sidebar .captionLeft, #sidebar .captionRight {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size:.8em;
+	line-height:1.7em;
+	margin-top:1.7em;
+	color:#322423;
+	letter-spacing:.1em;
 }
 #all{
 
@@ -27,7 +41,10 @@ width:90%
 </style>
 </head>
 <body>
-<div id="sidebar">Double click to zoom</div>
+<div id="sidebar">
+	<h3 id="itemTitle">Loading...</h3>
+	<p>Double click to zoom; use the arrow keys to move between pages.</p>
+</div>
 <div id="all">
 
 <div id="magazine-viewport" class="magazine-viewport">
@@ -57,10 +74,11 @@ function loadApp(hashparts) {
  showNum = hashparts[0];
 
  itemImages=[];
- console.log("SEARCHING For Container: "+showNum)
+
  thisItem= _.find(LoudonMMS,function(val){
 	 return val.id==showNum;
  });
+ $("#itemTitle").html(thisItem.title);
  _.each(thisItem.images,function(val,key){
 	if (val.imgNums.length>1) {
 		_.each(val.imgNums,function(img){

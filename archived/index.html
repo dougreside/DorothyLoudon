@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Dorothy Loudon Collection</title>
+    <meta name="description" content="The Dorothy Loudon Collection at the New York Public Library">
+    <meta name="author" content="New York Public Library">
+	
+    <!-- Framework CSS -->
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!-- Script below allows html 5 elements to display properly in IE 6-8-->
+	 		<!--[if lt IE 9]>
+		 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		 	<![endif]-->
+
+	<!-- initial jquery and rcarousel setup -->
+	<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="./js/underscore-min.js"></script>
+
+	<!-- "Backstretch" script for full-screen background image -->
+	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+	<script type="text/javascript">
+	  $.backstretch("images/background.jpg", {speed: 150});
+	</script>
+
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<!-- timeline data -->
+	<script type="text/javascript" src="./data/LoudonTimeline.js"></script>
+	<!-- rcarousel scripts -->
+	<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery.ui.rcarousel.js"></script>
+
+	<!-- Fancybox -->
+	<script type="text/javascript" src="./vendor/fancybox/jquery.easing-1.3.pack.js"></script>
+	 	<script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	   <script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link type="text/css" rel="stylesheet" href="./vendor/fancybox/jquery.fancybox-1.3.4.css"></link>
+
+	<style type="text/css">
+	#slidecontainer {
+				width: 800px;
+				height: 410px;
+				float:left;
+				margin: 0 auto;
+			}
+			
+			#carousel {
+				width: 780px;
+				margin: 0 auto;
+			}
+			
+			#ui-carousel-next, #ui-carousel-prev {
+				width: 60px;
+				height: 250px;
+				background: url(./images/prev.gif) transparent center center no-repeat;
+				display: block;
+	
+				top: 0;
+				z-index: 100;
+			}
+
+			#ui-carousel-next {
+				float:left;
+				background-image: url(./images/next.gif);
+			}
+
+			#ui-carousel-prev {
+				float: left;
+			}
+			
+			#ui-carousel-next > span, #ui-carousel-prev > span {
+				display: none;
+			}
+			
+			.slide {
+				margin: 0;
+				position: relative;
+			}
+			.relatedHead ul{
+			display:none;
+			overflow:auto;
+			height:100px;
+			background:#FFF;
+			}
+			</style>
+			 <link type="text/css" rel="stylesheet" href="./vendor/rcarousel/widget/css/rcarousel.css" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body id="home">
+	<img class="spotlight" src="images/bg_spotlight.png" />
+	<div class="container">
+		<div class="span-4 logo"><a href="index.html"><h1>The <strong>Dorothy Loudon</strong> Collection</h1></a></div>
+		<div class="span-20 last">
+			<ul id="nav">
+				<li class="span-5 nav1 active"><a href="index.html"><h2>Timeline</h2></a></li>
+				<li class="span-5 nav2"><a href="biography.html"><h2>Biography</h2></a></li>
+				<li class="span-5 nav3"><a href="finding-aid.html"><h2>Finding Aid</h2></a></li>
+				<li class="span-5 last nav4"><a href="guide.html"><h2>Collection Guide</h2></a></li>
+			</ul>
+		</div>
+		<div class="clear span-24 last">
+			<div class="span-2"><a href="#" id="ui-carousel-prev"><span>prev</span></a></div>
+			<div id="slidecontainer" class="span-20 last">
+				<div id="carousel">
+					<div class="slide" class="span-20 last">
+						<div class="span-8 append-1">
+							<img src='images/DorothyLoudon.jpg' id="home-img" alt="Dorothy Loudon" />
+							<p class="title">Dorothy Loudon</p>
+						</div>
+						<div id="main" class="span-10 append-1 last">
+							<h3>Welcome</h3>
+							<p>The Dorothy Loudon Collection at the New York Public Library covers the personal life and professional career of Dorothy Loudon, the singer, comedienne and Tony Award-winning actress, who appeared in television shows, films, and on Broadway. Among her many memorable roles, Loudon is perhaps best known for originating the roles of Miss Hannigan in the musical Annie and of Bea Asher in the Michael Bennett musical, Ballroom. This site includes images of Loudon’s stage work pulled from the Library’s photograph collections as well as selections from the Dorothy Loudon collection itself (which may be accessed in its entirety at the Library for the Performing Arts at Lincoln Center).</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span-2 last"><a href="#" id="ui-carousel-next"><span>next</span></a></div>		
+			
+			<!--<div class="span-24 tablePart">
+				<table id="overviewTable">
+				</table>
+			</div>-->
+			
+			<div class="clear span-24 prepend-top" id="show-list">
+				<h3>Jump to Event</h3>
+			
+			</div>
+		</div>
+		
+	
+	
+	</div>
+
+	<script type="text/javascript" src="./data/LoudonMetadata.js"></script>
+	
+	<script src="js/scripts.js"></script>
+</body>
+</html>

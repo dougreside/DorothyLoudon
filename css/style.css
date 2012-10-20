@@ -6,6 +6,7 @@ body {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	font-size:100%;
 	color:#4b3134;
+	padding-bottom:50px;
 }
 .container {
 	margin:30px auto;
@@ -53,6 +54,13 @@ p {
 	padding-left:10px;
 	color:#9c5a37;
 }
+a:link, a:visited {
+	color:#4B3134;
+}
+a:focus, a:hover, a:active {
+	color:#9C5A37;
+}
+
 strong {
 	font-weight:bold;
 }
@@ -162,9 +170,15 @@ ul#nav  {
 	color:#7B1F29;
 	text-decoration:none;
 	line-height:25px;
+	cursor:pointer;
 }
 .relatedHead a.relatedItems:hover, .relatedHead a.relatedItems:active {
 	border-bottom:1px dotted #7b1f29;	
+}
+.relatedItemList li {
+	line-height:1.5em;
+	font-size:.9em;
+	
 }
 /* show-list styles */
 #show-list {
