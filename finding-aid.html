@@ -210,7 +210,7 @@
 	<img class="spotlight" src="images/bg_spotlight.png" />
 	<div class="container">
 		<div class="span-4 logo"><a href="index.html"><h1>The <strong>Dorothy Loudon</strong> Collection</h1></a></div>
-		<div class="span-20 last">
+		<div id="FA-nav" class="span-20 last">
 			
 			<ul id="nav">
 				<li class="span-5 nav1 active"><a href="index.html"><h2>Timeline</h2></a></li>
@@ -219,7 +219,7 @@
 				<li class="span-5 last nav4"><a href="credits.html"><h2>Collection Guide</h2></a></li>
 			</ul>
 		</div>
-		<div class="span-24 last clear">
+		<div id="FA-head" class="span-24 last clear">
 			<h3>Finding Aid</h3>
 		</div>
 		<div class="span-8 append-1 clear">
@@ -4778,9 +4778,8 @@
 	
 	function resizeElements(){
 		totalH = $(window).height();
-		alert(totalH);
-		console.log(totalH);
-		smaller = parseFloat(totalH)-20;
+		
+		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-100;
 		//$("#sidebar").height(smaller);
 		$("#main").height(smaller);
 		$("#mainContent").height(smaller);
