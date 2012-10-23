@@ -14,18 +14,21 @@ LoudonTimeline=
                     "media":"http://images.nypl.org/index.php?t=w&id=4062443",
                     "credit":"",
                     "caption":"Scrapbook"
-                }
+                },
+                "relatedItems":[262531,261012]
             },
             {
                 "startDate":"1959",
-                "headline":"Tamiment Playhouse",
-                "text":"<p>Loudon spent one summer at Tamiment, a resort in the Poconos whose theater company was famous for staging an original, full-length revue each week, and for nurturing young talent. Under the supervision of producer Monroe \"Moe\" Hack, Loudon worked alongside sketch writers Woody Allen and David Panich, lyricists Marshall Barer, Mary Rodgers, and Fred Ebb, performers Lenny Maxwell, Sheila Smith, Virginia Vestoff, Bill Heyer, and Bob Dishy, and director Christopher Hewett (later television\'s Mr. Belvedere).</p>",
+                "headline":"Tamiment Playhouse / Stock",
+                "text":"<p>Loudon spent one summer at Tamiment, a resort in the Poconos whose theater company was famous for staging an original, full-length revue each week, and for nurturing young talent. Under the supervision of producer Monroe \"Moe\" Hack, Loudon worked alongside sketch writers Woody Allen and David Panich, lyricists Marshall Barer, Mary Rodgers, and Fred Ebb, and director Christopher Hewett (later television’s Mr. Belvedere). Loudon also starred in many summer stock productions around the country, including <em>Wildcat, <em>The Unsinkable Molly Brown</em>, <em>Anything Goes</em>, <em>High Spirits</em>, <em>The Ashes of Mrs. Reasoner</em>, and <em>Plaza Suite</em>. </p>",
                 "asset":
                 {
-                    "media":"http://images.nypl.org/index.php?t=w&id=4062310",
+                    "media":"http://images.nypl.org/index.php?t=w&id=4062983",
                     "credit":"",
                     "caption":"Scrapbook"
-                }
+                },
+                "relatedItems":[262519,262520]
+             
             },
             {
                 "startDate":"1946,6,1",
@@ -349,7 +352,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[261960,261321,260974]
+                "relatedItems":[261057,261040,260994,262523]
             }
 			
         ]

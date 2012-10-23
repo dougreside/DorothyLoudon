@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Dorothy Loudon Collection</title>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<link rel="icon" type="image/png" href="../../pics/favicon.png" />
+<script type="text/javascript" src="./vendor/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="./vendor/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./vendor/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="./js/hash.js"></script>
+<script type="text/javascript" src="./data/LoudonMetadata.js"></script>
+<script type="text/javascript" src="./js/underscore-min.js"></script>
+<style type="text/css">
+#imageDiv{
+height:500px;
+width:800px;
+overflow:auto;}
+
+</style>
+<script type="text/JavaScript">
+
+	 
+	 function getHashParts(){
+			hashparts=[];
+			hash = window.location.href;
+			if (hash.indexOf("#")>0){
+		 		 hash = hash.substring(hash.indexOf("#")+1);
+		 		 
+		 		 hashparts = hash.split("/");
+			 }
+			
+			 return hashparts;
+			}	 
+$(document).ready(function(){
+	hparts = getHashParts();
+	$("#imageDiv").append("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+hparts[0]+"'/>");
+	$(".ZoomIn").click(function(){
+		nh = 2*parseFloat($("#mainImage").height());
+		$("#mainImage").height(nh);
+	});
+	$(".ZoomOut").click(function(){
+		nh = parseFloat($("#mainImage").height())/2;
+		$("#mainImage").height(nh);
+	});
+	$(".Back").click(function(){
+		window.history.back();
+	});
+});
+
+
+</script>
+</head>
+<body>
+<div class="header"><span class="Back"><a href="#">&lt; Back</a></span> <span class="ZoomIn"><a href="#">Zoom In</a></span> <span class="ZoomOut"><a href="#">Zoom Out</a></span></div>
+	<div id="imageDiv"></div>
+</body>
+</html>

@@ -27,12 +27,13 @@ function loadPage(page, pageElement) {
 	// Create an image element
 
 	var img = $('<img />');
-
+	console.log("LOADING PAGE");
 	img.mousedown(function(e) {
 		e.preventDefault();
 	});
 
 	img.load(function() {
+		console.log($(this).attr("src"));
 		
 		// Set the size
 		$(this).css({width: '100%', height: '100%'});

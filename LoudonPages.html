@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Using turn.js and the new zoom feature</title>
+<title>Dorothy Loudon Collection</title>
 <meta name="viewport" content="width = 1050, user-scalable = no" />
 <link rel="icon" type="image/png" href="../../pics/favicon.png" />
 <script type="text/javascript" src="./vendor/extras/jquery.min.1.7.js"></script>
@@ -65,6 +65,38 @@ width:90%
 <script type="text/javascript">
 itemImages=[];
 showNum=262505;
+function getHashParts(){
+	hashparts=[];
+	hash = window.location.href;
+	if (hash.indexOf("#")>0){
+ 		 hash = hash.substring(hash.indexOf("#")+1);
+ 		 
+ 		 hashparts = hash.split("/");
+	 }
+	
+	 return hashparts;
+	}
+function shrinkPage(img){
+	thisimg = $(img);
+	oih = parseFloat(thisimg.height());
+	oiw = parseFloat(thisimg.width());
+	vp = thisimg.parent().parent().parent();
+	vph = parseFloat(vp.height());
+	vpw = parseFloat(vp.width());
+	console.log(vph+" "+vpw);
+	if (oih>oiw){
+	nih = parseFloat(vph)-50;
+	niw = parseFloat((nih*oiw)/oih);
+	
+	}
+	else{
+		niw = parseFloat(vpw)-50;
+		nih = parseFloat((niw*oih)/oiw);
+		
+	}
+	thisimg.css({"height":nih+"px","width":niw+"px"});
+	return;
+}
 function loadApp(hashparts) {
  if (hashparts==undefined){
 
@@ -77,7 +109,11 @@ function loadApp(hashparts) {
 
  thisItem= _.find(LoudonMMS,function(val){
 	 return val.id==showNum;
- });
+ })
+ if ((typeof thisItem.type!="undefined")&&(thisItem.type=="audio")){
+	 
+ }
+ else{
  $("#itemTitle").html(thisItem.title);
  _.each(thisItem.images,function(val,key){
 	if (val.imgNums.length>1) {
@@ -92,15 +128,19 @@ function loadApp(hashparts) {
 
  $('#all').fadeIn(1000);
 
-
-
+bookWidth=800;
+bookDisplay="double";
+if (thisItem.display=="single"){
+	bookWidth = 500;
+	bookDisplay= "single";
+}
 	// Create the flipbook
 
 	$('.magazine').turn({
 			page: 1,
 			// Magazine width
-
-			width: 800,
+			display:bookDisplay,
+			width: bookWidth,
 
 			// Magazine height
 
@@ -136,7 +176,7 @@ function loadApp(hashparts) {
 				pages = book.turn('pages');
 			
 				// Update the current URI
-				console.log("TURNING TO "+page);
+			
 				Hash.go(showNum+'/' + page).update();
 
 				// Show and hide navigation buttons
@@ -151,23 +191,48 @@ function loadApp(hashparts) {
 				$('.thumbnails .page-'+page).
 					parent().
 					addClass('current');
-
-
-
+				//console.log("RESIZE");
+				//$(this).turn('resize');
+				//console.log("RESIZE");
 			},
 
 			turned: function(event, page, view) {
-
+			
 				disableControls(page);
-
+				if ($(this).turn("display")=="single"){
+				vizimgs = $(".page img").filter(":visible").each(function(key,val){
+					thisimg = $(val);
+					oih = parseFloat(thisimg.height());
+					oiw = parseFloat(thisimg.width());
+					vp = thisimg.parent().parent().parent();
+					vph = parseFloat(vp.height());
+					vpw = parseFloat(vp.width());
+					console.log(vph+" "+vpw);
+					if (oih>oiw){
+					nih = parseFloat(vph)-50;
+					niw = parseFloat((nih*oiw)/oih);
+					
+					}
+					else{
+						niw = parseFloat(vpw)-50;
+						nih = parseFloat((niw*oih)/oiw);
+						
+					}
+					thisimg.css({"height":nih+"px","width":niw+"px"});
+					return;
+				
+				$(this).turn('resize');
+				});
+				}
+				
 				$(this).turn('center');
-
+			
 				if (page==1) { 
 					$(this).turn('peel', 'br');
 				}
 				else{
 				sidebarText = "<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div>";
-					if (itemImages[page-1].caption!=itemImages[page].caption){
+				if (($(this).turn("display")=="double") && (itemImages[page-1].caption!=itemImages[page].caption)){
 						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div>";
 				
 					}
@@ -180,7 +245,7 @@ function loadApp(hashparts) {
 				// Add pages that aren't in the magazine
 
 				for (var i = 0; i < pages.length; i++)
-					addPage(pages[i], $(this));
+					addPage(pages[i], $(this), bookDisplay);
 
 			}
 		}
@@ -198,15 +263,24 @@ function loadApp(hashparts) {
 		}, 
 		when: {
 			doubleTap: function(event) {
-
-				if ($(this).zoom('value')==1) {
+				if (bookDisplay=="double"){
+				thisImg = $(event.originalEvent.target).next().attr("src");
+				}
+				else{
+			
+				thisImg = $(".page img").filter(":visible:first").attr("src");
+				}
+				id = thisImg.substring(thisImg.indexOf("id=")+3);
+				
+				window.location.href="zoom.html#"+id;
+				/*(if ($(this).zoom('value')==1) {
 					$('.magazine').
 						removeClass('animated').
 						addClass('zoom-in');
 					$(this).zoom('zoomIn', event);
 				} else {
 					$(this).zoom('zoomOut');
-				}
+				}*/
 			},
 
 			resize: function(event, scale, page, pageElement) {
@@ -219,6 +293,8 @@ function loadApp(hashparts) {
 			},
 
 			zoomIn: function () {
+				
+				
 				
 				$('.thumbnails').hide();
 				$('.made').hide();
@@ -262,6 +338,8 @@ function loadApp(hashparts) {
 
 			}
 		}
+		
+	
 	});
 
 	// Using arrow keys to turn the page
@@ -324,17 +402,7 @@ function loadApp(hashparts) {
 	});
 
 */
-	function getHashParts(){
-	hashparts=[];
-	hash = window.location.href;
-	if (hash.indexOf("#")>0){
- 		 hash = hash.substring(hash.indexOf("#")+1);
- 		 
- 		 hashparts = hash.split("/");
-	 }
-	
-	 return hashparts;
-	}
+
  	$(window).on("hashchange",function(){
  
  		hashparts = getHashParts();
@@ -346,12 +414,13 @@ function loadApp(hashparts) {
  			loadApp(parts);
  		 }
  		
- 			if (page!==undefined) {
-				if ($('.magazine').turn('is'))
+ 			if (typeof page!="undefined") {
+ 		
+				if ($('.magazine').turn('is')){
 					$('.magazine').turn('page', page);
 				}
  			}
- 	});
+ 	}});
 	$(window).resize(function() {
 		resizeViewport();
 	}).bind('orientationchange', function() {
@@ -468,7 +537,7 @@ function loadApp(hashparts) {
 	resizeViewport();
 
 	$('.magazine').addClass('animated');
-
+}
 }
 
  $('#all').hide();

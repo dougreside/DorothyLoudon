@@ -2,7 +2,7 @@
  * Magazine sample
 */
 
-function addPage(page, book) {
+function addPage(page, book, bookDisplay) {
 
 	var id, pages = book.turn('pages');
 
@@ -17,12 +17,12 @@ function addPage(page, book) {
 		element.html('<div class="gradient"></div><div class="loader"></div>');
 
 		// Load the page
-		loadPage(page, element);
+		loadPage(page, element, bookDisplay);
 	}
 
 }
 
-function loadPage(page, pageElement) {
+function loadPage(page, pageElement,bookDisplay) {
 
 	// Create an image element
 
@@ -34,13 +34,19 @@ function loadPage(page, pageElement) {
 
 	img.load(function() {
 		
+	if (bookDisplay!="single"){
 		// Set the size
+		
 		$(this).css({width: '100%', height: '100%'});
-
-		// Add the image to the page after loaded
-
 		$(this).appendTo(pageElement);
-
+	}
+	else{		
+		$(this).appendTo(pageElement);
+		shrinkPage(img);
+	}
+		// Add the image to the page after loaded
+		
+		
 		// Remove the loader indicator
 		
 		pageElement.find('.loader').remove();
@@ -151,6 +157,7 @@ function loadLargePage(page, pageElement) {
 	
 	lPage = itemImages[page-1].image;
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
+
 
 }
 

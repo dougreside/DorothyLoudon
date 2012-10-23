@@ -18,6 +18,7 @@
 			 
 		 
 			  parts = hash.split("/");  
+			
 			  if (parts.length>1){
 			  
 			  slide = parseInt(parts[1]);
@@ -26,14 +27,12 @@
 			  }
 			  if (parts.length>2){
 				 switch (parts[2]){
-				 case "items":
-					 framestring = "<iframe id='itemList' height=700 width=1000 src='./itemList.html#"+parts[1]+"'></iframe>";
-					 
-				break;
+				
 				 case "item":
-			 
+			     
 				framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
+			
 				 }
 				fb(framestring, {
 					'hideOnOverlayClick' : false,
@@ -113,6 +112,8 @@
 	});
 
 	$(document).ready(function(){
+		hash = processHash();
+		 console.log(hash);
 		sorted = _.sortBy(LoudonTimeline.date,function(val){
 			return val.startDate;
 		} );

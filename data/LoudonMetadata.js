@@ -2,8 +2,17 @@
 LoudonMMS = [
 		{
 			"id" : "262497",
-			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook II",
+			"type":"images",
+"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook II",
 			"images" : [
+{
+	"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume II)]",
+	"imgNums" : [ 4062368]
+},
+{
+	"titles" : "[Inside front cover]",
+	"imgNums" : [ 5014179]
+},
 					{
 						"titles" : "Newsroom notes [left; Daily Eagle; April 30, 1960]",
 						"imgNums" : [ 4062377]
@@ -256,10 +265,7 @@ LoudonMMS = [
 						"titles" : "Enjoying luncheon... [top]",
 						"imgNums" : [ 4062439]
 					},
-					{
-						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume II)]",
-						"imgNums" : [ 4062368]
-					},
+					
 					{
 						"titles" : "Ken and Mitzi Welch are star timber [top; New York Mirror; May 11, 1959]",
 						"imgNums" : [ 4062369]
@@ -294,11 +300,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262500",
-			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook III",
+			"type":"images",
+"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume III)]",
 						"imgNums" : [ 4062440]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Invitation to launch party for Dorothy Loudon's album Broadway Baby; November 17, 1986]",
@@ -543,11 +554,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262505",
-			"title" : "General Press -- I",
+			"type":"images",
+"title" : "General Press -- I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume I)]",
 						"imgNums" : [ 4062501]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "Loudon collects cup for Theta poster [photocopied newspaper photograph, with handwritten caption \"Member this?\"; top]",
@@ -922,11 +938,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262506",
-			"title" : "General Press -- II",
+			"type":"images",
+"title" : "General Press -- II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume II)]",
 						"imgNums" : [ 4062596]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Publicity photograph of Dorothy Loudon]",
@@ -1283,11 +1304,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262509",
-			"title" : "General Press -- III",
+			"type":"images",
+"title" : "General Press -- III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume III)]",
 						"imgNums" : [ 4062685]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Publicity photograph of Dorothy Loudon]",
@@ -1664,11 +1690,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262511",
-			"title" : "General Press -- IV",
+			"type":"images",
+"title" : "General Press -- IV",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume IV)]",
 						"imgNums" : [ 4062861]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Cover; left; Stagebill; March 1986]",
@@ -2033,11 +2064,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262515",
-			"title" : "Recordings, Tony Awards, etc.",
+			"type":"images",
+"title" : "Recordings, Tony Awards, etc.",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Recordings, Tony Awards, etc.]",
 						"imgNums" : [ 4062870]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "RCA Picture Record Review [entire publication; March 1952]",
@@ -2472,11 +2508,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262519",
-			"title" : "Stock -- I",
+			"type":"images",
+"title" : "Stock -- I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Stock I]",
 						"imgNums" : [ 4062979]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "Girls from tots to teens in Eleanore Dale Dancing School entertain in gym [top left; Keene Evening Sentinel; June 7, 1939]",
@@ -2701,11 +2742,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262520",
-			"title" : "Stock -- II",
+			"type":"images",
+"title" : "Stock -- II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Stock II]",
 						"imgNums" : [ 4063035]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Program for High Spirits at the Charlotte Summer Theatre]",
@@ -2862,11 +2908,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262523",
-			"title" : "Television, Tony Awards, etc.",
+			"type":"images",
+"title" : "Television, Tony Awards, etc.",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Television, Tony Awards, etc.]",
 						"imgNums" : [ 4063074]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Contact sheet of photographs of the Burbank Studio, with Dorothy on the marquee; top]",
@@ -3127,7 +3178,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262525",
-			"title" : "Various loose scrapbook pages",
+			"type":"images",
+"title" : "Various loose scrapbook pages",
 			"images" : [
 					{
 						"titles" : "[Letter from Eileen Solomon (92nd St. Y) to Dorothy Loudon; March 24, 1992]",
@@ -3396,7 +3448,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262531",
-			"title" : "Early family and childhood, Undated",
+			"type":"images",
+"title" : "Early family and childhood, Undated",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon and friend, carrying schoolbooks",
@@ -3598,7 +3652,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262534",
-			"title" : "Friends, Undated",
+			"type":"images",
+"title" : "Friends, Undated",
+			"display": "single",
 			"images" : [ {
 				"titles" : "James Kirkwood, Jr., inscribed headshot",
 				"imgNums" : [ 4065605]
@@ -3627,7 +3683,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262535",
-			"title" : "Loudon and Paris, 1971, n.d.",
+			"type":"images",
+"title" : "Loudon and Paris, 1971, n.d.",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Wedding photograph of Dorothy Loudon and Norman Paris",
@@ -3640,7 +3698,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262536",
-			"title" : "Norman Paris-Portraits, Undated",
+			"type":"images",
+"title" : "Norman Paris-Portraits, Undated",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Portrait of musician Norman Paris (husband of Dorothy Loudon)",
@@ -3653,7 +3713,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262540",
-			"title" : "Events, benefits, etc., 1979, 1987, 1988, n.d.",
+			"type":"images",
+"title" : "Events, benefits, etc., 1979, 1987, 1988, n.d.",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon on stage at the White House during Salute to Broadway Showstoppers event",
@@ -3674,7 +3736,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262542",
-			"title" : "Headshots and portraits, 1940s-1980s",
+			"type":"images",
+"title" : "Headshots and portraits, 1940s-1980s",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon portrait photo",
@@ -3703,7 +3767,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262545",
-			"title" : "Annie and Annie 2, 1977, 1985",
+			"type":"images",
+"title" : "Annie and Annie 2, 1977, 1985",
+			"display" : "single",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon with Martin Charnin (?) and First Lady Rosalyn Carter following White House performance of Annie",
@@ -3716,7 +3782,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262547",
-			"title" : "Ballroom, 1979 Sept.",
+			"type":"images",
+"title" : "Ballroom, 1979 Sept.",
 			"images" : [ {
 				"titles" : "Ballroom marquee at Broadway's Majestic Theatre",
 				"imgNums" : [ 4065629]
@@ -3724,7 +3791,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262548",
-			"title" : "The Effect of Gamma Rays on Man-in-the-Moon Marigolds, 1971",
+			"type":"images",
+"title" : "The Effect of Gamma Rays on Man-in-the-Moon Marigolds, 1971",
 			"images" : [ {
 				"titles" : "The Effect of Gamma Rays on Man in the Moon Marigolds marquee at Broadway's Fisher Theatre",
 				"imgNums" : [ 4065630]
@@ -3732,7 +3800,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262550",
-			"title" : "The Fig Leaves Are Falling, 1968",
+			"type":"images",
+"title" : "The Fig Leaves Are Falling, 1968",
 			"images" : [ {
 				"titles" : "The Fig Leaves Are Falling marquee at Broadway's Broadhurst Theatre",
 				"imgNums" : [ 4065631]
@@ -3740,7 +3809,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262551",
-			"title" : "Noises Off, Undated",
+			"type":"images",
+"title" : "Noises Off, Undated",
 			"images" : [ {
 				"titles" : "Noises Off marquee at Broadway's Brooks Atkinson Theatre",
 				"imgNums" : [ 4065632]
@@ -3748,7 +3818,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262091",
-			"title" : "Scrapbook: Noises Off II",
+			"type":"images",
+"title" : "Scrapbook: Noises Off II",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon stars in Frayn's Noises Off, London's big hit comedy; top; Two on the Aisle; October/November 1983]",
@@ -4085,11 +4156,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262128",
-			"title" : "Scrapbook: Noises Off III",
+			"type":"images",
+"title" : "Scrapbook: Noises Off III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Noises Off Scrapbook (Volume 3)]",
 						"imgNums" : [ 4061657]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Dorothy Loudon during Noises Off]",
@@ -4350,11 +4426,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262158",
-			"title" : "Scrapbook: Princess Grace, Jerry's Girls, 1982, 1985-1987, n.d.",
+			"type":"images",
+"title" : "Scrapbook: Princess Grace, Jerry's Girls, 1982, 1985-1987, n.d.",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Princess Grace and the Fazzaris and Jerry's Girls Scrapbook]",
 						"imgNums" : [ 4061727]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Flyer for Princess Grace and the Fazzaris]",
@@ -4823,11 +4904,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262225",
-			"title" : "Scrapbook: Show Boat, 1993-1996",
+			"type":"images",
+"title" : "Scrapbook: Show Boat, 1993-1996",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Show Boat Scrapbook]",
 						"imgNums" : [ 4061844]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Poster for Show Boat]",
@@ -4932,11 +5018,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262251",
-			"title" : "Scrapbook: Sweeney Todd/Comedy Tonight, 1979-1980, 1994",
+			"type":"images",
+"title" : "Scrapbook: Sweeney Todd/Comedy Tonight, 1979-1980, 1994",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Sweeney Todd and Comedy Tonight Scrapbook]",
 						"imgNums" : [ 4061870]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Program for Sweeney Todd: The Demon Barber of Fleet Street]",
@@ -5221,11 +5312,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262300",
-			"title" : "Scrapbook: Three Men on a Horse, The Women, The Matchmaker, 1969, 1975, 1991, 1995",
+			"type":"images",
+"title" : "Scrapbook: Three Men on a Horse, The Women, The Matchmaker, 1969, 1975, 1991, 1995",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Three Men on a Horse, The Women, and The Matchmaker]",
 						"imgNums" : [ 4061941]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Poster for Three Men on a Horse]",
@@ -5510,11 +5606,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262360",
-			"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- I",
+			"type":"images",
+"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 1)]",
 						"imgNums" : [ 4062012]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "A tale of a title for last play of Wilson trilogy [top]",
@@ -5743,11 +5844,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262385",
-			"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- II",
+			"type":"images",
+"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 2)]",
 						"imgNums" : [ 4062069]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Dorothy Loudon in The West Side Waltz; top]",
@@ -6016,11 +6122,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262428",
-			"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- III",
+			"type":"images",
+"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 3)]",
 						"imgNums" : [ 4062157]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Collection of photographs of the Shubert Theatre, Boston, with The West Side Waltz on the marquee]",
@@ -6237,11 +6348,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262491",
-			"title" : "Award Shows-Benefits",
+			"type":"images",
+"title" : "Award Shows-Benefits",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for 100 Stars]",
 						"imgNums" : [ 4062190]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Advertisement for Dorothy; Variety; August 24, 1979]",
@@ -6716,11 +6832,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262495",
-			"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook I",
+			"type":"images",
+"title" : "Cabaret/Nightclubs/Early Career -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Cabaret/Nightclubs/Early Career (Volume I)]",
 						"imgNums" : [ 4062309]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Early publicity photograph of Dorothy Loudon]",
@@ -6957,12 +7078,23 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261551",
-			"title" : "Scrapbook III: Annie",
+			"type":"images",
+"title" : "Scrapbook III: Annie",
 			"images" : [
+			        	{
+							"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 3)]",
+							"imgNums" : [ 4048442]
+						},
+						{
+							"titles" : "[Inside front cover]",
+							"imgNums" : [ 5014179]
+						},
+			            
 					{
 						"titles" : "Tony Scrapbook [left; Playbill; May 1978]",
 						"imgNums" : [ 4048483]
 					},
+					
 					{
 						"titles" : "Balancing three new equations [Newsday; June 18, 1978]",
 						"imgNums" : [ 4048484]
@@ -7075,10 +7207,7 @@ LoudonMMS = [
 						"titles" : "[Dorothy Loudon with Sammy Davis Jr., and Altovise Davis]",
 						"imgNums" : [ 4048511]
 					},
-					{
-						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 3)]",
-						"imgNums" : [ 4048442]
-					},
+				
 					{
 						"titles" : "[Dorothy Loudon backstage during Annie with Sammy Davis, Jr., & unidentified man]",
 						"imgNums" : [ 4048443]
@@ -7242,11 +7371,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261592",
-			"title" : "Annie 2: Miss Hannigan's Revenge, 1987-1990",
+			"type":"images",
+"title" : "Annie 2: Miss Hannigan's Revenge, 1987-1990",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie 2: Miss Hannigan's Revenge Scrapbook)]",
 						"imgNums" : [ 4048512]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Logo for the musical Annie 2]",
@@ -7587,11 +7721,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261671",
-			"title" : "Ballroom I, 1978",
+			"type":"images",
+"title" : "Ballroom I, 1978",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 1)]",
 						"imgNums" : [ 4060978]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Logo for the play Ballroom]",
@@ -7803,11 +7942,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261709",
-			"title" : "Ballroom II, 1978-1979",
+			"type":"images",
+"title" : "Ballroom II, 1978-1979",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 2)]",
 						"imgNums" : [ 4061043]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Transcript of CBS radio review of Ballroom; top]",
@@ -7988,11 +8132,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261746",
-			"title" : "Driving Miss Daisy, 1963, 1988-1994",
+			"type":"images",
+"title" : "Driving Miss Daisy, 1963, 1988-1994",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Driving Miss Daisy Scrapbook (Volume 1)]",
 						"imgNums" : [ 4061091]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Telegram from Fred Ebb to Dorothy Loudon; October 24, 1988]",
@@ -8372,11 +8521,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261804",
-			"title" : "The Effect of Gamma-Rays on Man-in-the-Moon Marigolds",
+			"type":"images",
+"title" : "The Effect of Gamma-Rays on Man-in-the-Moon Marigolds",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for (The Effect of Gamma Rays on Man-in-the-Moon) Marigolds]",
 						"imgNums" : [ 4061169]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Marquee of the Fisher Theatre featuring The Effect of Gamma Rays on Man-in-the-Moon Marigolds]",
@@ -8577,11 +8731,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261851",
-			"title" : "The Fig Leaves Are Falling - Lolita, My Love, 1968-1969, 1971",
+			"type":"images",
+"title" : "The Fig Leaves Are Falling - Lolita, My Love, 1968-1969, 1971",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for (The) Fig Leaves (Are Falling)",
 						"imgNums" : [ 4061219]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Opening night card addressed to Dorothy Loudon]",
@@ -8794,11 +8953,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261882",
-			"title" : "Garbo Talks, Sondheim: A Cellebration at Carnegie Hall, 1984, 1991-1993",
+			"type":"images",
+"title" : "Garbo Talks, Sondheim: A Cellebration at Carnegie Hall, 1984, 1991-1993",
 			"images" : [
 					{
 						"titles" : "[Front cover of scrapbook]",
 						"imgNums" : [ 4061273]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Snapshot of Dorothy Loudon; top left]",
@@ -9034,11 +9198,15 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261926",
-			"title" : "The Gary Moore Show, 1962-1963, n.d.",
+			"type":"images",
+"title" : "The Gary Moore Show, 1962-1963, n.d.",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for The Garry Moore Show]",
 						"imgNums" : [ 4061331]
+					},{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Promotional photograph of Dorothy Loudon from The Garry Moore Show]",
@@ -9295,11 +9463,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261960",
-			"title" : "Luv, 1965-1966, 1984",
+			"type":"images",
+"title" : "Luv, 1965-1966, 1984",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Luv]",
 						"imgNums" : [ 4061396]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Luv logo]",
@@ -9491,11 +9664,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261989",
-			"title" : "Scrapbook:  Nowhere to Go But Up, 1962",
+			"type":"images",
+"title" : "Scrapbook:  Nowhere to Go But Up, 1962",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Nowhere to Go But Up and Sweet Potato]",
 						"imgNums" : [ 4061445]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Framed poster for Nowhere to Go But Up]",
@@ -9628,11 +9806,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "262042",
-			"title" : "Noises Off I",
+			"type":"images",
+"title" : "Noises Off I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Noises Off Scrapbook (Volume 1)]",
 						"imgNums" : [ 4061478]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Billboard for Noises Off at the corner of Broadway and 47th St.]",
@@ -10013,7 +10196,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261080",
-			"title" : "Loudon's Memorial Service, 2003 Nov 19",
+			"type":"images",
+"title" : "Loudon's Memorial Service, 2003 Nov 19",
 			"images" : [ {
 				"titles" : "General advice for success (possibly a draft of a speech or article) by Dorothy Loudon",
 				"imgNums" : [ 4065472, 4065473]
@@ -10021,7 +10205,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261110",
-			"title" : "Wedding with Paris, 1971",
+			"type":"images",
+"title" : "Wedding with Paris, 1971",
 			"images" : [ {
 				"titles" : "Marriage certificate of Norman T. Paris and Dorothy Loudon",
 				"imgNums" : [ 4065474]
@@ -10029,7 +10214,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261126",
-			"title" : "Personal miscellany, 1946-2003, n.d.",
+			"type":"images",
+"title" : "Personal miscellany, 1946-2003, n.d.",
 			"images" : [
 					{
 						"titles" : "[Typewritten synopsis for Maid in Taiwan (unfinished \"musical tragedy in three acts\")]",
@@ -10054,7 +10240,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261140",
-			"title" : "Song lists, undated",
+			"type":"images",
+"title" : "Song lists, undated",
 			"images" : [ {
 				"titles" : "Notebook containing alphabetical list of song titles, plus miscellaneous notes on possible sets, in Dorothy Loudon's handwriting",
 				"imgNums" : [ 4065486, 4065487, 4065488, 4065489, 4065490, 4065491, 4065492, 4065493, 4065494, 4065495, 4065496, 4065497, 4065498, 4065499, 4065500, 4065501, 4065502, 4065503, 4065504, 4065505, 4065506, 4065507, 4065508]
@@ -10062,7 +10249,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261183",
-			"title" : "Annie.  [Libretto.]",
+			"type":"images",
+"title" : "Annie.  [Libretto.]",
 			"images" : [ {
 				"titles" : "Annie. [Libretto.]",
 				"imgNums" : [ 5009252, 5009253, 5009254, 5009255, 5009256, 5009257, 5009258, 5009259, 5009260, 5009261, 5009262, 5009263, 5009264, 5009265, 5009266, 5009267, 5009268, 5009269, 5009270, 5009271, 5009272, 5009273, 5009274, 5009275, 5009276, 5009277, 5009278, 5009279, 5009280, 5009281, 5009282, 5009283, 5009284, 5009285, 5009286, 5009287, 5009288, 5009289, 5009290, 5009291, 5009292, 5009293, 5009294, 5009295, 5009296, 5009297, 5009298, 5009299, 5009300, 5009301, 5009302, 5009303, 5009304, 5009305, 5009306, 5009307, 5009308, 5009309, 5009310, 5009311, 5009312, 5009313, 5009314, 5009315, 5009316, 5009317, 5009318, 5009319, 5009320, 5009321, 5009322, 5009323, 5009324, 5009325, 5009326, 5009327, 5009328, 5009329, 5009330, 5009331, 5009332, 5009333, 5009334, 5009335, 5009336, 5009337, 5009338, 5009339, 5009340, 5009341, 5009342, 5009343, 5009344, 5009345, 5009346, 5009347, 5009348, 5009349, 5009350, 5009351, 5009352, 5009353, 5009354, 5009355, 5009356, 5009357, 5009358, 5009359, 5009360, 5009361, 5009362, 5009363, 5009364, 5009365, 5009366, 5009367, 5009368, 5009369, 5009370, 5009371, 5009372, 5009373, 5009374, 5009375, 5009376, 5009377, 5009378, 5009379, 5009380, 5009381, 5009382, 5009383, 5009384, 5009385, 5009386, 5009387, 5009388, 5009389, 5009390, 5009391, 5009392, 5009393, 5009394, 5009395, 5009396, 5009397, 5009398, 5009399, 5009400, 5009401, 5009402, 5009403, 5009404, 5009405, 5009406, 5009407, 5009408, 5009409, 5009410, 5009411, 5009412, 5009413, 5009414, 5009415, 5009416, 5009417, 5009418, 5009419, 5009420, 5009421, 5009422, 5009423, 5009424, 5009425, 5009426, 5009427, 5009428, 5009429, 5009430, 5009431, 5009432, 5009433, 5009434, 5009435, 5009436, 5009437, 5009438, 5009439, 5009440, 5009441, 5009442, 5009443, 5009444, 5009445, 5009446, 5009447, 5009448, 5009449, 5009450, 5009451, 5009452, 5009453, 5009454, 5009455, 5009456, 5009457, 5009458, 5009459, 5009460, 5009461, 5009462, 5009463, 5009464, 5009465, 5009466, 5009467, 5009468, 5009469, 5009470, 5009471, 5009472, 5009473, 5009474, 5009475, 5009476, 5009477, 5009478, 5009479, 5009480, 5009481, 5009482, 5009483, 5009484, 5009485, 5009486, 5009487, 5009488, 5009489, 5009490, 5009491, 5009492, 5009493, 5009494, 5009495, 5009496, 5009497, 5009498, 5009499, 5009500, 5009501, 5009502, 5009503, 5009504, 5009505, 5009506, 5009507, 5009508, 5009509, 5009510, 5009511, 5009512, 5009513, 5009514, 5009515, 5009516, 5009517, 5009518, 5009519, 5009520, 5009521, 5009522, 5009523, 5009524, 5009525, 5009526, 5009527, 5009528, 5009529, 5009530, 5009531, 5009532, 5009533, 5009534, 5009535, 5009536, 5009537, 5009538, 5009539, 5009540, 5009541, 5009542, 5009543, 5009544, 5009545, 5009546, 5009547, 5009548, 5009549, 5009550, 5009551, 5009552, 5009553, 5009554, 5009555, 5009556, 5009557, 5009558, 5009559, 5009560, 5009561, 5009562, 5009563, 5009564, 5009565, 5009566, 5009567, 5009568, 5009569, 5009570, 5009571, 5009572, 5009573, 5009574, 5009575, 5009576, 5009577, 5009578, 5009579, 5009580, 5009581, 5009582, 5009583, 5009584, 5009585, 5009586, 5009587, 5009588, 5009589, 5009590, 5009591, 5009592, 5009593, 5009594, 5009595]
@@ -10070,7 +10258,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261183.5",
-			"title" : "Annie.  [Libretto Fragments.]",
+			"type":"images",
+"title" : "Annie.  [Libretto Fragments.]",
 			"images" : [ {
 				"titles" : "Annie. [Libretto Fragments.]",
 				"imgNums" : [ 5009202, 5009203, 5009204, 5009205, 5009206, 5009207, 5009208, 5009209, 5009210, 5009211, 5009212, 5009213, 5009214, 5009215, 5009216, 5009217, 5009218, 5009219, 5009220, 5009221, 5009222, 5009223, 5009224, 5009225, 5009226, 5009227, 5009228, 5009229, 5009230, 5009231, 5009232, 5009233, 5009234, 5009235, 5009236, 5009237, 5009238, 5009239, 5009240, 5009241, 5009242, 5009243, 5009244, 5009245, 5009246, 5009247, 5009248, 5009249, 5009250, 5009251]
@@ -10078,7 +10267,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261257",
-			"title" : "The Ashes of Mrs. Reasoner, 1970, n.d.",
+			"type":"images",
+"title" : "The Ashes of Mrs. Reasoner, 1970, n.d.",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached rider and salary letter, for The Ashes of Mrs. Reasoner",
 				"imgNums" : [ 4065509, 4065510, 4065511, 4065512]
@@ -10086,7 +10276,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261277",
-			"title" : "Dinner at Eight, 2002",
+			"type":"images",
+"title" : "Dinner at Eight, 2002",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders and rehearsal schedule, for Dinner at Eight",
 				"imgNums" : [ 4065513, 4065514, 4065515, 4065516, 4065517, 4065518]
@@ -10094,7 +10285,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261289",
-			"title" : "Jerry's Girls, 1985, n.d.",
+			"type":"images",
+"title" : "Jerry's Girls, 1985, n.d.",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
 				"imgNums" : [ 4065519, 4065520, 4065521, 4065522, 4065523, 4065524, 4065525]
@@ -10102,7 +10294,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261321",
-			"title" : "Luv, 1963, 1965, 1967",
+			"type":"images",
+"title" : "Luv, 1963, 1965, 1967",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
@@ -10115,7 +10309,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261341",
-			"title" : "Love Letters, 1991",
+			"type":"images",
+"title" : "Love Letters, 1991",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Love Letters",
 				"imgNums" : [ 4065530, 4065531, 4065532, 4065533]
@@ -10123,7 +10318,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261361",
-			"title" : "Noises Off, 1983.",
+			"type":"images",
+"title" : "Noises Off, 1983.",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Noises Off",
 				"imgNums" : [ 4065534, 4065535, 4065536, 4065537, 4065538]
@@ -10131,7 +10327,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261404",
-			"title" : "Various, 1952-1974",
+			"type":"images",
+"title" : "Various, 1952-1974",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached rider, for Winning Is Better",
 				"imgNums" : [ 4065539, 4065540]
@@ -10139,11 +10336,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261463",
-			"title" : "Annie Scrapbook I",
+			"type":"images",
+"title" : "Annie Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 1)]",
 						"imgNums" : [ 4048316]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Logo for the musical Annie]",
@@ -10388,11 +10590,16 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261515",
-			"title" : "Annie Scrapbook II",
+			"type":"images",
+"title" : "Annie Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 2)]",
 						"imgNums" : [ 4048377]
+					},
+					{
+						"titles" : "[Inside front cover]",
+						"imgNums" : [ 5014179]
 					},
 					{
 						"titles" : "[Letter from Martin Gottfried to Dorothy Loudon; top; May 3, 1977",
@@ -10653,7 +10860,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "260960",
-			"title" : "1950s-1960s",
+			"type":"images",
+"title" : "1950s-1960s",
+			"display": "single",
 			"images" : [ {
 				"titles" : "Letter from Dorothy Loudon to Arthur Gorton describing radio appearance to promote national touring production of Luv and other professional matters",
 				"imgNums" : [ 4065302, 4065303, 4065304, 4065305, 4065306, 4065307]
@@ -10661,7 +10870,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "260974",
-			"title" : "Arthur Gorton, 1965-1966",
+			"type":"images",
+"title" : "Arthur Gorton, 1965-1966",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, regarding his family's backstage visit during the national touring production of Luv",
@@ -10722,15 +10933,26 @@ LoudonMMS = [
 		},
 		{
 			"id" : "260994",
-			"title" : "Lionel Larner, 1975-1990",
+			"type":"images",
+"title" : "Lionel Larner, 1975-1990",
+			"display": "single",
 			"images" : [ {
 				"titles" : "Letter from Lionel Larner to Mrs. Fran Weissler, regarding the breaking of an agreement for Dorothy Loudon to assume the role of Rose in the Broadway revival of Gypsy",
 				"imgNums" : [ 4065381, 4065382, 4065383]
 			} ]
 		},
 		{
+			"id" : "audio260994",
+			"type":"audio",
+			"title" : "Recording of Tamiment Playhouse",
+			"display": "single",
+			"link":""
+		},
+		{
 			"id" : "261003",
-			"title" : "Dorothy Shaw Loudon (Dorothy Loudon's mother), 1947-1955",
+			"type":"images",
+"title" : "Dorothy Shaw Loudon (Dorothy Loudon's mother), 1947-1955",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Letter from James E. Loudon to Dorothy Loudon, regarding her early career in New York City",
@@ -10751,7 +10973,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261012",
-			"title" : "James E. Loudon",
+			"type":"images",
+"title" : "James E. Loudon",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Letter from James E. Loudon (father) to Dorothy Loudon, regarding one of her television appearances",
@@ -10824,7 +11048,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261040",
-			"title" : "Norman Paris, 1958-1977, n.d.",
+			"type":"images",
+"title" : "Norman Paris, 1958-1977, n.d.",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Letter from Mark Paris (stepson) to Dorothy Loudon, mentioning The Annie Christmas Special",
@@ -10849,7 +11075,9 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261057",
-			"title" : "Prominent correspondents, 1979-2001",
+			"type":"images",
+"title" : "Prominent correspondents, 1979-2001",
+			"display": "single",
 			"images" : [
 					{
 						"titles" : "Thank-you note from Fred Ebb to Dorothy Loudon",
@@ -10905,7 +11133,8 @@ LoudonMMS = [
 		},
 		{
 			"id" : "261222",
-			"title" : "Annie 2:  Miss Hannigan's Revenge, 1989",
+			"type":"images",
+"title" : "Annie 2:  Miss Hannigan's Revenge, 1989",
 			"images" : [
 					{
 						"titles" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft September 25, 1989",
