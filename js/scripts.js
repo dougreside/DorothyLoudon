@@ -127,7 +127,7 @@
 			dateparts = val.startDate.split(",");
 			humanyear = dateparts[0]; 
 			
-			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /><p class='title'>"+val.asset.caption+"</p></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+humanyear+"</div><div class=\"relatedHead\"><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
+			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+humanyear+"</div><div class=\"relatedHead\"><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
 			
 			relatedItems = val.relatedItems;
 			
@@ -137,8 +137,10 @@
 				anItem=_.find(LoudonMMS,function(i){
 					return i.id==v;
 				});
-				if (anItem!=undefined){
-				thumbCoverId = anItem.images[0].imgNums[0];
+				
+				if (typeof anItem!="undefined"){
+					console.log(typeof anItem.images);
+				//thumbCoverId = anItem.images[0].imgNums[0];
 				caption = anItem.title;
 				
 				
@@ -162,7 +164,7 @@
 				$("#show-list").append("<div class='"+thisclass+"'><ul></ul></div>");
 			}
 			
-			$("#show-list>div").last().find("ul").append("<li><a class='showLink' href='#' id='event_"+(key+1)+"'>"+val.headline+"</a></li>");
+			$("#show-list>div").last().find("ul").append("<li><a class='showLink' href='#' id='event_"+(key+1)+"'>"+val.headline+" ["+val.startDate.substring(0,4)+"]</a></li>");
 			
 			//$("#overviewTable").append("<tr><td><span class='showTitle'><a class='showLink' id='event_"+(key+1)+"'>"+val.headline+"</a></span></td></tr>");
 			

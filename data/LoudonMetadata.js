@@ -3793,6 +3793,7 @@ LoudonMMS = [
 			"id" : "262548",
 			"type":"images",
 "title" : "The Effect of Gamma Rays on Man-in-the-Moon Marigolds, 1971",
+			"display":"single",
 			"images" : [ {
 				"titles" : "The Effect of Gamma Rays on Man in the Moon Marigolds marquee at Broadway's Fisher Theatre",
 				"imgNums" : [ 4065630]
@@ -3801,6 +3802,7 @@ LoudonMMS = [
 		{
 			"id" : "262550",
 			"type":"images",
+			"display":"single",
 "title" : "The Fig Leaves Are Falling, 1968",
 			"images" : [ {
 				"titles" : "The Fig Leaves Are Falling marquee at Broadway's Broadhurst Theatre",
@@ -3811,6 +3813,7 @@ LoudonMMS = [
 			"id" : "262551",
 			"type":"images",
 "title" : "Noises Off, Undated",
+"display":"single",
 			"images" : [ {
 				"titles" : "Noises Off marquee at Broadway's Brooks Atkinson Theatre",
 				"imgNums" : [ 4065632]
@@ -10942,11 +10945,18 @@ LoudonMMS = [
 			} ]
 		},
 		{
-			"id" : "audio260994",
+			"id" : "a1864737726001",
 			"type":"audio",
-			"title" : "Recording of Tamiment Playhouse",
+			"title" : "Recording of Tamiment Playhouse (part 1)",
 			"display": "single",
-			"link":""
+			"link":"http://bcove.me/p31pn0b2"
+		},
+		{
+			"id" : "a1864737725001",
+			"type":"audio",
+			"title" : "Recording of Tamiment Playhouse (part 2)",
+			"display": "single",
+			"link":"http://bcove.me/b7t52g5p"
 		},
 		{
 			"id" : "261003",

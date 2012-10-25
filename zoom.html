@@ -30,20 +30,31 @@ overflow:auto;}
 			 }
 			
 			 return hashparts;
-			}	 
+			}	
+zoomLevel = 0;	 
 $(document).ready(function(){
 	hparts = getHashParts();
 	$("#imageDiv").append("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+hparts[0]+"'/>");
-	$(".ZoomIn").click(function(){
+	$("#ZoomIn").click(function(e){
+		e.preventDefault();
 		nh = 2*parseFloat($("#mainImage").height());
+		zoomLevel = zoomLevel+1;
 		$("#mainImage").height(nh);
 	});
-	$(".ZoomOut").click(function(){
+	$("#ZoomOut").click(function(e){
+		e.preventDefault();
 		nh = parseFloat($("#mainImage").height())/2;
 		$("#mainImage").height(nh);
+		zoomLevel = zoomLevel-1;
 	});
-	$(".Back").click(function(){
+	$("#Reset").click(function(e){
+		e.preventDefault();
+		window.location.reload();
+	});
+	$("#BackButton").click(function(e){
+	
 		window.history.back();
+		
 	});
 });
 
@@ -51,7 +62,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<div class="header"><span class="Back"><a href="#">&lt; Back</a></span> <span class="ZoomIn"><a href="#">Zoom In</a></span> <span class="ZoomOut"><a href="#">Zoom Out</a></span></div>
+<div class="header"><span class="Back"><a id="BackButton" href="#dude">&lt; Back</a></span>  <span class="Zoom"><a id="ZoomIn" href="#">Zoom In</a></span> <span class="Zoom"><a id="Reset" href="#">Reset</a></span> <span class="Zoom"><a id="ZoomOut" href="#">Zoom Out</a></span></div>
 	<div id="imageDiv"></div>
 </body>
 </html>
