@@ -32,6 +32,9 @@
 			     
 				framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
+			     case "event":
+			     
+			    break;	 
 			
 				 }
 				fb(framestring, {
@@ -139,8 +142,7 @@
 				});
 				
 				if (typeof anItem!="undefined"){
-					console.log(typeof anItem.images);
-				//thumbCoverId = anItem.images[0].imgNums[0];
+					
 				caption = anItem.title;
 				
 				
