@@ -16,6 +16,13 @@ float:left;
 width: 200px;
 height: 100%
 }
+#imageDiv{
+overflow: auto;
+height:500px;
+width:800px;
+overflow:auto;
+
+}
 #sidebar h3 {
 	font-size:1.7em;
 	color:#9c5a37;
@@ -36,8 +43,16 @@ height: 100%
 float:left;
 left:230px;
 position:absolute;
-width:90%
+width:90%;
+
 }
+#zoomWindow{
+display:none;
+height: 100%;
+width: 100%;
+}
+body{
+overflow: hidden;}
 </style>
 </head>
 <body>
@@ -57,7 +72,10 @@ width:90%
 		</div>
 	</div>
 </div>
-
+<div id="zoomWindow">
+<div class="header"><span class="Back"><a id="BackButton" href="#dude">&lt; Back</a></span>  <span class="Zoom"><a id="ZoomIn" href="#">Zoom In</a></span> <span class="Zoom"><a id="Reset" href="#">Reset</a></span> <span class="Zoom"><a id="ZoomOut" href="#">Zoom Out</a></span></div>
+	<div id="imageDiv"></div>
+</div>
 
 
 </div>
@@ -97,6 +115,20 @@ function shrinkPage(img){
 	thisimg.css({"height":nih+"px","width":niw+"px"});
 	return;
 }
+function showZoom(id){
+	$("#magazine-viewport").hide();
+	$("#zoomWindow").show();
+	zoomLevel = 0;	 
+
+	hparts = getHashParts();
+	$("#imageDiv").html("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+id+"'/>");
+
+	
+	
+}
+
+
+
 function loadApp(hashparts) {
  if (hashparts==undefined){
 
@@ -257,7 +289,7 @@ if (thisItem.display=="single"){
 	});
 	//resizeViewport();
 	// Zoom.js
-
+	
 	$('.magazine-viewport').zoom({
 		flipbook: $('.magazine'),
 		max: function() { 
@@ -276,7 +308,8 @@ if (thisItem.display=="single"){
 				}
 				id = thisImg.substring(thisImg.indexOf("id=")+3);
 				
-				window.location.href="zoom.html#"+id;
+				//window.location.href="zoom.html#"+id;
+				showZoom(id);
 				/*(if ($(this).zoom('value')==1) {
 					$('.magazine').
 						removeClass('animated').
@@ -375,6 +408,8 @@ if (thisItem.display=="single"){
 			break;
 		}
 	});
+	
+	
 
 	// URIs - Format #/page/1 
 /*
@@ -406,7 +441,29 @@ if (thisItem.display=="single"){
 	});
 
 */
-
+$(window).ready(function(){
+	$("#ZoomIn").click(function(e){
+		e.preventDefault();
+		nh = 2*parseFloat($("#mainImage").height());
+		zoomLevel = zoomLevel+1;
+		$("#mainImage").height(nh);
+	});
+	$("#ZoomOut").click(function(e){
+		e.preventDefault();
+		nh = parseFloat($("#mainImage").height())/2;
+		$("#mainImage").height(nh);
+		zoomLevel = zoomLevel-1;
+	});
+	$("#Reset").click(function(e){
+		e.preventDefault();
+		window.location.reload();
+	});
+	$("#BackButton").click(function(e){
+		$("#zoomWindow").hide();
+		$("#magazine-viewport").show();
+	
+	});
+});
  	$(window).on("hashchange",function(){
  
  		hashparts = getHashParts();
