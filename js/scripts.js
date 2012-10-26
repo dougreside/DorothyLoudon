@@ -32,11 +32,10 @@
 			     
 				framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
-			     case "event":
-			     
-			    break;	 
+			    
 			
 				 }
+			
 				fb(framestring, {
 					'hideOnOverlayClick' : false,
 					'hideOnContentClick' : false,
@@ -53,6 +52,12 @@
 					fb.resize();
 				})
 			  }
+			  
+				 else{
+					 if (typeof fb!=undefined){
+					 fb.close();
+					 }
+				 }
 			  
 		
 		}
