@@ -50,8 +50,6 @@
 				);
 				fb.init();
 				$(window).on("resize",function(){
-					console.log("resize");
-					console.log(fb);
 					fb.resize();
 				})
 			  }
@@ -116,7 +114,7 @@
 
 	$(document).ready(function(){
 		hash = processHash();
-		 console.log(hash);
+		 
 		sorted = _.sortBy(LoudonTimeline.date,function(val){
 			return val.startDate;
 		} );
