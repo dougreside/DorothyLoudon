@@ -39,12 +39,29 @@ h3 {
 	margin:.5em 0;
 }
 
-p {
+p, .about ul, .credits ul {
 	font-size:.8em;
 	line-height:1.7em;
 	margin-top:1.7em;
 	color:#322423;
 	letter-spacing:.1em;
+}
+p.legal {
+	font-style:italic;
+	font-size:.7em;
+}
+.about ul {
+	margin-bottom:15px;
+	list-style-type:none;
+}
+.about ul li {
+	padding-bottom:5px;
+	background: url(../images/arrow.gif) left top no-repeat;
+	padding-left:25px;
+}
+
+.credits ul li {
+	padding-bottom:10px;
 }
 .title {
 	padding:0;
