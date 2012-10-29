@@ -555,7 +555,7 @@ LoudonMMS = [
 		{
 			"id" : "262505",
 			"type":"images",
-"title" : "General Press -- I",
+"title" : "General Press -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume I)]",
@@ -939,7 +939,7 @@ LoudonMMS = [
 		{
 			"id" : "262506",
 			"type":"images",
-"title" : "General Press -- II",
+"title" : "General Press -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume II)]",
@@ -1305,7 +1305,7 @@ LoudonMMS = [
 		{
 			"id" : "262509",
 			"type":"images",
-"title" : "General Press -- III",
+"title" : "General Press -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume III)]",
@@ -2065,7 +2065,7 @@ LoudonMMS = [
 		{
 			"id" : "262515",
 			"type":"images",
-"title" : "Recordings, Tony Awards, etc.",
+"title" : "Recordings, Tony Awards, etc. -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Recordings, Tony Awards, etc.]",
@@ -2509,7 +2509,7 @@ LoudonMMS = [
 		{
 			"id" : "262519",
 			"type":"images",
-"title" : "Stock -- I",
+"title" : "Stock -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Stock I]",
@@ -2743,7 +2743,7 @@ LoudonMMS = [
 		{
 			"id" : "262520",
 			"type":"images",
-"title" : "Stock -- II",
+"title" : "Stock -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Stock II]",
@@ -2909,7 +2909,7 @@ LoudonMMS = [
 		{
 			"id" : "262523",
 			"type":"images",
-"title" : "Television, Tony Awards, etc.",
+"title" : "Television, Tony Awards, etc. -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Television, Tony Awards, etc.]",
@@ -3449,7 +3449,7 @@ LoudonMMS = [
 		{
 			"id" : "262531",
 			"type":"images",
-"title" : "Early family and childhood, Undated",
+"title" : "Early family and childhood photographs, Undated -- Selections",
 			"display": "single",
 			"images" : [
 					{
@@ -3653,7 +3653,7 @@ LoudonMMS = [
 		{
 			"id" : "262534",
 			"type":"images",
-"title" : "Friends, Undated",
+"title" : "Photographs of Friends, Undated -- Selections",
 			"display": "single",
 			"images" : [ {
 				"titles" : "James Kirkwood, Jr., inscribed headshot",
@@ -3684,7 +3684,7 @@ LoudonMMS = [
 		{
 			"id" : "262535",
 			"type":"images",
-"title" : "Loudon and Paris, 1971, n.d.",
+"title" : "Loudon and Paris, 1971, n.d. [Selections of wedding photographs]",
 			"display": "single",
 			"images" : [
 					{
@@ -3699,7 +3699,7 @@ LoudonMMS = [
 		{
 			"id" : "262536",
 			"type":"images",
-"title" : "Norman Paris-Portraits, Undated",
+"title" : "Norman Paris-Portraits, Undated [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -3714,7 +3714,7 @@ LoudonMMS = [
 		{
 			"id" : "262540",
 			"type":"images",
-"title" : "Events, benefits, etc., 1979, 1987, 1988, n.d.",
+"title" : "Photographs of events, benefits, etc., 1979, 1987, 1988, n.d. [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -3737,7 +3737,7 @@ LoudonMMS = [
 		{
 			"id" : "262542",
 			"type":"images",
-"title" : "Headshots and portraits, 1940s-1980s",
+"title" : "Headshots and portraits, 1940s-1980s [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -3768,7 +3768,7 @@ LoudonMMS = [
 		{
 			"id" : "262545",
 			"type":"images",
-"title" : "Annie and Annie 2, 1977, 1985",
+"title" : "Selections of Photographs from Annie at the White House",
 			"display" : "single",
 			"images" : [
 					{
@@ -3783,7 +3783,7 @@ LoudonMMS = [
 		{
 			"id" : "262547",
 			"type":"images",
-"title" : "Ballroom, 1979 Sept.",
+"title" : "Ballroom marquee at Broadway's Majestic Theatre",
 			"images" : [ {
 				"titles" : "Ballroom marquee at Broadway's Majestic Theatre",
 				"imgNums" : [ 4065629]
@@ -3792,7 +3792,7 @@ LoudonMMS = [
 		{
 			"id" : "262548",
 			"type":"images",
-"title" : "The Effect of Gamma Rays on Man-in-the-Moon Marigolds, 1971",
+"title" : "The Effect of Gamma Rays on Man in the Moon Marigolds marquee at Broadway's Fisher Theatre, 1971",
 			"display":"single",
 			"images" : [ {
 				"titles" : "The Effect of Gamma Rays on Man in the Moon Marigolds marquee at Broadway's Fisher Theatre",
@@ -3803,7 +3803,7 @@ LoudonMMS = [
 			"id" : "262550",
 			"type":"images",
 			"display":"single",
-"title" : "The Fig Leaves Are Falling, 1968",
+"title" : "The Fig Leaves Are Falling marquee at Broadway's Broadhurst Theatre, 1968",
 			"images" : [ {
 				"titles" : "The Fig Leaves Are Falling marquee at Broadway's Broadhurst Theatre",
 				"imgNums" : [ 4065631]
@@ -3812,7 +3812,7 @@ LoudonMMS = [
 		{
 			"id" : "262551",
 			"type":"images",
-"title" : "Noises Off, Undated",
+"title" : "Noises Off marquee at Broadway's Brooks Atkinson Theatre, Undated",
 "display":"single",
 			"images" : [ {
 				"titles" : "Noises Off marquee at Broadway's Brooks Atkinson Theatre",
@@ -5610,7 +5610,7 @@ LoudonMMS = [
 		{
 			"id" : "262360",
 			"type":"images",
-"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- I",
+"title" : "The West Side Waltz, 1980-1982 -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 1)]",
@@ -5848,7 +5848,7 @@ LoudonMMS = [
 		{
 			"id" : "262385",
 			"type":"images",
-"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- II",
+"title" : "The West Side Waltz, 1980-1982 -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 2)]",
@@ -6126,7 +6126,7 @@ LoudonMMS = [
 		{
 			"id" : "262428",
 			"type":"images",
-"title" : "Scrapbook: The West Side Waltz, 1980-1982 -- III",
+"title" : "The West Side Waltz, 1980-1982 -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 3)]",
@@ -6352,7 +6352,7 @@ LoudonMMS = [
 		{
 			"id" : "262491",
 			"type":"images",
-"title" : "Award Shows-Benefits",
+"title" : "Award Shows-Benefits -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for 100 Stars]",
@@ -7082,7 +7082,7 @@ LoudonMMS = [
 		{
 			"id" : "261551",
 			"type":"images",
-"title" : "Scrapbook III: Annie",
+"title" : "Annie -- Scrapbook III",
 			"images" : [
 			        	{
 							"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 3)]",
@@ -7725,7 +7725,7 @@ LoudonMMS = [
 		{
 			"id" : "261671",
 			"type":"images",
-"title" : "Ballroom I, 1978",
+"title" : "Ballroom, 1978 -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 1)]",
@@ -7946,7 +7946,7 @@ LoudonMMS = [
 		{
 			"id" : "261709",
 			"type":"images",
-"title" : "Ballroom II, 1978-1979",
+"title" : "Ballroom, 1978-1979  -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 2)]",
@@ -8136,7 +8136,7 @@ LoudonMMS = [
 		{
 			"id" : "261746",
 			"type":"images",
-"title" : "Driving Miss Daisy, 1963, 1988-1994",
+"title" : "Driving Miss Daisy, 1963, 1988-1994  -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Driving Miss Daisy Scrapbook (Volume 1)]",
@@ -8525,7 +8525,7 @@ LoudonMMS = [
 		{
 			"id" : "261804",
 			"type":"images",
-"title" : "The Effect of Gamma-Rays on Man-in-the-Moon Marigolds",
+"title" : "The Effect of Gamma-Rays on Man-in-the-Moon Marigolds -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for (The Effect of Gamma Rays on Man-in-the-Moon) Marigolds]",
@@ -8735,7 +8735,7 @@ LoudonMMS = [
 		{
 			"id" : "261851",
 			"type":"images",
-"title" : "The Fig Leaves Are Falling - Lolita, My Love, 1968-1969, 1971",
+"title" : "The Fig Leaves Are Falling - Lolita, My Love, 1968-1969, 1971 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for (The) Fig Leaves (Are Falling)",
@@ -8957,7 +8957,7 @@ LoudonMMS = [
 		{
 			"id" : "261882",
 			"type":"images",
-"title" : "Garbo Talks, Sondheim: A Cellebration at Carnegie Hall, 1984, 1991-1993",
+"title" : "Garbo Talks, Sondheim: A Cellebration at Carnegie Hall, 1984, 1991-1993 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of scrapbook]",
@@ -9202,7 +9202,7 @@ LoudonMMS = [
 		{
 			"id" : "261926",
 			"type":"images",
-"title" : "The Gary Moore Show, 1962-1963, n.d.",
+"title" : "The Gary Moore Show, 1962-1963, n.d. -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for The Garry Moore Show]",
@@ -9467,7 +9467,7 @@ LoudonMMS = [
 		{
 			"id" : "261960",
 			"type":"images",
-"title" : "Luv, 1965-1966, 1984",
+"title" : "Luv, 1965-1966, 1984 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Luv]",
@@ -9668,7 +9668,7 @@ LoudonMMS = [
 		{
 			"id" : "261989",
 			"type":"images",
-"title" : "Scrapbook:  Nowhere to Go But Up, 1962",
+"title" : "Nowhere to Go But Up, 1962 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Nowhere to Go But Up and Sweet Potato]",
@@ -9810,7 +9810,7 @@ LoudonMMS = [
 		{
 			"id" : "262042",
 			"type":"images",
-"title" : "Noises Off I",
+"title" : "Noises Off -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Noises Off Scrapbook (Volume 1)]",
@@ -10209,7 +10209,7 @@ LoudonMMS = [
 		{
 			"id" : "261110",
 			"type":"images",
-"title" : "Wedding with Paris, 1971",
+"title" : "Marriage certificate of Norman T. Paris and Dorothy Loudon, 1971",
 			"images" : [ {
 				"titles" : "Marriage certificate of Norman T. Paris and Dorothy Loudon",
 				"imgNums" : [ 4065474]
@@ -10218,7 +10218,7 @@ LoudonMMS = [
 		{
 			"id" : "261126",
 			"type":"images",
-"title" : "Personal miscellany, 1946-2003, n.d.",
+"title" : "Personal miscellany, 1946-2003, n.d. [Selections]",
 			"images" : [
 					{
 						"titles" : "[Typewritten synopsis for Maid in Taiwan (unfinished \"musical tragedy in three acts\")]",
@@ -10331,7 +10331,7 @@ LoudonMMS = [
 		{
 			"id" : "261404",
 			"type":"images",
-"title" : "Various, 1952-1974",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached rider, for Winning Is Better",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached rider, for Winning Is Better",
 				"imgNums" : [ 4065539, 4065540]
@@ -10340,7 +10340,7 @@ LoudonMMS = [
 		{
 			"id" : "261463",
 			"type":"images",
-"title" : "Annie Scrapbook I",
+"title" : "Annie -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 1)]",
@@ -10594,7 +10594,7 @@ LoudonMMS = [
 		{
 			"id" : "261515",
 			"type":"images",
-"title" : "Annie Scrapbook II",
+"title" : "Annie -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie Scrapbook (Volume 2)]",
@@ -10874,7 +10874,7 @@ LoudonMMS = [
 		{
 			"id" : "260974",
 			"type":"images",
-"title" : "Arthur Gorton, 1965-1966",
+"title" : "Correspondence with Arthur Gorton, 1965-1966",
 			"display": "single",
 			"images" : [
 					{
@@ -10937,7 +10937,7 @@ LoudonMMS = [
 		{
 			"id" : "260994",
 			"type":"images",
-"title" : "Lionel Larner, 1975-1990",
+"title" : "Letters from Lionel Larner, 1975-1990 [Selections]",
 			"display": "single",
 			"images" : [ {
 				"titles" : "Letter from Lionel Larner to Mrs. Fran Weissler, regarding the breaking of an agreement for Dorothy Loudon to assume the role of Rose in the Broadway revival of Gypsy",
@@ -10961,7 +10961,7 @@ LoudonMMS = [
 		{
 			"id" : "261003",
 			"type":"images",
-"title" : "Dorothy Shaw Loudon (Dorothy Loudon's mother), 1947-1955",
+"title" : "Correspondence with Dorothy Shaw Loudon (Dorothy Loudon's mother), 1947-1955 [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -10984,7 +10984,7 @@ LoudonMMS = [
 		{
 			"id" : "261012",
 			"type":"images",
-"title" : "James E. Loudon",
+"title" : "Correspondence with James E. Loudon [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -11059,7 +11059,7 @@ LoudonMMS = [
 		{
 			"id" : "261040",
 			"type":"images",
-"title" : "Norman Paris, 1958-1977, n.d.",
+"title" : "Correspondence with Norman Paris, 1958-1977, n.d. [Selections]",
 			"display": "single",
 			"images" : [
 					{
@@ -11086,7 +11086,7 @@ LoudonMMS = [
 		{
 			"id" : "261057",
 			"type":"images",
-"title" : "Prominent correspondents, 1979-2001",
+"title" : "Prominent correspondents, 1979-2001 [Selections]",
 			"display": "single",
 			"images" : [
 					{
