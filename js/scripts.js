@@ -196,7 +196,7 @@
 			var $this = $(this);
 			$(".relatedHead ul").css({"display":"block"});
 		});
-        $(".relatedHead").bind('mouseleave',function(){
+        $(".relatedItems").bind('mouseleave',function(){
 			var $this = $(this);
 			$(".relatedHead ul").css({"display":"none"});
 		});
