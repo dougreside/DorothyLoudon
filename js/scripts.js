@@ -44,10 +44,12 @@
 					'autoDimensions' : true,
 					'onCleanup' : function(e) {
 						$("#bookframe").focus();
+						keyListen();
 					}
 					}
 				);
 				fb.init();
+				$(window).unbind("keydown");
 				$(window).on("resize",function(){
 					fb.resize();
 				})
@@ -214,16 +216,32 @@
 		
 		
 
+	
 		
 		
 		
-		
-		
-		
+		keyListen();
+
 		
 		
 		startCarousel();
 		processHash();
 		});	
-
+		function keyListen(){
+			$(window).keydown(function(e){
+				
+				 if ((e.keyCode == 37) || (e.which == 37))
+				    {   
+				
+					 $("#carousel").rcarousel("prev");			
+					 }
+				    // right arrow
+				    if ((e.keyCode == 39)|| (e.which == 39))
+				    {
+				    	$("#carousel").rcarousel("next");	
+				    }   
+			
+				
+			});
+		}
 	});
