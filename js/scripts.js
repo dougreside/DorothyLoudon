@@ -154,7 +154,7 @@
 			});
 			itemText=itemText+"</ul></div></div><div>"+val.text+"</div></div>";	
 			
-			$("#carousel").append(itemText);
+			$("#carousel").append($(itemText));
 			
 			
 			
@@ -182,7 +182,7 @@
 			$(".relatedHead ul").css({"display":"block"});
 			
 			 $(".relatedHead").mouseleave(function(e){
-			
+	
 			$(".relatedHead ul").css({"display":"none"});
 			$(".relatedHead").unbind("mouseleave");
 			
