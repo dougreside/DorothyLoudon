@@ -181,10 +181,10 @@
 			
 			$(".relatedHead ul").css({"display":"block"});
 			
-			 $(".relatedItemList>ul").mouseleave(function(e){
+			 $(".relatedHead").mouseleave(function(e){
 			
 			$(".relatedHead ul").css({"display":"none"});
-			$(".relatedItemList>ul").unbind("mouseleave");
+			$(".relatedHead").unbind("mouseleave");
 			
 		});
 			
