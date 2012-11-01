@@ -202,12 +202,10 @@ function disableControls(page) {
 function resizeViewport() {
 	
 	var width = parseInt($("#all").width());
-	console.log("FIRST WIDTH: "+width);
 	width = width-200;
 	width=width+"px";
 	var height = $(window).height(),
 		options = $('.magazine').turn('options');
-	console.log("SIZE:  "+width+" "+height);
 	$('.magazine').removeClass('animated');
 
 	$('.magazine-viewport').css({
