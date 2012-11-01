@@ -133,7 +133,7 @@
 			dateparts = val.startDate.split(",");
 			humanyear = dateparts[0]; 
 			
-			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+humanyear+"</div><div class=\"relatedHead\"><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
+			itemText = "<div class='slide'><div class='span-8 append-1 clear'><a href='"+captionLink+"'><img width=300 src='"+val.asset.media+"' alt='Scrapbook Image' /></a></div><div class='span-10 append-1 last'><h3 class='showTitle'>"+val.headline+"</h3><div class='date'>"+humanyear+"</div><div class='relatedHead'><span class='relatedItems'>View items related to this event</span><div class='relatedItemList'><ul>";
 			
 			relatedItems = val.relatedItems;
 			
@@ -154,7 +154,7 @@
 			});
 			itemText=itemText+"</ul></div></div><div>"+val.text+"</div></div>";	
 			
-			$("#carousel").append(itemText);
+			$("#carousel").append($(itemText));
 			
 			
 			
@@ -175,6 +175,22 @@
 			
 	
 		});
+		     $(".relatedHead").bind('mouseenter',function(){
+
+
+			
+			$(".relatedHead ul").css({"display":"block"});
+			
+			 $(".relatedHead").mouseleave(function(e){
+	
+			$(".relatedHead ul").css({"display":"none"});
+			$(".relatedHead").unbind("mouseleave");
+			
+		});
+			
+		});
+       
+
 		$("#show-list>div").last().addClass("last");
 		$(".showLink").click(function(e){
 			id = $(this).attr("id");
@@ -190,16 +206,8 @@
 		});
 
 
-		$ri =  $(".relatedItems");
-        $ri.bind('mouseenter',function(){
-
-			var $this = $(this);
-			$(".relatedHead ul").css({"display":"block"});
-		});
-        $(".relatedHead").bind('mouseleave',function(){
-			var $this = $(this);
-			$(".relatedHead ul").css({"display":"none"});
-		});
+		 
+   
 
 
 		
