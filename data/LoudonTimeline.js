@@ -226,7 +226,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[261592,261222,261545]
+                "relatedItems":[261592,261545,5008910,5008714,5008572,5008344]
             },
             {
                 "startDate":"1971,10",

@@ -145,7 +145,7 @@ function loadApp(hashparts) {
  if ((typeof thisItem.type!="undefined")&&(thisItem.type=="audio")){
  	 $("#itemTitle").html(thisItem.title); 
  	 showNum = showNum.substring(1);
-	 $("#all").html("<div style=\"display:none\"></div><object id=\"myExperience"+showNum+"\" class=\"BrightcoveExperience\">  <param name=\"bgcolor\" value=\"#FFFFFF\" />  <param name=\"width\" value=\"480\" />  <param name=\"height\" value=\"270\" />  <param name=\"playerID\" value=\"1592571451001\" />  <param name=\"playerKey\" value=\"AQ~~,AAABchwNFVk~,kE6q8YogD3vpn3QfnsIdak7n1kINhcVF\" />  <param name=\"isVid\" value=\"true\" />  <param name=\"isUI\" value=\"true\" />  <param name=\"dynamicStreaming\" value=\"true\" />    <param name=\"@videoPlayer\" value=\""+showNum+"\" /></object>");
+	 $("#all").html("<div style=\"display:none\"></div><object id=\"myExperience"+showNum+"\" class=\"BrightcoveExperience\">  <param name=\"bgcolor\" value=\"#FFFFFF\" />  <param name=\"width\" value=\"480\" />  <param name=\"height\" value=\"100\" />  <param name=\"playerID\" value=\"1592571451001\" />  <param name=\"playerKey\" value=\"AQ~~,AAABchwNFVk~,kE6q8YogD3vpn3QfnsIdak7n1kINhcVF\" />  <param name=\"isVid\" value=\"true\" />  <param name=\"isUI\" value=\"true\" />  <param name=\"dynamicStreaming\" value=\"true\" />    <param name=\"@videoPlayer\" value=\""+showNum+"\" /></object>");
 	 $("#zoomInstructions").hide();
 	 brightcove.createExperiences();
  }
