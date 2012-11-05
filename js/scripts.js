@@ -43,8 +43,10 @@
 					'autoScale' : true,
 					'autoDimensions' : true,
 					'onCleanup' : function(e) {
+						
 						$("#bookframe").focus();
 						keyListen();
+						 window.history.back();
 					}
 					}
 				);
@@ -163,11 +165,11 @@
 			
 			thisclass="span-8";
 		
-			if ((parseInt(sorted.length/9))==(parseInt(key/9))){
+			if ((parseInt(sorted.length/10))==(parseInt(key/10))){
 				thisclass="span-8 last";
 			}
 			
-			if (key%9==0){
+			if (key%10==0){
 				$("#show-list").append("<div class='"+thisclass+"'><ul></ul></div>");
 			}
 			
@@ -177,18 +179,20 @@
 			
 	
 		});
-		     $(".relatedHead").bind('mouseenter',function(){
+		     $(".relatedHead").bind('mouseenter',function(e){
 
 
 			
 			$(".relatedHead ul").css({"display":"block"});
 			
 			 $(".relatedHead").mouseleave(function(e){
-	
+				 
 			$(".relatedHead ul").css({"display":"none"});
 			$(".relatedHead").unbind("mouseleave");
 			
 		});
+		
+			
 			
 		});
        
@@ -243,5 +247,6 @@
 			
 				
 			});
+			return;
 		}
 	});

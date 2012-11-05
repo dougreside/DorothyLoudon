@@ -20,8 +20,8 @@
   	<![endif]-->
 
 	<!-- initial jquery setup -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	
+
+		<script type="text/javascript" src="./vendor/rcarousel/widget/lib/jquery-1.7.1.min.js"></script>
 	<!-- "Backstretch" script for full-screen background image -->
 	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 	<script type="text/javascript">
@@ -60,6 +60,10 @@
 				<li><a href="http://www.nypl.org/blog/2010/12/10/lost-musicals-fig-leaves-are-falling">The Lost Musicals: <br />Uncovering the Dorothy Loudon Flops Part One: The Fig Leaves are Falling</a></li>
 				<li><a href="http://www.nypl.org/blog/2011/01/12/lost-musicals-uncovering-dorothy-loudon-flops-part-two-lolita-my-love">The Lost Musicals: <br />Uncovering the Dorothy Loudon flops Part Two: Lolita, My Love</a></li>
 			</ul>
+			<h3>Complete list of items:</h3>
+			<p>The following is a complete list of items digitized for this exhibition.  Click the links below to view the materials:</p>
+			<ul id="completeList">
+			</ul>
 			<hr class="space" />
 			<h4>Legal disclaimers and fair use statement</h4>
 			<p class="legal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor venenatis lacinia. Ut facilisis sem fringilla ipsum varius semper. </p>
@@ -74,7 +78,92 @@
 		
 	
 	</div>
+	<!-- Fancybox -->
+	<script type="text/javascript" src="./vendor/fancybox/jquery.easing-1.3.pack.js"></script>
+	 	<script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	   <script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link type="text/css" rel="stylesheet" href="./vendor/fancybox/jquery.fancybox-1.3.4.css"></link>
+
 	
-	<script src="js/scripts.js"></script>
+		<script src="data/LoudonMetadata.js"></script>
+	<script type="text/javascript" >
+	fb = $.fancybox;
+	$(window).ready(function(){
+		resizeElements();
+		$(window).on("resize",function(){resizeElements();});
+		$(window).on("hashchange",function(path,parts){
+			  processHash();
+		});
+	});
+	
+	function resizeElements(){
+		totalH = $(window).height();
+		
+		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-100;
+		//$("#sidebar").height(smaller);
+		$("#main").height(smaller);
+		$("#mainContent").height(smaller);
+	}
+
+	function getHash(){
+		 hash = window.location.hash;
+		 if (hash.length>1){
+			 
+			  if (hash.indexOf("#")>0){
+				  hash = hash.substring(hash.indexOf("#")+1);
+			  }
+		 }
+		 return hash;
+	}
+	function processHash(){
+		 hash = getHash();
+		 
+	 
+		  parts = hash.split("/");  
+		
+		  if (parts.length>1){
+		  
+		  
+		     
+			framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[1]+"/1'></iframe>";
+		    
+		
+			fb(framestring, {
+				'hideOnOverlayClick' : false,
+				'hideOnContentClick' : false,
+				'scrolling' : true,
+				'autoScale' : true,
+				'autoDimensions' : true,
+				'onCleanup' : function(e) {
+					
+				   window.history.back();
+				}
+				}
+			);
+			fb.init();
+			$(window).on("resize",function(){
+				fb.resize();
+			})
+		  }
+		  else{
+				 if (typeof fb!=undefined){
+				 fb.close();
+				 }
+			 }
+			
+		  
+	
+	}
+	</script>
+	<script src="js/underscore-min.js"></script>
+	<script type="text/JavaScript">
+		$("#completeList").empty();
+		sorted = _.sortBy(LoudonMMS,function(val){
+			return val.title;
+		} );
+		_.each(sorted,function(val,key){
+			$("#completeList").append("<li><a href='#item/"+val.id+"'>"+val.title+"</a></li>");
+		})
+	</script>
 </body>
 </html>

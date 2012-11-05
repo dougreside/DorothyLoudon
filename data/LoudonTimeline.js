@@ -15,7 +15,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[262531,261012]
+                "relatedItems":[262531,261012,261003,262542]
             },
             {
                 "startDate":"1959",
@@ -27,7 +27,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[262519,262520,"a1864737726001","a1864737725001"]
+                "relatedItems":[262519,262520,261404,"a1864737726001","a1864737725001"]
              
             },
             {
@@ -41,7 +41,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-            	"relatedItems":[262495,262497,262500]
+            	"relatedItems":[262495,262497,262500,261140,262525]
             },
     
 			{
@@ -82,7 +82,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-            "relatedItems": [261969]
+            "relatedItems": [261989]
             },
             {
                 "startDate":"1969,10,16",
@@ -339,7 +339,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[261960,261321,260974]
+                "relatedItems":[261960,261321,260974,4065526]
             },
             {
                 "startDate":"1996",
@@ -348,11 +348,24 @@ LoudonTimeline=
                 "text":"<p>Sidelined by health problems during her last few years, Loudon made a Broadway comeback as Carlotta Vance in the 2002 revival of <em>Dinner at Eight</em>. But it was not to be: Loudon fell ill with chronic labyrinthitis and dropped out after the first preview; Marian Seldes replaced her. She died a year later, of cancer, on November 14, 2003. A shy person off-stage (her principal hobby was sewing), Loudon was nonetheless a self-proclaimed \"benefit queen,\" devoting much of her spare time to raising money for AIDS research, not-for profit theatre, the Actors\' Fund, and other causes. The Dorothy Loudon Foundation continues this charitable work.</p>",
                 "asset":
                 {
-                    "media":"http://images.nypl.org/index.php?t=w&id=4061416",
+                    "media":"http://images.nypl.org/index.php?t=w&id=4065617",
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[261057,261040,260994,262523]
+                "relatedItems":[262540,261057,260994,262523,261080,261341,261126,262491,261277,262505,262506,262509,262511,262515]
+            },
+            {
+                "startDate":"1971",
+                "endDate":"1977",
+                "headline":"Marriage to Norman Paris",
+                "text":"<p>Dorothy Loudon was accompanied by the Norman Paris Trio for some of her cabaret performances and her Blue Angel album. Off-mic, Paris was her companion for nearly twenty-five years, although they waited until December 18, 1971, to marry. Paris segued from club dates into work as an arranger and occasional composer for live television (<em>I've Got a Secret</em>; <em>Evening Primrose</em>; <em>Big Blue Marble</em>), Broadway (<em>The Owl and the Pussycat</em>), pop albums (<em>Still Crazy After All These Years</em>), and independent films (<em>David and Lisa</em>). A diabetes sufferer, Paris died suddenly only six weeks after Loudon won the Tony Award for Annie. He was 51.</p>",
+                "asset":
+                {
+                    "media":"http://images.nypl.org/index.php?t=w&id=4065613",
+                    "credit":"",
+                    "caption":"Wedding photograph"
+                },
+                "relatedItems":[262535,262536,261040,262534]
             }
 			
         ]

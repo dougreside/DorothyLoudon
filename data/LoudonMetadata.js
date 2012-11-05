@@ -1691,7 +1691,7 @@ LoudonMMS = [
 		{
 			"id" : "262511",
 			"type":"images",
-"title" : "General Press -- IV",
+"title" : "General Press -- Scrapbook IV",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for General Press (Volume IV)]",
@@ -3822,7 +3822,7 @@ LoudonMMS = [
 		{
 			"id" : "262091",
 			"type":"images",
-"title" : "Scrapbook: Noises Off II",
+"title" : "Noises Off -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "Dorothy Loudon stars in Frayn's Noises Off, London's big hit comedy; top; Two on the Aisle; October/November 1983]",
@@ -4160,7 +4160,7 @@ LoudonMMS = [
 		{
 			"id" : "262128",
 			"type":"images",
-"title" : "Scrapbook: Noises Off III",
+"title" : "Noises Off -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Noises Off Scrapbook (Volume 3)]",
@@ -4430,7 +4430,7 @@ LoudonMMS = [
 		{
 			"id" : "262158",
 			"type":"images",
-"title" : "Scrapbook: Princess Grace, Jerry's Girls, 1982, 1985-1987, n.d.",
+"title" : "Princess Grace, Jerry's Girls, 1982, 1985-1987, n.d. -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Princess Grace and the Fazzaris and Jerry's Girls Scrapbook]",
@@ -4908,7 +4908,7 @@ LoudonMMS = [
 		{
 			"id" : "262225",
 			"type":"images",
-"title" : "Scrapbook: Show Boat, 1993-1996",
+"title" : "Show Boat, 1993-1996 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Show Boat Scrapbook]",
@@ -5022,7 +5022,7 @@ LoudonMMS = [
 		{
 			"id" : "262251",
 			"type":"images",
-"title" : "Scrapbook: Sweeney Todd/Comedy Tonight, 1979-1980, 1994",
+"title" : "Sweeney Todd/Comedy Tonight, 1979-1980, 1994 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Sweeney Todd and Comedy Tonight Scrapbook]",
@@ -5316,7 +5316,7 @@ LoudonMMS = [
 		{
 			"id" : "262300",
 			"type":"images",
-"title" : "Scrapbook: Three Men on a Horse, The Women, The Matchmaker, 1969, 1975, 1991, 1995",
+"title" : "Three Men on a Horse, The Women, The Matchmaker, 1969, 1975, 1991, 1995 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Three Men on a Horse, The Women, and The Matchmaker]",
@@ -7375,7 +7375,7 @@ LoudonMMS = [
 		{
 			"id" : "261592",
 			"type":"images",
-"title" : "Annie 2: Miss Hannigan's Revenge, 1987-1990",
+"title" : "Annie 2: Miss Hannigan's Revenge, 1987-1990 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie 2: Miss Hannigan's Revenge Scrapbook)]",
@@ -9668,7 +9668,7 @@ LoudonMMS = [
 		{
 			"id" : "261989",
 			"type":"images",
-"title" : "Nowhere to Go But Up, 1962 -- Scrapbook",
+"title" : "Sweet Potato &amp; Nowhere to Go But Up -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Nowhere to Go But Up and Sweet Potato]",
@@ -10218,7 +10218,7 @@ LoudonMMS = [
 		{
 			"id" : "261126",
 			"type":"images",
-"title" : "Personal miscellany, 1946-2003, n.d. [Selections]",
+"title" : "Maid in Taiwan (a musical parody by Dorothy Loudon and Lionel Larner)",
 			"images" : [
 					{
 						"titles" : "[Typewritten synopsis for Maid in Taiwan (unfinished \"musical tragedy in three acts\")]",
@@ -10245,6 +10245,7 @@ LoudonMMS = [
 			"id" : "261140",
 			"type":"images",
 "title" : "Song lists, undated",
+"display":"single",
 			"images" : [ {
 				"titles" : "Notebook containing alphabetical list of song titles, plus miscellaneous notes on possible sets, in Dorothy Loudon's handwriting",
 				"imgNums" : [ 4065486, 4065487, 4065488, 4065489, 4065490, 4065491, 4065492, 4065493, 4065494, 4065495, 4065496, 4065497, 4065498, 4065499, 4065500, 4065501, 4065502, 4065503, 4065504, 4065505, 4065506, 4065507, 4065508]
@@ -10271,7 +10272,8 @@ LoudonMMS = [
 		{
 			"id" : "261257",
 			"type":"images",
-"title" : "The Ashes of Mrs. Reasoner, 1970, n.d.",
+			"display":"single",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached rider and salary letter, for The Ashes of Mrs. Reasoner",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached rider and salary letter, for The Ashes of Mrs. Reasoner",
 				"imgNums" : [ 4065509, 4065510, 4065511, 4065512]
@@ -10280,7 +10282,8 @@ LoudonMMS = [
 		{
 			"id" : "261277",
 			"type":"images",
-"title" : "Dinner at Eight, 2002",
+			"display":"single",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders and rehearsal schedule, for Dinner at Eight",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders and rehearsal schedule, for Dinner at Eight",
 				"imgNums" : [ 4065513, 4065514, 4065515, 4065516, 4065517, 4065518]
@@ -10289,7 +10292,7 @@ LoudonMMS = [
 		{
 			"id" : "261289",
 			"type":"images",
-"title" : "Jerry's Girls, 1985, n.d.",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
 				"imgNums" : [ 4065519, 4065520, 4065521, 4065522, 4065523, 4065524, 4065525]
@@ -10298,22 +10301,30 @@ LoudonMMS = [
 		{
 			"id" : "261321",
 			"type":"images",
-"title" : "Luv, 1963, 1965, 1967",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Luv",
 			"display": "single",
 			"images" : [
-					{
-						"titles" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
-						"imgNums" : [ 4065526]
-					},
+				
 					{
 						"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Luv",
 						"imgNums" : [ 4065527, 4065528, 4065529]
 					} ]
 		},
 		{
+			"id" : "4065526",
+			"type":"images",
+"title" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
+			"display": "single",
+			"images" : [
+					{
+						"titles" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
+						"imgNums" : [ 4065526]
+					} ]
+		},
+		{
 			"id" : "261341",
 			"type":"images",
-"title" : "Love Letters, 1991",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Love Letters",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Love Letters",
 				"imgNums" : [ 4065530, 4065531, 4065532, 4065533]
@@ -10322,7 +10333,7 @@ LoudonMMS = [
 		{
 			"id" : "261361",
 			"type":"images",
-"title" : "Noises Off, 1983.",
+"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Noises Off",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Noises Off",
 				"imgNums" : [ 4065534, 4065535, 4065536, 4065537, 4065538]
@@ -10864,7 +10875,7 @@ LoudonMMS = [
 		{
 			"id" : "260960",
 			"type":"images",
-"title" : "1950s-1960s",
+"title" : "Letter from Dorothy Loudon to Arthur Gorton describing radio appearance to promote national touring production of Luv",
 			"display": "single",
 			"images" : [ {
 				"titles" : "Letter from Dorothy Loudon to Arthur Gorton describing radio appearance to promote national touring production of Luv and other professional matters",

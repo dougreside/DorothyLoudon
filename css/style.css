@@ -180,6 +180,8 @@ ul#nav  {
 }
 .relatedHead {
 	font-size:.9em;
+	overflow: auto;
+	max-height:300px;
 }
 .relatedHead span.relatedItems {
 	background:url(../images/arrow-2.gif) no-repeat;
@@ -188,10 +190,12 @@ ul#nav  {
 	text-decoration:none;
 	line-height:25px;
 	cursor:pointer;
+	
 }
 .relatedHead a.relatedItems:hover, .relatedHead a.relatedItems:active {
 	border-bottom:1px dotted #7b1f29;	
 }
+
 .relatedItemList li {
 	line-height:1.5em;
 	font-size:.9em;

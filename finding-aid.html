@@ -226,14 +226,14 @@
 			</ul>
 		</div>
 		<div id="FA-head" class="span-24 last clear">
-			<h3>Finding Aid</h3>
+			<h3>Finding Aid</h3>  
 		</div>
 		<div class="span-8 append-1 clear">
 			
 			<div class="sidebar" id="sidebar">
 	            <ul id="navBar">
-	               <li><a class="headlink" href="#top">Top</a></li>
-
+	            <li><a class="headlink" href="./data/loudon.xml">Download EAD/XML</a></li>
+	               <li><a class="headlink" href="#top">Top</a></li> 
 	               <li><a class="headlink" href="#head_5">Series Descriptions and Container List</a></li>
 	               <ul class="sub">
 	                  <li><a class="seriestitle" href="#st_0">Series I: Personal Files, 1885-2003</a></li>
@@ -1743,11 +1743,11 @@
 	                              <div class="c03">
 	                                 <div class="did">
 	                                    <div class="unittitle">
-	                                       <a class="archiveLink" href="LoudonPages.html#">
+	                                    
 	                                          <div class="title">Annie</div>
 	                                          , 
 	                                          <div class="unitdate">1977-1982, n.d.
-	                                       </a>
+	                                  
 	                                       </div>
 	                                    </div>
 	                                 </div>
@@ -1842,7 +1842,7 @@
 	                              <div class="c03">
 	                                 <div class="did">
 	                                    <div class="box">box 29</div>
-	                                    <div class="unittitle"><<a href="#item/262851">
+	                                    <div class="unittitle"><a href="#item/262851">
 	                                       <div class="title">The Fig Leaves Are Falling</div>
 	                                       - 
 	                                       <div class="title">Lolita, My Love</div>
@@ -4787,7 +4787,7 @@
 	function resizeElements(){
 		totalH = $(window).height();
 		
-		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-100;
+		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-50;
 		//$("#sidebar").height(smaller);
 		$("#main").height(smaller);
 		$("#mainContent").height(smaller);
@@ -4823,7 +4823,8 @@
 				'autoScale' : true,
 				'autoDimensions' : true,
 				'onCleanup' : function(e) {
-					$("#bookframe").focus();
+				
+					 window.history.back();
 				}
 				}
 			);
