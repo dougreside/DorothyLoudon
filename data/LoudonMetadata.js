@@ -2079,7 +2079,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062871 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062872 ]
 					},
 					{
@@ -2087,7 +2087,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062873 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062874 ]
 					},
 					{
@@ -2231,7 +2231,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062909 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062910 ]
 					},
 					{
@@ -2247,7 +2247,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062913 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062914 ]
 					},
 					{
@@ -2547,7 +2547,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062986 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062987 ]
 					},
 					{
@@ -2923,7 +2923,7 @@ LoudonMMS = [
 						"imgNums" : [ 4063075 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4063076 ]
 					},
 					{
@@ -3592,6 +3592,10 @@ LoudonMMS = [
 						"imgNums" : [ 4065580 ]
 					},
 					{
+						"titles" : "Dorothy Loudon as a toddler",
+						"imgNums" : [  4065585 ]
+					},
+					{
 						"titles" : "James E. Loudon (father, with saxophone), possibly Dorothy Loudon, Sr. (mother), and unidentified drummer posed on stage",
 						"imgNums" : [ 4065581 ]
 					},
@@ -3600,13 +3604,10 @@ LoudonMMS = [
 						"imgNums" : [ 4065582 ]
 					},
 					{
-						"titles" : "Dorothy Loudon as a toddler",
-						"imgNums" : [ 4065583 ]
-					},
-					{
 						"titles" : "Grandfather Raintrick (Dorothy Loudon's great-grandfather) in Union Army uniform",
-						"imgNums" : [ 4065584, 4065585 ]
+						"imgNums" : [ 4065583, 4065584 ]
 					},
+					
 					{
 						"titles" : "Grandfather Raintrick (Dorothy Loudon's great-grandfather)",
 						"imgNums" : [ 4065586, 4065587 ]
@@ -3629,11 +3630,11 @@ LoudonMMS = [
 					},
 					{
 						"titles" : "Window display for McAuley, Inc., advertising \"Machine Tool Week\"",
-						"imgNums" : [ 4065594, 4065595 ]
+						"imgNums" : [ 4065594 ]
 					},
 					{
 						"titles" : "James E. Loudon (father) at cigarette counter display advertising \"Machine Tool Week\"",
-						"imgNums" : [ 4065596, 4065597 ]
+						"imgNums" : [ 4065596 ]
 					},
 					{
 						"titles" : "Dorothy Loudon with Grandmother Loudon and Dorothy Loudon, Sr. (mother)",
@@ -4564,7 +4565,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061758 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061759 ]
 					},
 					{
@@ -4998,19 +4999,19 @@ LoudonMMS = [
 						"imgNums" : [ 4061864 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061865 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061866 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061867 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061868 ]
 					},
 					{
@@ -5072,7 +5073,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061880 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061881 ]
 					},
 					{
@@ -5486,7 +5487,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061981 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061982 ]
 					},
 					{
@@ -6462,7 +6463,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062215 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4062216 ]
 					},
 					{
@@ -8306,7 +8307,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061116 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061117 ]
 					},
 					{
@@ -8326,7 +8327,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061121 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061122 ]
 					},
 					{
@@ -8956,7 +8957,7 @@ LoudonMMS = [
 		{
 			"id" : "261882",
 			"type" : "images",
-			"title" : "Garbo Talks, Sondheim: A Cellebration at Carnegie Hall, 1984, 1991-1993 -- Scrapbook",
+			"title" : "Garbo Talks, Sondheim: A Celebration at Carnegie Hall, 1984, 1991-1993 -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of scrapbook]",
@@ -8971,7 +8972,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061274 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061275 ]
 					},
 					{
@@ -9099,7 +9100,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061306 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4065633 ]
 					},
 					{
@@ -9201,7 +9202,7 @@ LoudonMMS = [
 		{
 			"id" : "261926",
 			"type" : "images",
-			"title" : "The Gary Moore Show, 1962-1963, n.d. -- Scrapbook",
+			"title" : "The Gary Moore Show -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for The Garry Moore Show]",
@@ -9755,7 +9756,7 @@ LoudonMMS = [
 						"imgNums" : [ 4061464 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061465 ]
 					},
 					{
@@ -10193,16 +10194,16 @@ LoudonMMS = [
 						"imgNums" : [ 4061572 ]
 					},
 					{
-						"titles" : "[blank page - photograph to preserve scrapbook effect]",
+						"titles" : "",
 						"imgNums" : [ 4061573 ]
 					} ]
 		},
 		{
 			"id" : "261080",
 			"type" : "images",
-			"title" : "Loudon's Memorial Service, 2003 Nov 19",
+			"title" : "General advice for success",
 			"images" : [ {
-				"titles" : "General advice for success (possibly a draft of a speech or article) by Dorothy Loudon",
+				"titles" : "General advice for success (among Dorothy's personal papers)",
 				"imgNums" : [ 4065472, 4065473 ]
 			} ]
 		},
@@ -11038,14 +11039,17 @@ LoudonMMS = [
 			"type" : "audio",
 			"title" : "Audio recording of Tamiment Playhouse (part 1)",
 			"display" : "single",
-			"link" : "http://bcove.me/p31pn0b2"
+			"link" : "http://bcove.me/p31pn0b2",
+			"caption":"<br/><em>Program text from NYU\'s Tamiment Archive</em><br/><br/><div> Tamiment Playhouse Presents<br/> \"Red Hot\"<br/> A Musical Revue<br/> Saturday and Sunday, July 25 and 26, 1959<br/> </div> <br/> <div> Producer-Director - MONROE B. HACK<br/> Director - Christopher Hewett<br/> Choreographer - Jim Hutchison<br/> Settings and Costumes by - Fred Voelpel<br/> Musical Director - Milton Greene<br/> </div> <div> PROGRAM<br/> <br/> 1. OVERTURE<br/> <br/> 2. EVERYTHING - The Company<br/> Song \"Everything\" by Fred Ebb, Norman Martin, Jay Thompson<br/> <br/> 3. THE ASTRONAUT<br/> The Astronaut - Len Maxwell<br/> His Wife - Sheila Smith<br/> <br/> 4. PEN PALS<br/> Sung by - Dorothy Loudon<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 5. A LITTLE NIGHT MUSIC<br/> Girl - Sheila Smith<br/> Boy - Jeff Bolton<br/> Lyrics by Marshall Barer; Music by Mary Rodgers<br/> <br/> 6. TWA Flight<br/> Citizens - Roy Harsh, Dan Smith, Virginia Vestoff<br/> Pilot - Len Maxwell<br/> Bombardier - John Smolko<br/> Navigator - Bill Heyer<br/> Hostess - Dorothy Loudon<br/> Sketch Written by Woody Allen<br/> <br/> 7. SOMETHING OLD, SOMETHING NEW<br/> Priscilla - Corinna Manetto<br/> Her Friends - Marty Clarke, Evelyne Maubert, Gail Jertson, Susan Kayne, Virginia Vestoff<br/> Words and Music by Mary Rodgers<br/> <br/> 8. THE PHILOSOPHERS<br/> Four Philosophers - Bill Heyer, Dorothy Loudon, Len Maxwell, Sheila Smith<br/> Song: \"Negative Thinking\" Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 9. IT'S VERY FUNNY<br/> Manicurist - Virginia Vestoff<br/> Lady - Gail Jertson<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 10. SMALL TALK<br/> First Man - Jeff Bolton<br/> Second Man - Ray Harsh<br/> Third Man - John Smolko<br/> Fourth Man - Dan Smith<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 11. REST IN PEACE OF MIND<br/> Grace - Sheila Smith<br/> Sally - Dorothy Loudon<br/> Les - Bill Heyer<br/> Sketch Written by Woody Allen<br/> <br/> 12. HARD TO GET<br/> Boy - John Smolko<br/> Co-eds - Jean Blanchard, Jeff Bolton, Roy Harsh, Gail Jertson, Susan Kayne, Evelyne Maubert, Dan Smith, Virginia Vestoff<br/> Lyrics by Marshall Barer; Music by Ralph Strain<br/> <br/> 13. WILLIAM<br/> Calypso Singers - Bill Heyer, Len Maxwell<br/> Words and Music by Norman Martin<br/> <br/> 14. RED HOT<br/> Compere - Jeff Bolton<br/> Connie - Dorothy Loudon<br/> Larry - John Smolko<br/> J.B. - Len Maxwell<br/> Ronnie Powers - Bill Heyer<br/> Chef - Christopher Hewett<br/> LaVerne - Sheila Smith<br/> Ginger - Virginia Vestoff<br/> Chorus - Jean Blanchard, Jeff Bolton, Marty Clarke, Roy Harsh, Gail Jertson, Susan Kayne, Corinna Manetto, Evelyne Maubert<br/> Babette LaFleur - Ilene Lehrman<br/> Showgirls - Harlene Allen, Lenore Arfer<br/> \"Red Hot\" by Fred Ebb and Jay Thompson<br/> <br/> </div> <div> Entire Production Staged Under the Supervision of MONROE B. HACK<br/> Technical Director and Stage Manager - George Thorn<br/> Assistant Technical Director and Stage Manager - Arthur Pepine<br/> Assistant to the Producer - Ilene Lehrman<br/> Assistant Musical Conductor - Myron Levite<br/> Music Arranged by - Jonathan Tunick, David Ross<br/> Assistants to the Costume Designer - Iris Tessitore and Rachel Mehr<br/> Assistant Technicians Ned Rosenberger, Lee Rhoads, Dan Forer<br/> Rehearsal Pianists - David Ross and Gary Geld<br/> Production Secretary - Harlene Allen<br/> Electrical Technician - Gene Koskey </div> "
+				
 		},
 		{
 			"id" : "a1864737725001",
 			"type" : "audio",
 			"title" : "Audio recording of Tamiment Playhouse (part 2)",
 			"display" : "single",
-			"link" : "http://bcove.me/b7t52g5p"
+			"link" : "http://bcove.me/b7t52g5p",
+			"caption":"<br/><em>Program text from NYU\'s Tamiment Archive</em><br/><br/><div> Tamiment Playhouse Presents<br/> \"Red Hot\"<br/> A Musical Revue<br/> Saturday and Sunday, July 25 and 26, 1959<br/> </div> <br/> <div> Producer-Director - MONROE B. HACK<br/> Director - Christopher Hewett<br/> Choreographer - Jim Hutchison<br/> Settings and Costumes by - Fred Voelpel<br/> Musical Director - Milton Greene<br/> </div> <div> PROGRAM<br/> <br/> 1. OVERTURE<br/> <br/> 2. EVERYTHING - The Company<br/> Song \"Everything\" by Fred Ebb, Norman Martin, Jay Thompson<br/> <br/> 3. THE ASTRONAUT<br/> The Astronaut - Len Maxwell<br/> His Wife - Sheila Smith<br/> <br/> 4. PEN PALS<br/> Sung by - Dorothy Loudon<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 5. A LITTLE NIGHT MUSIC<br/> Girl - Sheila Smith<br/> Boy - Jeff Bolton<br/> Lyrics by Marshall Barer; Music by Mary Rodgers<br/> <br/> 6. TWA Flight<br/> Citizens - Roy Harsh, Dan Smith, Virginia Vestoff<br/> Pilot - Len Maxwell<br/> Bombardier - John Smolko<br/> Navigator - Bill Heyer<br/> Hostess - Dorothy Loudon<br/> Sketch Written by Woody Allen<br/> <br/> 7. SOMETHING OLD, SOMETHING NEW<br/> Priscilla - Corinna Manetto<br/> Her Friends - Marty Clarke, Evelyne Maubert, Gail Jertson, Susan Kayne, Virginia Vestoff<br/> Words and Music by Mary Rodgers<br/> <br/> 8. THE PHILOSOPHERS<br/> Four Philosophers - Bill Heyer, Dorothy Loudon, Len Maxwell, Sheila Smith<br/> Song: \"Negative Thinking\" Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 9. IT'S VERY FUNNY<br/> Manicurist - Virginia Vestoff<br/> Lady - Gail Jertson<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 10. SMALL TALK<br/> First Man - Jeff Bolton<br/> Second Man - Ray Harsh<br/> Third Man - John Smolko<br/> Fourth Man - Dan Smith<br/> Lyrics by Fred Ebb; Music by Paul Klein<br/> <br/> 11. REST IN PEACE OF MIND<br/> Grace - Sheila Smith<br/> Sally - Dorothy Loudon<br/> Les - Bill Heyer<br/> Sketch Written by Woody Allen<br/> <br/> 12. HARD TO GET<br/> Boy - John Smolko<br/> Co-eds - Jean Blanchard, Jeff Bolton, Roy Harsh, Gail Jertson, Susan Kayne, Evelyne Maubert, Dan Smith, Virginia Vestoff<br/> Lyrics by Marshall Barer; Music by Ralph Strain<br/> <br/> 13. WILLIAM<br/> Calypso Singers - Bill Heyer, Len Maxwell<br/> Words and Music by Norman Martin<br/> <br/> 14. RED HOT<br/> Compere - Jeff Bolton<br/> Connie - Dorothy Loudon<br/> Larry - John Smolko<br/> J.B. - Len Maxwell<br/> Ronnie Powers - Bill Heyer<br/> Chef - Christopher Hewett<br/> LaVerne - Sheila Smith<br/> Ginger - Virginia Vestoff<br/> Chorus - Jean Blanchard, Jeff Bolton, Marty Clarke, Roy Harsh, Gail Jertson, Susan Kayne, Corinna Manetto, Evelyne Maubert<br/> Babette LaFleur - Ilene Lehrman<br/> Showgirls - Harlene Allen, Lenore Arfer<br/> \"Red Hot\" by Fred Ebb and Jay Thompson<br/> <br/> </div> <div> Entire Production Staged Under the Supervision of MONROE B. HACK<br/> Technical Director and Stage Manager - George Thorn<br/> Assistant Technical Director and Stage Manager - Arthur Pepine<br/> Assistant to the Producer - Ilene Lehrman<br/> Assistant Musical Conductor - Myron Levite<br/> Music Arranged by - Jonathan Tunick, David Ross<br/> Assistants to the Costume Designer - Iris Tessitore and Rachel Mehr<br/> Assistant Technicians Ned Rosenberger, Lee Rhoads, Dan Forer<br/> Rehearsal Pianists - David Ross and Gary Geld<br/> Production Secretary - Harlene Allen<br/> Electrical Technician - Gene Koskey </div> "
 		},
 		{
 			"id" : "261003",
@@ -11073,7 +11077,7 @@ LoudonMMS = [
 		{
 			"id" : "261012",
 			"type" : "images",
-			"title" : "Correspondence with James E. Loudon [Selections]",
+			"title" : "Correspondence with her father (James E. Loudon) [Selections]",
 			"display" : "single",
 			"images" : [
 					{
@@ -11148,13 +11152,9 @@ LoudonMMS = [
 		{
 			"id" : "261040",
 			"type" : "images",
-			"title" : "Correspondence with Norman Paris, 1958-1977, n.d. [Selections]",
+			"title" : "Correspondence with Norman Paris (husband) [Selections]",
 			"display" : "single",
 			"images" : [
-					{
-						"titles" : "Letter from Mark Paris (stepson) to Dorothy Loudon, mentioning The Annie Christmas Special",
-						"imgNums" : [ 4065429, 4065430, 4065431 ]
-					},
 					{
 						"titles" : "Letter from Norman Paris (husband) to Dorothy Loudon, discussing their marriage and his work",
 						"imgNums" : [ 4065432, 4065433, 4065434, 4065435,

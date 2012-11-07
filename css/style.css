@@ -228,5 +228,19 @@ ul#nav  {
 	
 }
 
-
-
+#nypl_bar {
+    background: url("../images/sprites.png?1337788121") no-repeat scroll 10px -151px black;
+    color: #AAAAAA;
+    font-family: "Kievit","Myriad Pro","Lucida Grande","Calibri",verdana,arial,helvetica,sans-serif;
+    font-size: 14px;
+    height: 30px;
+    margin: 0;
+    padding: 0 0 0 60px;
+    position: relative;
+}
+#nypl_bar a, #nypl_bar a:link, #nypl_bar a:visited {
+    color: #FFFFFF;
+}
+#footer{
+	padding-left:2ex;
+}

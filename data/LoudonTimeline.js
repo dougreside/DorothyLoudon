@@ -34,7 +34,7 @@ LoudonTimeline=
                 "startDate":"1946,6,1",
                 "endDate":"1962,1,1",
                 "headline":"Cabaret career",
-                "text":"<p>After signing with the top talent agency MCA, Loudon quickly became \"one of the most sought-after singers in the Bistro Belt,\" playing regular gigs at Le Ruban Bleu (at 4 E. 56th St.) and then the Blue Angel (a few blocks away at 152 E. 55th St.) as well as out-of-town engagements in Boston, Philadelphia, Cleveland, Dallas, and even Bermuda. Loudon developed a unique patter that interspersed comedic songs and monologues with straight renditions of classic numbers. [influences] Loudon recorded one album of this material, Live at the Blue Angel, for Coral Records in 1959.</p>",
+                "text":"<p>After signing with the top talent agency MCA, Loudon quickly became \"one of the most sought-after singers in the Bistro Belt,\" playing regular gigs at Le Ruban Bleu (at 4 E. 56th St.) and then the Blue Angel (a few blocks away at 152 E. 55th St.) as well as out-of-town engagements in Boston, Philadelphia, Cleveland, Dallas, and even Bermuda. Loudon developed a unique patter that interspersed comedic songs and monologues with straight renditions of classic numbers. Loudon recorded one album of this material, Live at the Blue Angel, for Coral Records in 1959.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062310",
