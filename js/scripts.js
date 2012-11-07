@@ -153,7 +153,7 @@
 				caption = anItem.title;
 				
 				
-				itemText=itemText+"<li><a href='#event/"+(key+1)+"/item/"+anItem.id+"'>"+caption+"</a></li>";
+				itemText=itemText+"<li><a class='fancyBoxInvoke' href='#event/"+(key+1)+"/item/"+anItem.id+"'>"+caption+"</a></li>";
 				}
 			});
 			itemText=itemText+"</ul></div></div><div>"+val.text+"</div></div>";	
@@ -177,6 +177,9 @@
 						
 	
 		});
+			 $('.fancyBoxInvoke').click(function(){
+				 processHash();
+			 })
 		     $(".relatedHead").bind('mouseenter',function(e){
 
 
