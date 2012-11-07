@@ -1,7 +1,6 @@
 
 	jQuery(function($) {
 		fb = $.fancybox;
-		//monthstring = ["Unknown","January","February","March","April","May","June","July","August","September","October","November","December"];
 		sorted = [];
 		function getHash(){
 			 hash = window.location.hash;
@@ -60,6 +59,7 @@
 				 else{
 					 if (typeof fb!=undefined){
 					 fb.close();
+					 
 					 }
 				 }
 			  
@@ -174,9 +174,7 @@
 			}
 			
 			$("#show-list>div").last().find("ul").append("<li><a class='showLink' href='#' id='event_"+(key+1)+"'>"+val.headline+" ["+val.startDate.substring(0,4)+"]</a></li>");
-			
-			//$("#overviewTable").append("<tr><td><span class='showTitle'><a class='showLink' id='event_"+(key+1)+"'>"+val.headline+"</a></span></td></tr>");
-			
+						
 	
 		});
 		     $(".relatedHead").bind('mouseenter',function(e){
@@ -210,24 +208,7 @@
 			e.preventDefault();
 
 		});
-
-
-		 
-   
-
-
-		
-		
-		
-
-	
-		
-		
-		
 		keyListen();
-
-		
-		
 		startCarousel();
 		processHash();
 		});	

@@ -419,37 +419,6 @@ if (thisItem.display=="single"){
 	});
 	
 	
-
-	// URIs - Format #/page/1 
-/*
-	Hash.on('^([0-9]+)\/([0-9]+)$', {
-		yep: function(path, parts) {
-			console.log(path);
-			var page = parseInt(parts[2]);
-			console.log("YEP "+parts[2]);
-			
-			if (showNum != parseInt(parts[1])){
-				console.log("new show");
-			 showNum = parseInt(parts[1]);
-			 $(".thumbnails>div>ul").empty();
-			 $(".magazine").turn("destroy");
-			 loadApp();
-			}
-			
-			if (page!==undefined) {
-				if ($('.magazine').turn('is'))
-					$('.magazine').turn('page', page);
-			}
-
-		},
-		nop: function(path) {
-			console.log("NOPE");
-			if ($('.magazine').turn('is'))
-				$('.magazine').turn('page', 1);
-		}
-	});
-
-*/
 $(window).ready(function(){
 	$("#ZoomIn").click(function(e){
 		e.preventDefault();
@@ -608,7 +577,7 @@ $(window).ready(function(){
 	resizeViewport();
 
 	$('.magazine').addClass('animated');
-	// $('#all').hide();
+
 }
 }
 
