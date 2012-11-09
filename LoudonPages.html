@@ -107,7 +107,7 @@ function shrinkPage(img){
 	vp = thisimg.parent().parent().parent();
 	vph = parseFloat(vp.height());
 	vpw = parseFloat(vp.width());
-	console.log(vph+" "+vpw);
+	
 	if (oih>oiw){
 	nih = parseFloat(vph)-50;
 	niw = parseFloat((nih*oiw)/oih);
@@ -236,9 +236,7 @@ if (thisItem.display=="single"){
 				$('.thumbnails .page-'+page).
 					parent().
 					addClass('current');
-				//console.log("RESIZE");
-				//$(this).turn('resize');
-				//console.log("RESIZE");
+				
 			},
 
 			turned: function(event, page, view) {
@@ -252,7 +250,7 @@ if (thisItem.display=="single"){
 					vp = thisimg.parent().parent().parent();
 					vph = parseFloat(vp.height());
 					vpw = parseFloat(vp.width());
-					console.log(vph+" "+vpw);
+					
 					if (oih>oiw){
 					nih = parseFloat(vph)-50;
 					niw = parseFloat((nih*oiw)/oih);
@@ -403,7 +401,7 @@ if (thisItem.display=="single"){
 
 			break;
 			case next:
-				console.log("RIGHT ARROW");
+				
 				//right arrow
 				$('.magazine').turn('next');
 				e.preventDefault();

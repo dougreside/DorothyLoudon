@@ -6,16 +6,17 @@
 			 hash = window.location.hash;
 			 if (hash.length>1){
 				 
-				  if (hash.indexOf("#")>0){
+				  if (hash.indexOf("#")>-1){
 					  hash = hash.substring(hash.indexOf("#")+1);
 				  }
 			 }
+			
 			 return hash;
 		}
 		function processHash(){
 			 hash = getHash()
 			 
-		 
+			
 			  parts = hash.split("/");  
 			
 			  if (parts.length>1){
@@ -24,6 +25,7 @@
 		 
 			  $( "#carousel" ).rcarousel( "goToPage", slide );
 			  }
+			  
 			  if (parts.length>2){
 				 switch (parts[2]){
 				
@@ -34,7 +36,8 @@
 			    
 			
 				 }
-			
+				 if (typeof framestring != "undefined"){
+		
 				fb(framestring, {
 					'hideOnOverlayClick' : false,
 					'hideOnContentClick' : false,
@@ -45,7 +48,11 @@
 						
 						$("#bookframe").focus();
 						keyListen();
-						 window.history.back();
+						hash = getHash();
+						resetEventHash("",hash,0,2)
+						
+						
+						 //window.history.back();
 					}
 					}
 				);
@@ -54,9 +61,11 @@
 				$(window).on("resize",function(){
 					fb.resize();
 				})
+				 }
 			  }
 			  
 				 else{
+				
 					 if (typeof fb!=undefined){
 					 fb.close();
 					 
@@ -65,14 +74,32 @@
 			  
 		
 		}
-
+function resetEventHash(base,hash,s,e){
+	
+	//hash = getHash();
+	parts = hash.split("/");
+	if (e<0){
+		e = parts.length;
+	}
+	newhash = base;
+	
+	for (var i = s;i<e;i++){
+		
+		newhash = newhash+parts[i]+"/"; 
+	}
+	newhash = newhash.substring(0,newhash.length-1);
+	window.location.hash = newhash;
+	}
 		function pageLoaded( event, data ) {
+
 			if (data.page>0){
 			row = $("#overviewTable").find("tr").eq(parseInt(data.page-1)).find("a");
 		
 			$(".selectedRow").removeClass("selectedRow");
 			$(row).addClass("selectedRow");
-			window.location.hash = "event/"+data.page;
+			hash = getHash();
+			newhash =  "event/"+data.page+"/";
+			resetEventHash(newhash,hash,2,-1);
 			
 			// populate related items
 			
