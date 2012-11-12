@@ -31,7 +31,7 @@
 				
 				 case "item":
 			     
-				framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
+				framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[3]+"/1'></iframe>";
 			     break;
 			    
 			
