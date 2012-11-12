@@ -20,7 +20,7 @@
   	<![endif]-->
 
 	<!-- initial jquery setup -->
-	<script type="text/javascript" src="./js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/jquery-1.8.2.min.js"></script>
 	
 	<!-- "Backstretch" script for full-screen background image -->
 	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
@@ -28,187 +28,17 @@
 	  $.backstretch("images/background.jpg", {speed: 150});
 	</script>
 	<!-- Fancybox -->
-	<script type="text/javascript" src="./vendor/fancybox/jquery.easing-1.3.pack.js"></script>
-	 	<script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	   <script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link type="text/css" rel="stylesheet" href="./vendor/fancybox/jquery.fancybox-1.3.4.css"></link>
-
+	<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.easing-1.3.pack.js"></script>
+	 	<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	   <script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.fancybox-1.3.4.css"></link>
 	
 	<!-- finding aid css -->
-	<style type="text/css" title="currentStyle">
-         body {
-		 font-size:.8em;
-		 color:##322423;
-		  line-height:1.7em;
-		
-		  }
-		 .eadheader{
-         display: none;
-         }
-         .unitdate {
-         display: inline;
-         }
-         .date{
-         display: inline;
-         }
-         .titleproper{
-         font-weight:bold;
-         font-size: 16pt;
-         padding-bottom: 1em;
-         padding-top:.5em;
-         }
-         .num{
-         font-weight:bold;
-         }
-         .titlepage{
-         line-height:1.5;
-         text-align: center;
-         }
-         .publisher{
-         padding-top: 1em;
-         padding-bottom: 1em;
-         line-height:1;
-         }
-         .address{
-         padding-top: 1em;
-         padding-bottom: 1em;
-         line-height:1;
-         }
-         .label{
-         display: inline;
-         font-weight:bold;
-         }
-         .defitem>.item{
-         display: inline;
-         }
-         .list{
-         padding-top: 1em;
-         padding-bottom: 2em;
-         }
-         .titlepage{
-         padding-bottom: 3em;
-         }
-         .head{
-         padding-top: 2px;
-         padding-bottom: 2px;
-         }
-         .descgrp>.head{
-         font-weight: bold;
-         font-size: 14pt;
-         padding-bottom: 1em;
-         padding-top: 1em;
-         }
-         .descgrp>div{
-         padding-left: 20px;
-         }
-         .descgrp>div.head{
-         padding-left: 0px;
-         }
-         .controlaccess>div{
-         padding-left: 20px;
-         }
-         .controllaccess>div.head{
-         padding-left: 0px;
-         }
-         .FindingAid{
-         /* width: 600px; */
-         }
-         .head{
-         font-weight:bold;
-         }
-         div.p {
-         padding-bottom: 1ex;
-         /* width: 500px; */
-         }
-         .title{
-         display: inline;
-         font-style: italic;
-		 font-size:1em;
-         }
-         .item{
-         display: block;
-         }
-         .c01, .c02, .c03, .c04, .c05, .c06, .c07, .c08, .c09, .c10, .c11, .c12 {
-         padding-left:20px;
-         }
-         .c01>.did{
-         font-weight: bold;
-         padding: 5px;
-         }
-         .physdesc{
-         padding-left:50px;
-         }
-         .unittitle{
-         padding: 10px;
-         display: inline;
-         padding-bottom:1px;
-         cursor: pointer;
-         }
-  
-         #mainContent{
-
-		 height:400px;
-		 overflow:auto;
-		margin-top:10px;
-
-		width:530px;
-         }
-         #main{
-         height:400px;}
-		
-         #sidebar{
-         /*float: left; 
-         width: 20%;
-         overflow:auto;*/
-         background-color:#F7CC8A;
-		 margin-top:10px;
-		 height:400px;
-		 padding-bottom:20px;
-         }
-         #navBar{
-         list-style: none;
-         padding-left:0;
-         }
-         #navBar li{
-         padding: 10px 5px 10px 5px;
-         /* border: thin solid #888; */
-         }
-		 #navBar ul.sub li {
-			padding-left:30px;
-		 }
-		 #navBar li a {
-		 	color:#4B3134;
-			font-size:100%;
-		 }
-         .headlink{
-         text-decoration: none;
-         color: white;
-         }
-         .seriestitle{
-         text-decoration: none;
-         color: white;
-         }
-         .box{
-         display: inline;
-		 padding:none;
-		 margin-bottom:none;
-		 background:none;
-         }
-         .folder{
-         display: inline;
-         }
-         #popBox{
-         display: none;
-         }
-         .container{
-         height:500;
-         }
-     
-      </style>
+	<link type="text/css" rel="stylesheet" title="currentStyle" href="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/css/finding-aid.css"></link>
 	
 	<!-- scripts for the finding aid -->
-	<!--<script type="text/JavaScript" src="./js/jquery-1.6.4.min.js"></script><script type="text/javascript" src="./js/eadui.js"></script><script type="text/javascript" src="./js/jquery-scrollTo.js"></script><script type="text/javascript" src="./vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script><script type="text/javascript" src="./vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script><script type="text/javascript" src="./js/underscore-min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./vendor/fancybox/jquery.fancybox-1.3.4.css" media="screen" />-->
+	<!--<script type="text/JavaScript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/jquery-1.6.4.min.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/eadui.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/jquery-scrollTo.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.mousewheel-3.0.4.pack.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.fancybox-1.3.4.pack.js"></script><script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/underscore-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/fancybox/jquery.fancybox-1.3.4.css" media="screen" />-->
 
     <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
@@ -226,10 +56,10 @@
 		<div id="FA-nav" class="span-20 last">
 			
 			<ul id="nav">
-					<li class="span-5 nav1 active"><a href="index.html"><h2>Timeline</h2></a></li>
-				<li class="span-5 nav2"><a href="biography.html"><h2>Biography</h2></a></li>
-				<li class="span-5 nav3"><a href="finding-aid.html"><h2>Finding Aid</h2></a></li>
-				<li class="span-5 last nav4"><a href="about.html"><h2>About</h2></a></li>
+				<li class="span-5 nav1"><a href="?v=timeline"><h2>Timeline</h2></a></li>
+				<li class="span-5 nav2"><a href="?v=biography"><h2>Biography</h2></a></li>
+				<li class="span-5 nav3 active"><a href="?v=finding-aid"><h2>Finding Aid</h2></a></li>
+				<li class="span-5 last nav4"><a href="?v=about"><h2>About</h2></a></li>
 			</ul>
 		</div>
 		<div id="FA-head" class="span-24 last clear">
@@ -239,7 +69,7 @@
 			
 			<div class="sidebar" id="sidebar">
 	            <ul id="navBar">
-	            <li><a class="headlink" href="./data/loudon.xml">Download EAD/XML</a></li>
+	            <li><a class="headlink" href="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/data/loudon.xml">Download EAD/XML</a></li>
 	               <li><a class="headlink" href="#top">Top</a></li> 
 	               <li><a class="headlink" href="#head_5">Series Descriptions and Container List</a></li>
 	               <ul class="sub">
@@ -4787,75 +4617,7 @@
     </div>
 
 	
-	<script type="text/javascript" >
-	fb = $.fancybox;
-	$(window).ready(function(){
-		resizeElements();
-		$(window).on("resize",function(){resizeElements();});
-		$(window).on("hashchange",function(path,parts){
-			  processHash();
-		});
-	});
-	
-	function resizeElements(){
-		totalH = $(window).height();
-		
-		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-50;
-		//$("#sidebar").height(smaller);
-		$("#main").height(smaller);
-		$("#mainContent").height(smaller);
-	}
-
-	function getHash(){
-		 hash = window.location.hash;
-		 if (hash.length>1){
-			 
-			  if (hash.indexOf("#")>0){
-				  hash = hash.substring(hash.indexOf("#")+1);
-			  }
-		 }
-		 return hash;
-	}
-	function processHash(){
-		 hash = getHash();
-		 
-	 
-		  parts = hash.split("/");  
-		
-		  if (parts.length>1){
-		  
-		  
-		     
-			framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[1]+"/1'></iframe>";
-		    
-		
-			fb(framestring, {
-				'hideOnOverlayClick' : false,
-				'hideOnContentClick' : false,
-				'scrolling' : true,
-				'autoScale' : true,
-				'autoDimensions' : true,
-				'onCleanup' : function(e) {
-				
-					 window.history.back();
-				}
-				}
-			);
-			fb.init();
-			$(window).on("resize",function(){
-				fb.resize();
-			})
-		  }
-		  else{
-				 if (typeof fb!=undefined){
-				 fb.close();
-				 }
-			 }
-			
-		  
-	
-	}
-	</script>
+	<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/finding-aid.js"></script>
 
 </body>
 </html>

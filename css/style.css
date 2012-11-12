@@ -229,7 +229,7 @@ ul#nav  {
 }
 
 #nypl_bar {
-    background: url("../images/sprites.png?1337788121") no-repeat scroll 10px -151px black;
+    background: url(https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/sprites.png?1337788121") no-repeat scroll 10px -151px black;
     color: #AAAAAA;
     font-family: "Kievit","Myriad Pro","Lucida Grande","Calibri",verdana,arial,helvetica,sans-serif;
     font-size: 14px;

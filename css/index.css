@@ -1,0 +1,49 @@
+#slidecontainer {
+				width: 800px;
+				height: 410px;
+				float:left;
+				margin: 0 auto;
+			}
+			
+			#carousel {
+				width: 780px;
+				margin: 0 auto;
+			}
+			
+			#ui-carousel-next, #ui-carousel-prev {
+				width: 60px;
+				height: 250px;
+				background: url(../images/prev.gif) transparent center center no-repeat;
+				display: block;
+	
+				top: 0;
+				z-index: 100;
+			}
+
+			#ui-carousel-next {
+				float:left;
+				background-image: url(../images/next.gif);
+			}
+
+			#ui-carousel-prev {
+				float: left;
+			}
+			
+			#ui-carousel-next > span, #ui-carousel-prev > span {
+				display: none;
+			}
+			
+			.slide {
+				margin: 0;
+				position: relative;
+			}
+			.relatedHead ul{
+			display:none;
+			overflow:auto;
+			height:auto;
+			padding:5px 0;
+			}
+			.relatedHead {
+			z-index: 999;
+			 background:transparent url('../images/spacer.png') 0 0 repeat; 
+			}

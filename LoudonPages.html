@@ -275,11 +275,13 @@ if (thisItem.display=="single"){
 				}
 				else{
 				sidebarText = "<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div>";
+				if  (typeof itemImages[page]!="undefined"){
 				if (($(this).turn("display")=="double") && (itemImages[page-1].caption!=itemImages[page].caption)){
 						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div>";
 				
 					}
 					$("#sidebar").html(sidebarText+"</div>");
+				}
 				}
 			},
 
