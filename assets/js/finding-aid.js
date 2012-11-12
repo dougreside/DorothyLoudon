@@ -36,7 +36,7 @@ fb = $.fancybox;
 		  
 		  
 		     
-			framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[1]+"/1'></iframe>";
+			framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[1]+"/1'></iframe>";
 		    
 		
 			fb(framestring, {
