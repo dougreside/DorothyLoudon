@@ -4430,7 +4430,7 @@ LoudonMMS = [
 		{
 			"id" : "262158",
 			"type" : "images",
-			"title" : "Princess Grace, Jerry's Girls, 1982, 1985-1987, n.d. -- Scrapbook",
+			"title" : "Princess Grace, Jerry's Girls -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Princess Grace and the Fazzaris and Jerry's Girls Scrapbook]",
@@ -4908,7 +4908,7 @@ LoudonMMS = [
 		{
 			"id" : "262225",
 			"type" : "images",
-			"title" : "Show Boat, 1993-1996 -- Scrapbook",
+			"title" : "Show Boat -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Show Boat Scrapbook]",
@@ -5022,7 +5022,7 @@ LoudonMMS = [
 		{
 			"id" : "262251",
 			"type" : "images",
-			"title" : "Sweeney Todd/Comedy Tonight, 1979-1980, 1994 -- Scrapbook",
+			"title" : "Sweeney Todd/Comedy Tonight -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Sweeney Todd and Comedy Tonight Scrapbook]",
@@ -5316,7 +5316,7 @@ LoudonMMS = [
 		{
 			"id" : "262300",
 			"type" : "images",
-			"title" : "Three Men on a Horse, The Women, The Matchmaker, 1969, 1975, 1991, 1995 -- Scrapbook",
+			"title" : "Three Men on a Horse, The Women, The Matchmaker -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for Three Men on a Horse, The Women, and The Matchmaker]",
@@ -5610,7 +5610,7 @@ LoudonMMS = [
 		{
 			"id" : "262360",
 			"type" : "images",
-			"title" : "The West Side Waltz, 1980-1982 -- Scrapbook I",
+			"title" : "The West Side Waltz -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 1)]",
@@ -5848,7 +5848,7 @@ LoudonMMS = [
 		{
 			"id" : "262385",
 			"type" : "images",
-			"title" : "The West Side Waltz, 1980-1982 -- Scrapbook II",
+			"title" : "The West Side Waltz -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 2)]",
@@ -6126,7 +6126,7 @@ LoudonMMS = [
 		{
 			"id" : "262428",
 			"type" : "images",
-			"title" : "The West Side Waltz, 1980-1982 -- Scrapbook III",
+			"title" : "The West Side Waltz -- Scrapbook III",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's scrapbook for The West Side Waltz (Volume 3)]",
@@ -7375,7 +7375,7 @@ LoudonMMS = [
 		{
 			"id" : "261592",
 			"type" : "images",
-			"title" : "Annie 2: Miss Hannigan's Revenge, 1987-1990 -- Scrapbook",
+			"title" : "Annie 2: Miss Hannigan's Revenge -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Annie 2: Miss Hannigan's Revenge Scrapbook)]",
@@ -7725,7 +7725,7 @@ LoudonMMS = [
 		{
 			"id" : "261671",
 			"type" : "images",
-			"title" : "Ballroom, 1978 -- Scrapbook I",
+			"title" : "Ballroom -- Scrapbook I",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 1)]",
@@ -7946,7 +7946,7 @@ LoudonMMS = [
 		{
 			"id" : "261709",
 			"type" : "images",
-			"title" : "Ballroom, 1978-1979  -- Scrapbook II",
+			"title" : "Ballroom -- Scrapbook II",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Ballroom Scrapbook (Volume 2)]",
@@ -8136,7 +8136,7 @@ LoudonMMS = [
 		{
 			"id" : "261746",
 			"type" : "images",
-			"title" : "Driving Miss Daisy, 1963, 1988-1994  -- Scrapbook",
+			"title" : "Driving Miss Daisy  -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover for Dorothy Loudon's Driving Miss Daisy Scrapbook (Volume 1)]",
@@ -8735,7 +8735,7 @@ LoudonMMS = [
 		{
 			"id" : "261851",
 			"type" : "images",
-			"title" : "The Fig Leaves Are Falling - Lolita, My Love, 1968-1969, 1971 -- Scrapbook",
+			"title" : "The Fig Leaves Are Falling - Lolita, My Love -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for (The) Fig Leaves (Are Falling)",
@@ -8957,7 +8957,7 @@ LoudonMMS = [
 		{
 			"id" : "261882",
 			"type" : "images",
-			"title" : "Garbo Talks, Sondheim: A Celebration at Carnegie Hall, 1984, 1991-1993 -- Scrapbook",
+			"title" : "Garbo Talks, Sondheim: A Celebration at Carnegie Hall -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of scrapbook]",
@@ -9202,7 +9202,7 @@ LoudonMMS = [
 		{
 			"id" : "261926",
 			"type" : "images",
-			"title" : "The Gary Moore Show -- Scrapbook",
+			"title" : "The Garry Moore Show -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for The Garry Moore Show]",
@@ -9468,7 +9468,7 @@ LoudonMMS = [
 		{
 			"id" : "261960",
 			"type" : "images",
-			"title" : "Luv, 1965-1966, 1984 -- Scrapbook",
+			"title" : "Luv -- Scrapbook",
 			"images" : [
 					{
 						"titles" : "[Front cover of Dorothy Loudon's scrapbook for Luv]",
@@ -10199,15 +10199,6 @@ LoudonMMS = [
 					} ]
 		},
 		{
-			"id" : "261080",
-			"type" : "images",
-			"title" : "General advice for success",
-			"images" : [ {
-				"titles" : "General advice for success (among Dorothy's personal papers)",
-				"imgNums" : [ 4065472, 4065473 ]
-			} ]
-		},
-		{
 			"id" : "261110",
 			"type" : "images",
 			"title" : "Marriage certificate of Norman T. Paris and Dorothy Loudon, 1971",
@@ -10384,10 +10375,10 @@ LoudonMMS = [
 		{
 			"id" : "4065526",
 			"type" : "images",
-			"title" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
+			"title" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1967]",
 			"display" : "single",
 			"images" : [ {
-				"titles" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1963?]",
+				"titles" : "Telegram from Dom DeLuise (and family) to Dorothy Loudon [regarding Luv, 1967]",
 				"imgNums" : [ 4065526 ]
 			} ]
 		},

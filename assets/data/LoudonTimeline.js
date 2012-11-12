@@ -148,7 +148,7 @@ LoudonTimeline=
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[262545, 261463,261515,26551,261183,261183.5]
+                "relatedItems":[262545, 261463,261515,261551,261183,261183.5]
             },
 			{
                 "startDate":"1978,12,14",
@@ -348,11 +348,11 @@ LoudonTimeline=
                 "text":"<p>Sidelined by health problems during her last few years, Loudon made a Broadway comeback as Carlotta Vance in the 2002 revival of <em>Dinner at Eight</em>. But it was not to be: Loudon fell ill with chronic labyrinthitis and dropped out after the first preview; Marian Seldes replaced her. She died a year later, of cancer, on November 14, 2003. A shy person off-stage (her principal hobby was sewing), Loudon was nonetheless a self-proclaimed \"benefit queen,\" devoting much of her spare time to raising money for AIDS research, not-for profit theatre, the Actors\' Fund, and other causes. The Dorothy Loudon Foundation continues this charitable work.</p>",
                 "asset":
                 {
-                    "media":"http://images.nypl.org/index.php?t=w&id=4065617",
+                    "media":"https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/LoudonBench.jpg",
                     "credit":"",
                     "caption":"Scrapbook"
                 },
-                "relatedItems":[262540,261057,260994,262523,261080,261341,261126,262491,261277,262505,262506,262509,262511,262515]
+                "relatedItems":[262540,261057,260994,261080,261126,261341,261277,262491,262505,262506,262509,262511,262515,262523]
             },
             {
                 "startDate":"1971",
