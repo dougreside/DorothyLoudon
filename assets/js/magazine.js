@@ -58,85 +58,10 @@ function loadPage(page, pageElement,bookDisplay) {
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
 	
 	
-	loadRegions(page, pageElement);
-
-}
-
-// Load regions
-
-function loadRegions(page, element) {
-
-/*	$.getJSON('pages/'+page+'-regions.json').
-		done(function(data) {
-
-			$.each(data, function(key, region) {
-				addRegion(region, element);
-			});
-		});*/
-}
-
-// Add region
-
-function addRegion(region, pageElement) {
 	
-	var reg = $('<div />', {'class': 'region  ' + region['class']}),
-		options = $('.magazine').turn('options'),
-		pageWidth = options.width/2,
-		pageHeight = options.height;
-
-	reg.css({
-		top: Math.round(region.y/pageHeight*100)+'%',
-		left: Math.round(region.x/pageWidth*100)+'%',
-		width: Math.round(region.width/pageWidth*100)+'%',
-		height: Math.round(region.height/pageHeight*100)+'%'
-	}).attr('region-data', $.param(region.data||''));
-
-
-	reg.appendTo(pageElement);
-}
-
-function regionClick(event) {
-
-	var region = $(event.target);
-	if (region.hasClass('region')) {
-		
-		var regionType = $.trim(region.attr('class').replace('region', ''));
-
-		return processRegion(region, regionType);
-	}
 
 }
 
-function processRegion(region, regionType) {
-
-	data = decodeParams(region.attr('region-data'));
-
-	switch (regionType) {
-		case 'link' :
-
-			window.open(data.url);
-
-		break;
-		case 'zoom' :
-
-			var regionOffset = region.offset(),
-				viewportOffset = $('.magazine-viewport').offset(),
-				pos = {
-					x: regionOffset.left-viewportOffset.left,
-					y: regionOffset.top-viewportOffset.top
-				};
-
-			$('.magazine-viewport').zoom('zoomIn', pos);
-
-		break;
-		case 'to-page' :
-
-			$('.magazine').turn('page', data.page);
-
-		break;
-	}
-
-}
 
 // Load large page
 

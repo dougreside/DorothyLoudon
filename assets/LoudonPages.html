@@ -59,12 +59,17 @@ overflow: auto;
 }
 body{
 overflow: hidden;}
+
 </style>
 </head>
 <body>
 <div id="sidebar">
 	<h3 id="itemTitle">Loading...</h3>
+	<div id="instructions">
 	<p><span id="zoomInstructions">Double click to zoom; use the arrow keys to move between pages.</span></p>
+	</div>
+	<div id="captions">
+	</div>
 </div>
 <div id="all">
 
@@ -240,8 +245,9 @@ if (thisItem.display=="single"){
 			},
 
 			turned: function(event, page, view) {
-			
+				
 				disableControls(page);
+				$("#captions").empty();
 				if ($(this).turn("display")=="single"){
 				vizimgs = $(".page img").filter(":visible").each(function(key,val){
 					thisimg = $(val);
@@ -269,20 +275,33 @@ if (thisItem.display=="single"){
 				}
 				
 				$(this).turn('center');
-			
-				if (page==1) { 
+				
+				if (page<2) { 
 					$(this).turn('peel', 'br');
+			
+					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"</div>")
 				}
 				else{
-				sidebarText = "<div class='captions'><div class='captionLeft'>"+itemImages[page-1].caption+"</div>";
+				
+					$("#sidebar").html("<div id='captions'></div>");
+					if (page%2==0){
+						cap = page
+					}
+					else{
+						cap = page-1;
+					}
+				sidebarText = "<div class='captionLeft'>"+itemImages[cap-1].caption+"</div>";
 				if  (typeof itemImages[page]!="undefined"){
-				if (($(this).turn("display")=="double") && (itemImages[page-1].caption!=itemImages[page].caption)){
-						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[page].caption+"</div>";
+			
+				if (($(this).turn("display")=="double") && (itemImages[cap-1].caption!=itemImages[cap].caption)){
+						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[cap].caption+"</div>";
 				
 					}
-					$("#sidebar").html(sidebarText+"</div>");
+					
 				}
+				$("#captions").html(sidebarText);
 				}
+		
 			},
 
 			missing: function (event, pages) {
@@ -519,11 +538,7 @@ $(window).ready(function(){
 
 	// Regions
 
-	if ($.isTouch) {
-		$('.magazine').bind('touchstart', regionClick);
-	} else {
-		$('.magazine').click(regionClick);
-	}
+
 
 	// Events for the next button
 
