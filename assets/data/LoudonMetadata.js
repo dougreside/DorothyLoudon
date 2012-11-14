@@ -3993,78 +3993,6 @@ LoudonMMS = [
 						"imgNums" : [ 4061638 ]
 					},
 					{
-						"titles" : "[Telegram from Leo Lerman to Dorothy Loudon; June 5, 1984]",
-						"imgNums" : [ 4061639 ]
-					},
-					{
-						"titles" : "[Cast of Los Angeles production of Noises Off: (clockwise from lower left) Christian Clemenson, Brian Murray, Linda Thorson, Victor Garber, Amy Wright, Douglas Seale, Dorothy Loudon, Deborah Rush, Paxton Whitehead; January 3, 1985]",
-						"imgNums" : [ 4061640 ]
-					},
-					{
-						"titles" : "[(left to right) Douglas Seale, Linda Thorson, Dorothy Loudon, and Brian Murray in Noises Off]",
-						"imgNums" : [ 4061641 ]
-					},
-					{
-						"titles" : "[(left to right) Paxton Whitehead, Dorothy Loudon, Brian Murray, Linda Thorson, and Victor Garber in Noises Off]",
-						"imgNums" : [ 4061642 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon (left) during the Los Angeles production of Noises Off; March 20, 1985]",
-						"imgNums" : [ 4061643 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon during the Los Angeles production of Noises Off; March 20, 1985]",
-						"imgNums" : [ 4061644 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061645 ]
-					},
-					{
-						"titles" : "[Richard Thomas and Dorothy Loudon during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061646 ]
-					},
-					{
-						"titles" : "[Roddy McDowall (far left) and Dorothy Loudon during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061647 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon during the Los Angeles production of Noises Off; March 20, 1985]",
-						"imgNums" : [ 4061648 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon (right) during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061649 ]
-					},
-					{
-						"titles" : "[James Earl Jones (center) and Dorothy Loudon during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061650 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon (left) during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061651 ]
-					},
-					{
-						"titles" : "[Victor Garber and Dorothy Loudon during the Los Angeles production of Noises Off]",
-						"imgNums" : [ 4061652 ]
-					},
-					{
-						"titles" : "[Cast of Los Angeles production of Noises Off: (clockwise from lower left) Christian Clemenson, Brian Murray, Linda Thorson, Victor Garber, Amy Wright, Douglas Seale, Dorothy Loudon, Deborah Rush, Paxton Whitehead; January 3, 1985]",
-						"imgNums" : [ 4061653 ]
-					},
-					{
-						"titles" : "[Letter from Vincent B. Vitelli to Dorothy Loudon; January 16, 1984]",
-						"imgNums" : [ 4061654 ]
-					},
-					{
-						"titles" : "[Invitation to The Friends of George Spelvin luncheon; January 19, 1984]",
-						"imgNums" : [ 4061655 ]
-					},
-					{
-						"titles" : "[Invitation to reception following opening night performance of Noises Off at the John F. Kennedy Center for the Performing Arts; October 26, 1983]",
-						"imgNums" : [ 4061656 ]
-					},
-					{
 						"titles" : "[Front cover for Dorothy Loudon's Noises Off Scrapbook (Volume 2)]",
 						"imgNums" : [ 4061574 ]
 					},
@@ -5183,135 +5111,8 @@ LoudonMMS = [
 					{
 						"titles" : "Trio performs 'Comedy Tonight' through Deca. 11 [The Advocate (Stamford, CT); November 30, 1994]",
 						"imgNums" : [ 4061908 ]
-					},
-					{
-						"titles" : "[Lapel button from Sweeney Todd: The Demon Barber of Fleet Street]",
-						"imgNums" : [ 4061909 ]
-					},
-					{
-						"titles" : "[Memorandum from Alexander H. Cohen to Joy Behar, Michael Davis, Dorothy Loudon, and Mort Sahl, regarding Comedy Tonight; December 22, 1994]",
-						"imgNums" : [ 4061910 ]
-					},
-					{
-						"titles" : "[Letter from Alexander H. Cohen to Dorothy Loudon; January 8, 1992]",
-						"imgNums" : [ 4061911 ]
-					},
-					{
-						"titles" : "[Letter from Martin E. Segal to Dorothy Loudon; December 27, 1994]",
-						"imgNums" : [ 4061912 ]
-					},
-					{
-						"titles" : "[Letter from Alexander H. Cohen to Carl Reiner; December 16, 1991]",
-						"imgNums" : [ 4061913 ]
-					},
-					{
-						"titles" : "[Note from Harold Prince to Dorothy Loudon]",
-						"imgNums" : [ 4061914 ]
-					},
-					{
-						"titles" : "[Postcard from J.V., inscribed]",
-						"imgNums" : [ 4061915 ]
-					},
-					{
-						"titles" : "[Card from Irene Brennan to Dorothy Loudon]",
-						"imgNums" : [ 4061916 ]
-					},
-					{
-						"titles" : "[Card from Amos Bissonnette to Dorothy Loudon; February 15, 1994]",
-						"imgNums" : [ 4061917 ]
-					},
-					{
-						"titles" : "[Letter from Jeff to Dorothy Loudon]",
-						"imgNums" : [ 4061918 ]
-					},
-					{
-						"titles" : "[Card from Susan Martini to Dorothy Loudon; February 15, 1994]",
-						"imgNums" : [ 4061919 ]
-					},
-					{
-						"titles" : "[Valentine's Day card from Lionel Larner to Dorothy Loudon]",
-						"imgNums" : [ 4061920 ]
-					},
-					{
-						"titles" : "[Card to Dorothy Loudon from a member of the Driving Miss Daisy company]",
-						"imgNums" : [ 4061921 ]
-					},
-					{
-						"titles" : "[Postcard from Al Hamacher to Dorothy Loudon]",
-						"imgNums" : [ 4061922 ]
-					},
-					{
-						"titles" : "[Card from Ted Lange to Dorothy Loudon; February 20, 1994]",
-						"imgNums" : [ 4061923 ]
-					},
-					{
-						"titles" : "[Card from Ted Lange to Dorothy Loudon; February 15, 1994]",
-						"imgNums" : [ 4061924 ]
-					},
-					{
-						"titles" : "[Card from Starla Jean to Dorothy Loudon]",
-						"imgNums" : [ 4061925 ]
-					},
-					{
-						"titles" : "[Card from Freddie to Dorothy Loudon]",
-						"imgNums" : [ 4061926 ]
-					},
-					{
-						"titles" : "[Card from ? to Dorothy Loudon]",
-						"imgNums" : [ 4061927 ]
-					},
-					{
-						"titles" : "[Card from Ron to Dorothy Loudon]",
-						"imgNums" : [ 4061928 ]
-					},
-					{
-						"titles" : "[Card from Chita (Rivera?) and David to Dorothy Loudon]",
-						"imgNums" : [ 4061929 ]
-					},
-					{
-						"titles" : "[Card from Philip Langner and Robert Franz]",
-						"imgNums" : [ 4061930 ]
-					},
-					{
-						"titles" : "[Note from Harold Prince to Dorothy Loudon; February 15, 1995]",
-						"imgNums" : [ 4061931 ]
-					},
-					{
-						"titles" : "[Note from Harold Prince to Dorothy Loudon; October 11, 1995]",
-						"imgNums" : [ 4061932 ]
-					},
-					{
-						"titles" : "[Note from Harold Prince to Dorothy Loudon; May 12, 1996]",
-						"imgNums" : [ 4061933 ]
-					},
-					{
-						"titles" : "[Letter from Richard Barr and Charles Woodward to Dorothy Loudon; February 24, 1982]",
-						"imgNums" : [ 4061934 ]
-					},
-					{
-						"titles" : "[Letter from Lionel Larner to Richard Barr and Charles Woodward, regarding terms of Dorothy Loudon's contract for Sweeney Todd; October 24, 1979]",
-						"imgNums" : [ 4061935 ]
-					},
-					{
-						"titles" : "'Comedy Tonight' [Variety; December 19, 1994]",
-						"imgNums" : [ 4061936 ]
-					},
-					{
-						"titles" : "Mighty Mixture",
-						"imgNums" : [ 4061937 ]
-					},
-					{
-						"titles" : "Playbill for Sweeney Todd",
-						"imgNums" : [ 4061938 ]
-					},
-					{
-						"titles" : "[Advertisement congratulating Dorothy Loudon for her acclaim in Sweeney Todd; Variety; June 4, 1980]",
-						"imgNums" : [ 4061939 ]
-					},
-					{
-						"titles" : "[Advertisement congratulating Dorothy Loudon for her acclaim in Sweeney Todd; Hollywood Reporter; June 6, 1980]",
-						"imgNums" : [ 4061940 ]
-					} ]
+					}
+					 ]
 		},
 		{
 			"id" : "262300",
@@ -5405,14 +5206,6 @@ LoudonMMS = [
 					{
 						"titles" : "Of this and of that: revival of the fittest [left; Newsday; November 8, 1969]",
 						"imgNums" : [ 4061961 ]
-					},
-					{
-						"titles" : "What ails Broadway? [Entertainment World; December 16, 1969]",
-						"imgNums" : [ 4061962 ]
-					},
-					{
-						"titles" : "What ails Broadway? [Entertainment World; December 16, 1969]",
-						"imgNums" : [ 4061963 ]
 					},
 					{
 						"titles" : "'Orchestrating' the revival takes 37 years off 'women's' age [top; Philadelphia Inquirer; April 8, 1973]",
@@ -5589,23 +5382,8 @@ LoudonMMS = [
 					{
 						"titles" : "[Snapshots of Dorothy Loudon backstage, wearing wig and/or hat for The Matchmaker]",
 						"imgNums" : [ 4062007 ]
-					},
-					{
-						"titles" : "[Program for The Women; The Atlantic Theatre; June 12, 1995]",
-						"imgNums" : [ 4062008 ]
-					},
-					{
-						"titles" : "[Note from Katy Bolger to Dorothy Loudon; June 14, 1995]",
-						"imgNums" : [ 4062009 ]
-					},
-					{
-						"titles" : "[Letter from Katy Bolger and Dana Segal (producers of The Women) to Dorothy Loudon; May 23, 1995]",
-						"imgNums" : [ 4062010 ]
-					},
-					{
-						"titles" : "[Cast list as of May 23, 1995 for The Women]",
-						"imgNums" : [ 4062011 ]
-					} ]
+					}
+				]
 		},
 		{
 			"id" : "262360",
@@ -6089,39 +5867,7 @@ LoudonMMS = [
 					{
 						"titles" : "[Event listings including capsule review of The West Side Waltz; top left; This Week; April 3, 1982]",
 						"imgNums" : [ 4062127 ]
-					},
-					{
-						"titles" : "[Card from Ludi Claire to Dorothy Loudon]",
-						"imgNums" : [ 4062128 ]
-					},
-					{
-						"titles" : "[Card from John to Dorothy Loudon]",
-						"imgNums" : [ 4062129 ]
-					},
-					{
-						"titles" : "[Card from Angela to Dorothy Loudon]",
-						"imgNums" : [ 4062130 ]
-					},
-					{
-						"titles" : "[Card, probably from Ernest Thompson, to Dorothy Loudon; July 7, 1982]",
-						"imgNums" : [ 4062131 ]
-					},
-					{
-						"titles" : "[Letter from Katharine Hepburn to Dorothy Loudon; September 29, 1982]",
-						"imgNums" : [ 4062132 ]
-					},
-					{
-						"titles" : "[Note from Kate (Katharine Hepburn) to Dorothy Loudon]",
-						"imgNums" : [ 4062133 ]
-					},
-					{
-						"titles" : "[Letter from Robert Whitehead to Dorothy Loudon; August 9, 1982]",
-						"imgNums" : [ 4062134 ]
-					},
-					{
-						"titles" : "[Advertisement congratulating Dorothy Loudon for critics' reception of her performance in The West Side Waltz; Variety; May 5, 1982]",
-						"imgNums" : [ 4062135 ]
-					} ]
+					}]
 		},
 		{
 			"id" : "262428",
@@ -6769,68 +6515,6 @@ LoudonMMS = [
 					{
 						"titles" : "[Invitation to the New Dramatists 42nd Annual Spring Luncheon; top; May 21, 1991]",
 						"imgNums" : [ 4062292 ]
-					},
-					{
-						"titles" : "[Card from Gary Miller (Music Director, NYC Gay Men's Chorus) to Dorothy Loudon]",
-						"imgNums" : [ 4062293 ]
-					},
-					{
-						"titles" : "[Program for A Tribute to Burton Lane]",
-						"imgNums" : [ 4062294 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon and Burton Lane]",
-						"imgNums" : [ 4062295 ]
-					},
-					{
-						"titles" : "You can see forever [New York Observer; May 22, 1995]",
-						"imgNums" : [ 4062296 ]
-					},
-					{
-						"titles" : "[Letter from Nancy Sondag to Dorothy Loudon; June 28, 1995]",
-						"imgNums" : [ 4062297 ]
-					},
-					{
-						"titles" : "[Hearts & Voices Scroll of Appreciation for Dorothy Loudon]",
-						"imgNums" : [ 4062298 ]
-					},
-					{
-						"titles" : "[Card from Jeff to Dorothy Loudon, with attached photograph of Loudon backstage with others including Christine Baranski; April 23, 1994]",
-						"imgNums" : [ 4062299 ]
-					},
-					{
-						"titles" : "[Playbill for Night of 100 Stars; February 14, 1982]",
-						"imgNums" : [ 4062300 ]
-					},
-					{
-						"titles" : "[Letter from Shirley Scully to Dorothy Loudon; April 19, 1994]",
-						"imgNums" : [ 4062301 ]
-					},
-					{
-						"titles" : "[Letter from Gary Stevens to Dorothy Loudon; April 15, 1994]",
-						"imgNums" : [ 4062302 ]
-					},
-					{
-						"titles" : "[Letter from Daniel Kaplan and Jacqueline Rosenthal to Dorothy Loudon; June 3, 1994]",
-						"imgNums" : [ 4062303 ]
-					},
-					{
-						"titles" : "[Lyrics for Broadway Medley from Night of 100 Stars]",
-						"imgNums" : [ 4062304 ]
-					},
-					{
-						"titles" : "[Letter from Thomas G. Dunn to Dorothy Loudon; June 7, 1983]",
-						"imgNums" : [ 4062305 ]
-					},
-					{
-						"titles" : "[Card from \"Piano playing Peter\" to Dorothy Loudon]",
-						"imgNums" : [ 4062306 ]
-					}, {
-						"titles" : "Literacy volunteers [Their World; 1984]",
-						"imgNums" : [ 4062307 ]
-					}, {
-						"titles" : "Opening nights [April 25, 1994]",
-						"imgNums" : [ 4062308 ]
 					} ]
 		},
 		{
@@ -6975,19 +6659,7 @@ LoudonMMS = [
 						"imgNums" : [ 4062341 ]
 					},
 					{
-						"titles" : "Hotel Chase, St. L. [bottom left]",
-						"imgNums" : [ 4062343 ]
-					},
-					{
-						"titles" : "[Card advertising the Chase Club, with performers Ted Lewis and Dorothy Loudon; autographed, possibly by Joan Lowe; bottom left]",
-						"imgNums" : [ 4062346 ]
-					},
-					{
-						"titles" : "[Advertisement for Ted Lewis, performing at the Italian Village; top right]",
-						"imgNums" : [ 4062345 ]
-					},
-					{
-						"titles" : "Ted Lewis will open tomorrow [top left; San Francisco Chronicle; September 18, 1953]",
+						"titles" : "Ted Lewis will open tomorrow [top left; San Francisco Chronicle; September 18, 1953]; Hotel Chase, St. L. [bottom left]",
 						"imgNums" : [ 4062342 ]
 					},
 					{
@@ -7165,50 +6837,6 @@ LoudonMMS = [
 					{
 						"titles" : "[Annie closing party invitation]",
 						"imgNums" : [ 4048500 ]
-					},
-					{
-						"titles" : "Equity PI For 'Annie' [November 25, 1977]",
-						"imgNums" : [ 4048501 ]
-					},
-					{
-						"titles" : "The voice of Broadway [typescript of syndicated column; September 29, 1977]",
-						"imgNums" : [ 4048502 ]
-					},
-					{
-						"titles" : "[Annie program]",
-						"imgNums" : [ 4048503 ]
-					},
-					{
-						"titles" : "Theatre: Annie [MD; August 1977]",
-						"imgNums" : [ 4048504 ]
-					},
-					{
-						"titles" : "Dorothy Loudon: Talk About Survival [incomplete, see pages 12-18; After Dark; October 1977]",
-						"imgNums" : [ 4048505 ]
-					},
-					{
-						"titles" : "[National Musical Theater Autograph Gala poster]",
-						"imgNums" : [ 4048506 ]
-					},
-					{
-						"titles" : "[1977 Cue Golden Apple Awards invitation]",
-						"imgNums" : [ 4048507 ]
-					},
-					{
-						"titles" : "[Press release announcing Dorothy Loudon as recipient of the Albert Einstein College of Medicine Women's Division's Spirit of Achievement Award]",
-						"imgNums" : [ 4048508 ]
-					},
-					{
-						"titles" : "[Letter from Mary Wickes to Dorothy Loudon; December 4, 1977]",
-						"imgNums" : [ 4048509 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon with Sammy Davis, Jr.]",
-						"imgNums" : [ 4048510 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon with Sammy Davis Jr., and Altovise Davis]",
-						"imgNums" : [ 4048511 ]
 					},
 
 					{
@@ -8346,14 +7974,7 @@ LoudonMMS = [
 						"titles" : "Kennedys' Fla. tourist woes; enough already of Michael! [New York Post; February 23, 1994]",
 						"imgNums" : [ 4061126 ]
 					},
-					{
-						"titles" : "Celebrate 75 years of The Theatre Guild",
-						"imgNums" : [ 4061127 ]
-					},
-					{
-						"titles" : "Celebrate 75 years of The Theatre Guild [verso of preceding page]",
-						"imgNums" : [ 4061128 ]
-					},
+					
 					{
 						"titles" : "[Letter from Robert Franz and Philip Langner of The Theatre Guild to Dorothy Loudon; September 2, 1993]",
 						"imgNums" : [ 4061129 ]
@@ -8457,70 +8078,8 @@ LoudonMMS = [
 					{
 						"titles" : "[Magazine advertisement for Driving Miss Daisy; top]",
 						"imgNums" : [ 4061152 ]
-					},
-					{
-						"titles" : "[Telegram from Joe Kitness to Dorothy Loudon; December 12, 1978]",
-						"imgNums" : [ 4061153 ]
-					},
-					{
-						"titles" : "[Letter from Philip Langner to Dorothy Loudon; January 20, 1994]",
-						"imgNums" : [ 4061154 ]
-					},
-					{
-						"titles" : "[Fan letter from Gerry Aldrich to Dorothy Loudon]",
-						"imgNums" : [ 4061155 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon with Driving Miss Daisy co-stars Ted Lange (lower right) and Al Hamacher (lower right); in cardboard frame signed by Lange and Hamacher; February 20, 1994]",
-						"imgNums" : [ 4061156 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon in Driving Miss Daisy]",
-						"imgNums" : [ 4061157 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon, Matt DeCaro (standing), and Bill Cobbs in Driving Miss Daisy]",
-						"imgNums" : [ 4061158 ]
-					},
-					{
-						"titles" : "[Note to Dorothy Loudon from Kathryn; list of press contacts written on verso by Loudon]",
-						"imgNums" : [ 4061159 ]
-					},
-					{
-						"titles" : "[Floral arrangement card suggesting musical of Guest in the House; illegible signature]",
-						"imgNums" : [ 4061160 ]
-					},
-					{
-						"titles" : "[Letter to Dorothy Loudon from Fred Ebb; March 31, 1989]",
-						"imgNums" : [ 4061161 ]
-					},
-					{
-						"titles" : "[Note from Alfred Uhry to Dorothy Loudon; April 9, 1990]",
-						"imgNums" : [ 4061162 ]
-					},
-					{
-						"titles" : "[Card from Dabney Coleman to Dorothy Loudon]",
-						"imgNums" : [ 4061163 ]
-					},
-					{
-						"titles" : "[Card from Howard & Sheila to Dorothy Loudon; December 1988]",
-						"imgNums" : [ 4061164 ]
-					},
-					{
-						"titles" : "[Card from Dabney Coleman to Dorothy Loudon]",
-						"imgNums" : [ 4061165 ]
-					},
-					{
-						"titles" : "[Valentine's Day card from Lionel Larner to Dorothy Loudon]",
-						"imgNums" : [ 4061166 ]
-					},
-					{
-						"titles" : "[Valentine's Day card from Lionel Larner to Dorothy Loudon]",
-						"imgNums" : [ 4061167 ]
-					}, {
-						"titles" : "[Card from Dick Drexel to Dorothy Loudon]",
-						"imgNums" : [ 4061168 ]
-					} ]
+					}
+					 ]
 		},
 		{
 			"id" : "261804",
@@ -8711,10 +8270,7 @@ LoudonMMS = [
 						"titles" : "Bittersweet 'Love Letters' touch the heartstrings [Palm Beach Today; February 9, 1991]",
 						"imgNums" : [ 4061213 ]
 					},
-					{
-						"titles" : "[Column mentioning Dorothy Loudon; left]",
-						"imgNums" : [ 4061214 ]
-					},
+				
 					{
 						"titles" : "[Newspaper advertisements for Love Letters; center and right]",
 						"imgNums" : [ 4061215 ]
@@ -8936,23 +8492,7 @@ LoudonMMS = [
 					{
 						"titles" : "[Letter from Alan Jay Lerner to Dorothy Loudon; top]",
 						"imgNums" : [ 4061268 ]
-					},
-					{
-						"titles" : "[Trade paper advertisement praising Dorothy Loudon]",
-						"imgNums" : [ 4061269 ]
-					},
-					{
-						"titles" : "[Cast list for The Fig Leaves Are Falling]",
-						"imgNums" : [ 4061270 ]
-					},
-					{
-						"titles" : "[Score for song \"Sur les quais de Ramsdale, Vermount\" from Lolita, My Love]",
-						"imgNums" : [ 4061271 ]
-					},
-					{
-						"titles" : "[Letter from Roderick Cook to Dorothy Loudon]",
-						"imgNums" : [ 4061272 ]
-					} ]
+					}]
 		},
 		{
 			"id" : "261882",
@@ -9459,11 +8999,7 @@ LoudonMMS = [
 					{
 						"titles" : "One of Garry's gang [TV Graphic; April 14, 1963]",
 						"imgNums" : [ 4061394 ]
-					},
-					{
-						"titles" : "[Telegram from Charles McCauley to Dorothy Loudon; December 5, 1962]",
-						"imgNums" : [ 4061395 ]
-					} ]
+					}]
 		},
 		{
 			"id" : "261960",
@@ -9629,10 +9165,6 @@ LoudonMMS = [
 					{
 						"titles" : "'Luv' opens at Fisher [left; Detroit News; April 5, 1966]",
 						"imgNums" : [ 4061435 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon [right] and co-star Mickey Rooney [second from left] in Luv; right]",
-						"imgNums" : [ 4061437 ]
 					},
 					{
 						"titles" : "New at the Fisher: An artful kind of parody on three in love [top; Detroit Free Press; April 6, 1966]",
@@ -10915,22 +10447,6 @@ LoudonMMS = [
 					{
 						"titles" : "[Obituary for Norman Paris, husband of Dorothy Loudon; 1977]",
 						"imgNums" : [ 4048437 ]
-					},
-					{
-						"titles" : "[1976-77 Tony Awards ballot, marked, possibly by Dorothy Loudon]",
-						"imgNums" : [ 4048438 ]
-					},
-					{
-						"titles" : "[Letter from Bernard Toll to Dorothy Loudon; June 6, 1977]",
-						"imgNums" : [ 4048439 ]
-					},
-					{
-						"titles" : "[Invitation to 1977 Tony Awards, addressed to Dorothy Loudon and Norman Paris]",
-						"imgNums" : [ 4048440 ]
-					},
-					{
-						"titles" : "[Letter from David Toser to Dorothy Loudon; May 30, 1977]",
-						"imgNums" : [ 4048441 ]
 					} ]
 		},
 		{
