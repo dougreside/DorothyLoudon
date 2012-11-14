@@ -487,14 +487,6 @@ LoudonMMS = [
 						"imgNums" : [ 4062484 ]
 					},
 					{
-						"titles" : "[Note from Rex Reed to Dorothy Loudon; bottom]",
-						"imgNums" : [ 4062485 ]
-					},
-					{
-						"titles" : "[Letter from Rex Reed to Dorothy Loudon; top; continued from preceding page; July 1, 1993]",
-						"imgNums" : [ 4062486 ]
-					},
-					{
 						"titles" : "[Letter from Hal Simons to Dorothy Loudon; top]",
 						"imgNums" : [ 4062487 ]
 					},
@@ -517,38 +509,6 @@ LoudonMMS = [
 					{
 						"titles" : "[Cabaret DRG January 1991 supplement, listing Dorothy Loudon's album Saloon]",
 						"imgNums" : [ 4062492 ]
-					},
-					{
-						"titles" : "[On Stage program for The Third Cabaret Convention; October 21-25, 1992]",
-						"imgNums" : [ 4062493 ]
-					},
-					{
-						"titles" : "[On Stage program for The Third Cabaret Convention; October 21-25, 1992]",
-						"imgNums" : [ 4062494 ]
-					},
-					{
-						"titles" : "Composers' and lyricists' corner [Show Music]",
-						"imgNums" : [ 4062495 ]
-					},
-					{
-						"titles" : "Record briefs [top; New York Times; January 3, 1993]",
-						"imgNums" : [ 4062496 ]
-					},
-					{
-						"titles" : "[Pitch letter to subscribers for The Smithsonian Collection of Recordings' American Songbook Series]",
-						"imgNums" : [ 4062497 ]
-					},
-					{
-						"titles" : "[Pitch letter to subscribers for The Smithsonian Collection of Recordings' American Songbook Series; continued from preceding page]",
-						"imgNums" : [ 4062498 ]
-					},
-					{
-						"titles" : "[Pitch letter to subscribers for The Smithsonian Collection of Recordings' American Songbook Series; continued from preceding page]",
-						"imgNums" : [ 4062499 ]
-					},
-					{
-						"titles" : "[Pitch letter to subscribers for The Smithsonian Collection of Recordings' American Songbook Series; continued from preceding page]",
-						"imgNums" : [ 4062500 ]
 					} ]
 		},
 		{
@@ -749,14 +709,6 @@ LoudonMMS = [
 						"imgNums" : [ 4062547 ]
 					},
 					{
-						"titles" : "[Contents page; left; Playbill; December 1978]",
-						"imgNums" : [ 4062548 ]
-					},
-					{
-						"titles" : "Dorothy Loudon talks about being a widow on stage ... and off [continued from preceding page; Playbill; December 1978]",
-						"imgNums" : [ 4062549 ]
-					},
-					{
 						"titles" : "[Invitation to inauguration of New York state governor Hugh L. Carey; January 1, 1979]",
 						"imgNums" : [ 4062550 ]
 					},
@@ -883,56 +835,6 @@ LoudonMMS = [
 					{
 						"titles" : "Memories: Some theatre personalities reminisce about Playbill [continued from preceding page; Playbill]",
 						"imgNums" : [ 4062581 ]
-					},
-					{
-						"titles" : "[Letter from Lynne Stuart to Dorothy Loudon; February 10, 1982]",
-						"imgNums" : [ 4062582 ]
-					},
-					{
-						"titles" : "[Card from Laurie Winer (Harper's Bazaar) to Dorothy Loudon]",
-						"imgNums" : [ 4062583 ]
-					},
-					{
-						"titles" : "[Card from The Mental Health Association of Greater Chicago to Dorothy Loudon, with envelope]",
-						"imgNums" : [ 4062584 ]
-					},
-					{
-						"titles" : "[Clipping from a periodical including photograph of Dorothy Loudon with Milton Goldman at the Drama League Annual Awards luncheon]",
-						"imgNums" : [ 4062585 ]
-					},
-					{
-						"titles" : "Knowing thyself [TWA Ambassador; February 1980]",
-						"imgNums" : [ 4062586 ]
-					},
-					{
-						"titles" : "Chronicle [photocopied on the letterhead of Terry Hodge Taylor; New York Times; January 19, 1994]",
-						"imgNums" : [ 4062587 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon and Bert Convy in Nowhere to Go But Up]",
-						"imgNums" : [ 4062588 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon and other cast members in Nowhere to Go But Up]",
-						"imgNums" : [ 4062589 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062590 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062591 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062592 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062593 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062594 ]
-					}, {
-						"titles" : "[Dorothy Loudon in Nowhere to Go But Up]",
-						"imgNums" : [ 4062595 ]
 					} ]
 		},
 		{
@@ -1131,22 +1033,6 @@ LoudonMMS = [
 					{
 						"titles" : "[Pages from The Sons' Citadel: The Official Newsletter of the New York Founding Tent (Laurel & Hardy fanzine); April 1991]",
 						"imgNums" : [ 4062642 ]
-					},
-					{
-						"titles" : "[Pages from The Sons' Citadel: The Official Newsletter of the New York Founding Tent (Laurel & Hardy fanzine); April 1991]",
-						"imgNums" : [ 4062643 ]
-					},
-					{
-						"titles" : "[Pages from The Sons' Citadel: The Official Newsletter of the New York Founding Tent (Laurel & Hardy fanzine); April 1991]",
-						"imgNums" : [ 4062644 ]
-					},
-					{
-						"titles" : "[Pages from The Sons' Citadel: The Official Newsletter of the New York Founding Tent (Laurel & Hardy fanzine); April 1991]",
-						"imgNums" : [ 4062645 ]
-					},
-					{
-						"titles" : "[Pages from The Sons' Citadel: The Official Newsletter of the New York Founding Tent (Laurel & Hardy fanzine); April 1991]",
-						"imgNums" : [ 4062646 ]
 					},
 					{
 						"titles" : "[Original artwork depicting Laurel and Hardy, inscribed to Dorothy Loudon]",
@@ -2765,11 +2651,7 @@ LoudonMMS = [
 						"imgNums" : [ 4063038 ]
 					},
 					{
-						"titles" : "[Advertisement for the Charlotte Summer Theatre's 1965 season; bottom]",
-						"imgNums" : [ 4063040 ]
-					},
-					{
-						"titles" : "'High Spirits' tiptoes in, then turns on the laughs [top; Charlotte News; July 21, 1965]",
+						"titles" : "'High Spirits' tiptoes in, then turns on the laughs [top; Charlotte News; July 21, 1965]; [Advertisement for the Charlotte Summer Theatre's 1965 season; bottom]",
 						"imgNums" : [ 4063039 ]
 					},
 					{
@@ -3125,54 +3007,6 @@ LoudonMMS = [
 					{
 						"titles" : "'The Thorns' live in Snootsville",
 						"imgNums" : [ 4063126 ]
-					},
-					{
-						"titles" : "[Letter from Sid Caesar to Dorothy Loudon]",
-						"imgNums" : [ 4063127 ]
-					},
-					{
-						"titles" : "[Letter from Sid Caesar to Dorothy Loudon; top; continued from preceding page]",
-						"imgNums" : [ 4063128 ]
-					},
-					{
-						"titles" : "[Letter from Alexander H. Cohen and Hildy Parks to Dorothy Loudon; June 6, 1983]",
-						"imgNums" : [ 4063129 ]
-					},
-					{
-						"titles" : "[Letter from Marc Alan Zagoren to Dorothy Loudon; June 3, 1984]",
-						"imgNums" : [ 4063130 ]
-					},
-					{
-						"titles" : "[Letter from Hildy Parks to Dorothy Loudon; June 4, 1984]",
-						"imgNums" : [ 4063131 ]
-					},
-					{
-						"titles" : "[Lyrics to Vodka, written on note paper by Dorothy Loudon with notes for improvisations during her Parade of Stars performance]",
-						"imgNums" : [ 4063132 ]
-					},
-					{
-						"titles" : "[Dorothy Loudon (right) and unidentified people at the Theatre World Awards; June 9, 1983]",
-						"imgNums" : [ 4063133 ]
-					},
-					{
-						"titles" : "[Note from Louis Alter to Dorothy Loudon]",
-						"imgNums" : [ 4063134 ]
-					},
-					{
-						"titles" : "[Card from Hildy Parks and Alexander Cohen to Dorothy Loudon]",
-						"imgNums" : [ 4063135 ]
-					},
-					{
-						"titles" : "[Sheet music for Little People]",
-						"imgNums" : [ 4063136 ]
-					},
-					{
-						"titles" : "[Sheet music for The Best of Ev'rything]",
-						"imgNums" : [ 4063137 ]
-					},
-					{
-						"titles" : "[Sheet music for We're All Right (title song for The Thorns TV series)]",
-						"imgNums" : [ 4063138 ]
 					} ]
 		},
 		{
@@ -6663,10 +6497,6 @@ LoudonMMS = [
 						"imgNums" : [ 4062342 ]
 					},
 					{
-						"titles" : "By The Owl [center]",
-						"imgNums" : [ 4062344 ]
-					},
-					{
 						"titles" : "[Card advertising The Roosevelt (New Orleans, LA]",
 						"imgNums" : [ 4062347 ]
 					},
@@ -6741,14 +6571,6 @@ LoudonMMS = [
 					{
 						"titles" : "Animals got more applause, so star was born [top; Boston Evening American; March 6, 1959]",
 						"imgNums" : [ 4062365 ]
-					},
-					{
-						"titles" : "Monday Ruark column [typescript with handwritten corrections]",
-						"imgNums" : [ 4062366 ]
-					},
-					{
-						"titles" : "[Scrap paper with signatures including that of Marilyn Duke]",
-						"imgNums" : [ 4062367 ]
 					} ]
 		},
 		{
@@ -9888,8 +9710,7 @@ LoudonMMS = [
 			"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
-				"imgNums" : [ 4065519, 4065520, 4065521, 4065522, 4065523,
-						4065524, 4065525 ]
+				"imgNums" : [ 4065519, 4065520, 4065521, 4065522, 4065523 ]
 			} ]
 		},
 		{
@@ -10492,8 +10313,7 @@ LoudonMMS = [
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, describing critcs' and audience response to the national touring production of Luv",
-						"imgNums" : [ 4065337, 4065338, 4065339, 4065340,
-								4065341 ]
+						"imgNums" : [ 4065337, 4065338, 4065339, 4065340 ]
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, describing events during the national touring production of Luv",
@@ -10520,7 +10340,7 @@ LoudonMMS = [
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, describing events during the national touring production of Luv",
-						"imgNums" : [ 4065373, 4065374, 4065375, 4065376 ]
+						"imgNums" : [ 4065373, 4065375, 4065376 ]
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, describing conflicts with the other cast members during the national touring production of Luv",
