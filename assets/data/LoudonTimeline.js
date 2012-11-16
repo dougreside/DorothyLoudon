@@ -350,9 +350,9 @@ LoudonTimeline=
                 {
                     "media":"https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/LoudonBench.jpg",
                     "credit":"",
-                    "caption":"Scrapbook"
+                    "caption":"Memorial bench near Central Park"
                 },
-                "relatedItems":[262540,261057,260994,261080,261126,261341,261277,262491,262505,262506,262509,262511,262515,262523]
+                "relatedItems":["Bench",262540,261057,260994,261080,261126,261341,261277,262491,262505,262506,262509,262511,262515,262523]
             },
             {
                 "startDate":"1971",

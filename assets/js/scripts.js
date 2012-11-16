@@ -31,8 +31,12 @@
 				
 				 case "item":
 			     
-				framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[3]+"/1'></iframe>";
-			     break;
+				//framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[3]+"/1'></iframe>";
+					 framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/1'></iframe>";
+					   
+					 $("iframe").on("mouseover",function(e){$(this).focus()});
+			    
+				break;
 			    
 			
 				 }
@@ -232,7 +236,7 @@ function resetEventHash(base,hash,s,e){
 			row = $("#overviewTable").find("tr").eq(parseInt(page)).find("a");
 			$(".selectedRow").removeClass("selectedRow");
 			$(row).addClass("selectedRow");
-		
+		    $(window).scrollTop(0);
 		    window.location.hash= "#event/"+page;
 			processHash();
 			e.preventDefault();

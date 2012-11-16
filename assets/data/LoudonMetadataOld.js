@@ -10402,12 +10402,6 @@ LoudonMMS = [
 					} ]
 		},
 		{
-			"id" : "Bench",
-			"type" : "special",
-			"title" : "Memorial bench in honor of Dorothy Loudon near 81st street and Central Park. ",
-			"content" : "<div><img src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/LoudonBench.jpg'/></div>"
-		},
-		{
 			"id" : "261012",
 			"type" : "images",
 			"title" : "Correspondence with her father (James E. Loudon) [Selections]",
