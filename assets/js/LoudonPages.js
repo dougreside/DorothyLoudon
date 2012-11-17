@@ -170,6 +170,11 @@ if (thisItem.display=="single"){
 				if ($(this).turn("display")=="single"){
 				vizimgs = $(".page img").filter(":visible").each(function(key,val){
 					thisimg = $(val);
+					if (!($(thisimg)[0].complete)){
+						isrc = $(thisimg).attr("src");
+						console.log(isrc);
+						$(thisimg).replaceWith("<img src='"+isrc+"' style='width:100%; height:100%;'/>")
+					}
 					oih = parseFloat(thisimg.height());
 					oiw = parseFloat(thisimg.width());
 					vp = thisimg.parent().parent().parent();
