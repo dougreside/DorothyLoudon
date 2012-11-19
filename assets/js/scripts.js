@@ -46,24 +46,28 @@
 					'hideOnOverlayClick' : false,
 					'hideOnContentClick' : false,
 					'scrolling' : true,
+					'centerOnScroll':false,
 					'autoScale' : true,
 					'autoDimensions' : true,
-					'onCleanup' : function(e) {
-						
+					'onClosed' : function(e) {
+					
 						$("#bookframe").focus();
 						keyListen();
 						hash = getHash();
-						resetEventHash("",hash,0,2)
-						
+						resetEventHash("",hash,0,2);
+					
 						
 						 //window.history.back();
 					}
 					}
 				);
 				fb.init();
+
 				$(window).unbind("keydown");
 				$(window).on("resize",function(){
+					if (!($.isTouch)){
 					fb.resize();
+					}
 				})
 				 }
 			  }
@@ -112,6 +116,7 @@ function resetEventHash(base,hash,s,e){
 				$(".selectedRow").removeClass("selectedRow");
 				window.location.hash = "";
 			}
+			return;
 		}
 	
 	function generatePages(){

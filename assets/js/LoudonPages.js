@@ -103,6 +103,12 @@ if (thisItem.display=="single"){
 	bookWidth = 500;
 	bookDisplay= "single";
 }
+if ($.isTouch){
+	//bookDisplay = "single";
+	//bookWidth = 500;
+	$("#sidebar").hide();
+	$("#all").css({"left":"20px"});
+}
 	// Create the flipbook
 
 	$('.magazine').turn({
@@ -170,10 +176,11 @@ if (thisItem.display=="single"){
 				if ($(this).turn("display")=="single"){
 				vizimgs = $(".page img").filter(":visible").each(function(key,val){
 					thisimg = $(val);
+			
 					if (!($(thisimg)[0].complete)){
 						isrc = $(thisimg).attr("src");
-						console.log(isrc);
-						$(thisimg).replaceWith("<img src='"+isrc+"' style='width:100%; height:100%;'/>")
+						
+						$(thisimg).replaceWith("<img src='"+isrc+"'/>")
 					}
 					oih = parseFloat(thisimg.height());
 					oiw = parseFloat(thisimg.width());
@@ -187,6 +194,7 @@ if (thisItem.display=="single"){
 					
 					}
 					else{
+					
 						niw = parseFloat(vpw)-50;
 						nih = parseFloat((niw*oih)/oiw);
 						
@@ -197,13 +205,23 @@ if (thisItem.display=="single"){
 				$(this).turn('resize');
 				});
 				}
-				
+				else{
+					vizimgs = $(".page img").filter(":visible").each(function(key,val){
+						thisimg = $(val);
+						
+						if (!($(thisimg)[0].complete)){
+							isrc = $(thisimg).attr("src");
+							
+							$(thisimg).replaceWith("<img src='"+isrc+"'/>")
+						}
+					});
+				}
 				$(this).turn('center');
 				
 				if (page<2) { 
 					$(this).turn('peel', 'br');
 			
-					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+" [Image id: "+itemImages[0].image+"]</div>")
+					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[0].image+"' target='_popout'>Open image in new window [Image id: "+itemImages[0].image+"]</a></div>")
 				}
 				else{
 				
@@ -215,14 +233,16 @@ if (thisItem.display=="single"){
 					else{
 						cap = page-1;
 					}
-				sidebarText = "<div class='captionLeft'>"+itemImages[cap-1].caption+" [Left image id: "+itemImages[cap-1].image+"]</div>";
+			
 				if  (typeof itemImages[page]!="undefined"){
 			
-				if ($(this).turn("display")=="double"){
-						sidebarText = sidebarText+"<br/><br/><div class='captionRight'>"+itemImages[cap].caption+" [Right image id: "+itemImages[cap].image+"]</div>";
-				
+					if ($(this).turn("display")=="double"){
+						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='src='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					}
-					
+					else{
+						sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
+						
+					}
 				}
 				$("#captions").html(sidebarText);
 				}
@@ -242,8 +262,8 @@ if (thisItem.display=="single"){
 	});
 	//resizeViewport();
 	// Zoom.js
-	
-	$('.magazine-viewport').zoom({
+
+	$('#magazine-viewport').zoom({
 		flipbook: $('.magazine'),
 		max: function() { 
 			
@@ -252,25 +272,20 @@ if (thisItem.display=="single"){
 		}, 
 		when: {
 			doubleTap: function(event) {
-				if (bookDisplay=="double"){
-				thisImg = $(event.originalEvent.target).next().attr("src");
-				}
-				else{
 			
-				thisImg = $(".page img").filter(":visible:first").attr("src");
-				}
-				id = thisImg.substring(thisImg.indexOf("id=")+3);
 				
-				//window.location.href="zoom.html#"+id;
-				showZoom(id);
-				/*(if ($(this).zoom('value')==1) {
+				event.preventDefault();
+			
+				
+
+				if ($(this).zoom('value')==1) {
 					$('.magazine').
 						removeClass('animated').
 						addClass('zoom-in');
 					$(this).zoom('zoomIn', event);
 				} else {
 					$(this).zoom('zoomOut');
-				}*/
+				}
 			},
 
 			resize: function(event, scale, page, pageElement) {
@@ -289,29 +304,31 @@ if (thisItem.display=="single"){
 				$('.thumbnails').hide();
 				$('.made').hide();
 				$('.magazine').addClass('zoom-in');
-
+				
 				if (!window.escTip && !$.isTouch) {
 					escTip = true;
 
 					$('<div />', {'class': 'esc'}).
-						html('<div>Press ESC to exit</div>').
-							appendTo($('body')).
+						html('<div>Double click or press ESC to zoom out</div>').
+							appendTo($('body'));
+							/*.
 							delay(2000).
 							animate({opacity:0}, 500, function() {
 								$(this).remove();
-							});
+							});*/
 				}
 			},
 
 			zoomOut: function () {
-
-				$('.esc').hide();
+				escTip = false;
+				$('.esc').remove();
 				$('.thumbnails').fadeIn();
 				$('.made').fadeIn();
-
+				$("#zoomControls").remove();
 				setTimeout(function(){
 					$('.magazine').addClass('animated').removeClass('zoom-in');
 					resizeViewport();
+					
 				}, 0);
 
 			},
@@ -355,40 +372,19 @@ if (thisItem.display=="single"){
 			break;
 			case esc:
 				
-				$('.magazine-viewport').zoom('zoomOut');	
+				$('.magazine-viewport').zoom('zoomOut');
+				$("#zoomControls").remove();
 				e.preventDefault();
 
 			break;
 		}
+
 	});
 	
 	
-$(window).ready(function(){
-	$("#ZoomIn").click(function(e){
-		e.preventDefault();
-		nh = 2*parseFloat($("#mainImage").height());
-		zoomLevel = zoomLevel+1;
-		$("#mainImage").height(nh);
-	});
-	$("#ZoomOut").click(function(e){
-		e.preventDefault();
-		nh = parseFloat($("#mainImage").height())/2;
-		$("#mainImage").height(nh);
-		zoomLevel = zoomLevel-1;
-	});
-	$("#Reset").click(function(e){
-		e.preventDefault();
-		isrc = $("#mainImage").attr("src");
-		$("#mainImage").replaceWith("<img src='"+isrc+"'/>");
-		//window.location.reload();
-	});
-	$("#BackButton").click(function(e){
-		e.preventDefault();
-		$("#zoomWindow").hide();
-		$("#magazine-viewport").show();
+function addZoomControls(){
 	
-	});
-});
+};
  	$(window).on("hashchange",function(){
  
  		hashparts = getHashParts();

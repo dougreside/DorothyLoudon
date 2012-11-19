@@ -72,7 +72,17 @@ function loadLargePage(page, pageElement) {
 	img.load(function() {
 
 		var prevImg = pageElement.find('img');
-		$(this).css({width: '100%', height: '100%'});
+		if (bookDisplay=="single"){
+		if ($(prevImg).height()>$(prevImg).width()){
+		$(this).css({height: '100%'});
+		}
+		else{
+			$(this).css({width: '100%'});
+		}
+	}
+	else{
+		$(this).css({height: '100%', width: '100%'});
+	}
 		$(this).appendTo(pageElement);
 		prevImg.remove();
 		
@@ -82,7 +92,7 @@ function loadLargePage(page, pageElement) {
 	
 	lPage = itemImages[page-1].image;
 	img.attr('src', 'http://images.nypl.org/index.php?t=w&id=' +  lPage );
-
+	
 
 }
 
@@ -91,8 +101,18 @@ function loadLargePage(page, pageElement) {
 function loadSmallPage(page, pageElement) {
 	
 	var img = pageElement.find('img');
+	if (bookDisplay=="single"){
+	if ($(img).height()>$(img).width()){
+		$(this).css({height: '100%'});
+		}
+		else{
+			$(this).css({width: '100%'});
+		}
+	}
+	else{
+		$(this).css({height: '100%', width: '100%'});
+	}
 
-	img.css({width: '100%', height: '100%'});
 
 	img.unbind('load');
 	// Loadnew page
