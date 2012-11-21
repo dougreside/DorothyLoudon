@@ -32,19 +32,6 @@ function shrinkPage(img){
 	thisimg.css({"height":nih+"px","width":niw+"px"});
 	return;
 }
-function showZoom(id){
-	$("#magazine-viewport").hide();
-	$("#zoomWindow").show();
-	zoomLevel = 0;	 
-
-	hparts = getHashParts();
-	$("#imageDiv").html("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+id+"'/>");
-
-	
-	
-}
-
-
 
 function loadApp(hashparts) {
  if (hashparts==undefined){
@@ -237,10 +224,10 @@ if ($.isTouch){
 				if  (typeof itemImages[page]!="undefined"){
 			
 					if ($(this).turn("display")=="double"){
-						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='src='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					}
 					else{
-						sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
+						sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open in new window  [Image id: "+itemImages[cap].image+"]</a></div>";
 						
 					}
 				}
