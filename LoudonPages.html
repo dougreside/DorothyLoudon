@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Dorothy Loudon Collection</title>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<link rel="icon" type="image/png" href="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/favicon.png" />
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/vendor/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/hash.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/data/LoudonMetadata.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/underscore-min.js"></script>
+<style type="text/css">
+#sidebar{
+float:left;
+width: 200px;
+height: 100%
+}
+#imageDiv{
+overflow: auto;
+height:500px;
+width:800px;
+overflow:auto;
+
+}
+#sidebar h3 {
+	font-size:1.7em;
+	color:#9c5a37;
+	font-weight:bold;
+	margin:.5em 0;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+#sidebar p, #sidebar .captionLeft, #sidebar .captionRight {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size:.8em;
+	line-height:1.7em;
+	margin-top:1.7em;
+	color:#322423;
+	letter-spacing:.1em;
+}
+#all{
+
+float:left;
+left:230px;
+position:absolute;
+width:90%;
+
+}
+#zoomWindow{
+display:none;
+height: 100%;
+width: 100%;
+}
+.audiocaption{
+height: 300px;
+width: 500px;
+padding-top: 1ex;
+overflow: auto;
+}
+body{
+overflow: hidden;}
+
+</style>
+</head>
+<body>
+<div id="sidebar">
+	<h3 id="itemTitle">Loading...</h3>
+	<div id="instructions">
+	<p><span id="zoomInstructions">Double click to zoom; use the arrow keys to move between pages.</span></p>
+	</div>
+	<div id="captions">
+	</div>
+</div>
+<div id="all">
+
+<div id="magazine-viewport" class="magazine-viewport">
+	<div class="container">
+		<div class="magazine">
+			<!-- Next button -->
+			<div ignore="1" class="next-button"></div>
+			<!-- Previous button -->
+			<div ignore="1" class="previous-button"></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/js/LoudonPages.js"></script>
+
+</body>
+</html>
