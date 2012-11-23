@@ -5,7 +5,7 @@ function getHashParts(){
 	hash = window.location.href;
 	if (hash.indexOf("#")>0){
  		 hash = hash.substring(hash.indexOf("#")+1);
- 		 alert("HASH: "+hash);
+ 		 
  		 hashparts = hash.split("/");
 	 }
 	
@@ -35,7 +35,7 @@ function shrinkPage(img){
 
 function loadApp(inputs) {
 	
- if (inputs.hashparts==undefined){
+ if ((typeof inputs=="undefined")||(typeof inputs.hashparts=="undefined")){
 	 
 	 hashparts=getHashParts();
  }

@@ -1,15 +1,10 @@
 <?PHP
   $prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
-  #$prefix = "./";	
-  $page = $_GET["v"];
-  $hash = strpos($page,"#");
-  $h = "";
-  if ($hash){
-  $p = substr($page,0,$hash); 
-  }
-  else{
-  	$p=$page;
-  }
+ # $prefix = "./";	
+  $p = $_GET["v"];
+  $a = $_GET["a"];
+
+
  switch ($p){
  	case "finding-aid":
  		$html = file_get_contents($prefix."assets/finding-aid.html");
@@ -26,6 +21,7 @@
  	case "brightcovejs":
  		$html = file_get_contents("http://admin.brightcove.com/js/BrightcoveExperiences.js");
  	break;
+
  	default:
  		$html = file_get_contents($prefix."assets/timeline.html");	
  	break;	
