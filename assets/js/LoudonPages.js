@@ -5,7 +5,7 @@ function getHashParts(){
 	hash = window.location.href;
 	if (hash.indexOf("#")>0){
  		 hash = hash.substring(hash.indexOf("#")+1);
- 		 
+ 		 alert("HASH: "+hash);
  		 hashparts = hash.split("/");
 	 }
 	
@@ -33,10 +33,14 @@ function shrinkPage(img){
 	return;
 }
 
-function loadApp(hashparts) {
- if (hashparts==undefined){
-
+function loadApp(inputs) {
+	
+ if (inputs.hashparts==undefined){
+	 
 	 hashparts=getHashParts();
+ }
+ else{
+	 hashparts = inputs.hashparts;
  }
 
  showNum = hashparts[0];
@@ -46,6 +50,7 @@ function loadApp(hashparts) {
  thisItem= _.find(LoudonMMS,function(val){
 	 return val.id==showNum;
  });
+
  if ((typeof thisItem.type!="undefined")&&(thisItem.type=="audio")){
  	 $("#itemTitle").html(thisItem.title); 
  	 showNum = showNum.substring(1);
@@ -398,7 +403,7 @@ function addZoomControls(){
  		 if (hashparts[0]!=showNum){
  		 	$(".thumbnails>div>ul").empty();
 		 	$(".magazine").turn("destroy");
- 			loadApp(parts);
+ 			loadApp({"hashparts":parts});
  		 }
  		
  			if (typeof page!="undefined") {
@@ -532,7 +537,7 @@ hashparts = getHashParts();
 if (hashparts[0].indexOf("a")>-1) {
 
 	$.ajax({
-		  url: "http://admin.brightcove.com/js/BrightcoveExperiences.js",
+		 url: "./?v=brightcovejs",
 		  dataType: "script",
 		  success: loadApp
 		});	

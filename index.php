@@ -23,6 +23,9 @@
  	case "turner":
  		$html = file_get_contents($prefix."assets/LoudonPages.html");
  	break;
+ 	case "brightcovejs":
+ 		$html = file_get_contents("http://admin.brightcove.com/js/BrightcoveExperiences.js");
+ 	break;
  	default:
  		$html = file_get_contents($prefix."assets/timeline.html");	
  	break;	
