@@ -97,9 +97,17 @@ if ($.isTouch){
 	$("#all").css({"left":"20px"});
 }
 	// Create the flipbook
+pparts = getHashParts();
+firstPage = 1;
+
+if (pparts.length>1){
+	firstPage = pparts[1];
+}else{
+	firstPage = 1;
+}
 
 	$('.magazine').turn({
-			page: 1,
+			page: firstPage,
 			// Magazine width
 			display:bookDisplay,
 			width: bookWidth,
@@ -204,11 +212,21 @@ if ($.isTouch){
 					});
 				}
 				$(this).turn('center');
+				plh = parent.location.href;
+				
+				if (plh.indexOf("/page")>0){
+					pend = plh.indexOf("/page");
+				}
+				else{
+					pend = plh.length;
+				}
+				parent.location.href=plh.substring(0,pend)+"/page/"+page;
+				
 				
 				if (page<2) { 
 					$(this).turn('peel', 'br');
 			
-					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[0].image+"' target='_popout'>Open image in new window [Image id: "+itemImages[0].image+"]</a></div>")
+					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./zoom.html#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
 				}
 				else{
 				
@@ -224,10 +242,10 @@ if ($.isTouch){
 				if  (typeof itemImages[page]!="undefined"){
 			
 					if ($(this).turn("display")=="double"){
-						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap-1].image+"' target='_popout'>Open in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./zoom.html#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./zoom.html#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					}
 					else{
-						sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap].caption+" <a href='http://images.nypl.org/index.php?t=w&id="+itemImages[cap].image+"' target='_popout'>Open in new window  [Image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./zoom.html#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
 						
 					}
 				}
