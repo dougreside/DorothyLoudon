@@ -39,7 +39,7 @@
 						 framepage = 1;
 					 }
 					 
-					 framestring = "<iframe id='bookframe' height=550 width=1200 src='./LoudonPages.html#"+parts[3]+"/"+framepage+"'></iframe>";
+					 framestring = "<iframe id='bookframe' height=550 width=1200 src='?v=turner#"+parts[3]+"/"+framepage+"'></iframe>";
 					   
 					 $("iframe").on("mouseover",function(e){$(this).focus()});
 			    

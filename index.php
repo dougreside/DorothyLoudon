@@ -1,4 +1,6 @@
 <?PHP
+  #$prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
+  $prefix = "./";	
   $page = $_GET["v"];
   $hash = strpos($page,"#");
   $h = "";
@@ -10,16 +12,19 @@
   }
  switch ($p){
  	case "finding-aid":
- 		$html = file_get_contents("https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/finding-aid.html");
+ 		$html = file_get_contents($prefix."assets/finding-aid.html");
  	break;	
  		case "biography":
- 		$html = file_get_contents("https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/biography.html");
+ 		$html = file_get_contents($prefix."assets/biography.html");
  	break;	
  	case "about":
- 		$html = file_get_contents("https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/about.html");
+ 		$html = file_get_contents($prefix."assets/about.html");
+ 	break;
+ 	case "turner":
+ 		$html = file_get_contents($prefix."assets/LoudonPages.html");
  	break;
  	default:
- 		$html = file_get_contents("https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/timeline.html");	
+ 		$html = file_get_contents($prefix."assets/timeline.html");	
  	break;	
  }
   	echo $html;
