@@ -10277,7 +10277,7 @@ LoudonMMS = [
 			"display" : "single",
 			"images" : [ {
 				"titles" : "Letter from Dorothy Loudon to Arthur Gorton describing radio appearance to promote national touring production of Luv and other professional matters",
-				"imgNums" : [ 4065302, 4065303, 4065304, 4065305, 4065306,
+				"imgNums" : [ 4065302, 4065303, 4065305, 4065306,4065304,5014029,5014030,
 						4065307 ]
 			} ]
 		},
@@ -10289,13 +10289,13 @@ LoudonMMS = [
 			"images" : [
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, regarding his family's backstage visit during the national touring production of Luv",
-						"imgNums" : [ 4065308, 4065309, 4065310, 4065312,
+						"imgNums" : [ 4065308, 4065309, 4065310, 4065312,5014031,
 								4065311 ]
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, regarding events during the national touring production of Luv",
 						"imgNums" : [ 4065313, 4065314, 4065315, 4065317,
-								4065316 ]
+								4065316,5014032 ]
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, describing encounter with director Mike Nichols during the national touring production of Luv",
@@ -10328,7 +10328,7 @@ LoudonMMS = [
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, discussing her relationship with producers and other cast members in the national touring company of Luv",
 						"imgNums" : [ 4065351, 4065352, 4065353, 4065355,
 								4065354, 4065356, 4065357, 4065359, 4065358,
-								4065360, 4065361, 4065363, 4065362 ]
+								4065360, 4065361, 4065363, 4065362,5014178,5014177,5014176 ]
 					},
 					{
 						"titles" : "Postcard from Dorothy Loudon to Arthur Gorton, denying that she plans to leave the national touring production of Luv",
