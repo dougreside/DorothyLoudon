@@ -1,6 +1,6 @@
 <?PHP
-  #$prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
-  $prefix = "./";	
+  $prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
+  #$prefix = "./";	
   $page = $_GET["v"];
   $hash = strpos($page,"#");
   $h = "";
