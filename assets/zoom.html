@@ -52,8 +52,11 @@
 	$(window).ready(function(){
 			hash = getHash();
 			if (hash.length>0){
-				$("#imageBox").append("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+hash+"'/>");
+				$("#imageBox").html("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+hash+"'/>");
 			}
+			$(window).on("hashchange",function(){
+				$("#imageBox").append("<img id='mainImage' src='http://images.nypl.org/index.php?t=w&id="+hash+"'/>");
+			});
 			zoomLevel=1;
 			$("#ZoomIn").click(function(e){
 				e.preventDefault();
