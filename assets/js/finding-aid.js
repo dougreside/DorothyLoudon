@@ -1,20 +1,10 @@
 fb = $.fancybox;
 	$(window).ready(function(){
-		resizeElements();
-		$(window).on("resize",function(){resizeElements();});
 	    processHash();
 	});
 	$(window).on("hashchange",function(path,parts){
 		  processHash();
 	});
-	function resizeElements(){
-		totalH = $(window).height();
-		
-		smaller = parseFloat(totalH)-$("#FA-nav").height()-$("#FA-head").height()-50;
-		//$("#sidebar").height(smaller);
-		$("#main").height(smaller);
-		$("#mainContent").height(smaller);
-	}
 
 	function getHash(){
 		 hash = window.location.hash;

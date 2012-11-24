@@ -31,7 +31,6 @@
 				
 				 case "item":
 			     
-				//framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[3]+"/1'></iframe>";
 					 if (parts.length>5){
 						 framepage = parts[5];
 					 }
@@ -67,7 +66,7 @@
 						resetEventHash("",hash,0,2);
 					
 						
-						 //window.history.back();
+						 
 					}
 					}
 				);
@@ -246,6 +245,7 @@ function resetEventHash(base,hash,s,e){
        
 
 		$("#show-list>div").last().addClass("last");
+		
 		$(".showLink").click(function(e){
 			id = $(this).attr("id");
 			page = id.substring(id.indexOf("_")+1);
@@ -259,7 +259,9 @@ function resetEventHash(base,hash,s,e){
 
 		});
 		keyListen();
+
 		startCarousel();
+	
 		processHash();
 		});	
 		function keyListen(){
