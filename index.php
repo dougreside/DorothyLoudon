@@ -1,6 +1,6 @@
 <?PHP
-  $prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
- # $prefix = "./";	
+#  $prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
+ $prefix = "./";	
   $p = $_GET["v"];
   $a = $_GET["a"];
 
@@ -21,7 +21,9 @@
  	case "brightcovejs":
  		$html = file_get_contents($prefix."assets/js/BrightcoveExperiences.js");
  	break;
-
+ 	case "zoom":
+ 		$html = file_get_contents($prefix."assets/zoom.html");
+ 	break;
  	default:
  		$html = file_get_contents($prefix."assets/timeline.html");	
  	break;	

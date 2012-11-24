@@ -533,6 +533,7 @@ if (hashparts[0].indexOf("a")>-1) {
 
 	$.ajax({
 		  url: "http://admin.brightcove.com/js/BrightcoveExperiences.js",
+		 //url: "./?v=brightcovejs",
 		  dataType: "script",
 		  success: loadApp
 		});	

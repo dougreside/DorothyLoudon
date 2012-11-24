@@ -231,7 +231,7 @@ if (pparts.length>1){
 				if (page<2) { 
 					$(this).turn('peel', 'br');
 			
-					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./zoom.html#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
+					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./?v=zoom#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
 				}
 				else{
 				
@@ -247,12 +247,12 @@ if (pparts.length>1){
 				if  ((typeof itemImages[cap]!="undefined")&&($(this).turn("display")=="double")){
 			
 				
-						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./zoom.html#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./zoom.html#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./?v=zoom#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					
 					
 				}
 				else{
-					sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./zoom.html#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
+					sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
 				}
 				$("#captions").html(sidebarText);
 				}
