@@ -2,7 +2,6 @@
  $prefix = "https://s3.amazonaws.com/dorothyloudon.nypl.org/";
 # $prefix = "./";	
   $p = $_GET["v"];
-  $a = $_GET["a"];
 
 
  switch ($p){
