@@ -19,7 +19,7 @@
  		$html = file_get_contents($prefix."assets/LoudonPages.html");
  	break;
  	case "brightcovejs":
- 		$html = file_get_contents("http://admin.brightcove.com/js/BrightcoveExperiences.js");
+ 		$html = file_get_contents($prefix."assets/js/BrightcoveExperiences.js");
  	break;
 
  	default:

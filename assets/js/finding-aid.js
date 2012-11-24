@@ -2,11 +2,11 @@ fb = $.fancybox;
 	$(window).ready(function(){
 		resizeElements();
 		$(window).on("resize",function(){resizeElements();});
-		$(window).on("hashchange",function(path,parts){
-			  processHash();
-		});
+	    processHash();
 	});
-	
+	$(window).on("hashchange",function(path,parts){
+		  processHash();
+	});
 	function resizeElements(){
 		totalH = $(window).height();
 		
@@ -35,8 +35,8 @@ fb = $.fancybox;
 		  if (parts.length>1){
 		  
 		  
-		     
-			framestring = "<iframe id='bookframe' height=550 width=1200 src='https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/LoudonPages.html#"+parts[1]+"/1'></iframe>";
+			  if (!($('#fancybox-wrap').is(":visible"))){ 
+			framestring = "<iframe id='bookframe' height=550 width=1200 src='./?v=turner#"+parts[1]+"/1'></iframe>";
 		    
 		
 			fb(framestring, {
@@ -55,7 +55,7 @@ fb = $.fancybox;
 			$(window).on("resize",function(){
 				fb.resize();
 			})
-		  }
+		  }}
 		  else{
 				 if (typeof fb!=undefined){
 				 fb.close();
