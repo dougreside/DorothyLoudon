@@ -10289,8 +10289,8 @@ LoudonMMS = [
 			"images" : [
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, regarding his family's backstage visit during the national touring production of Luv",
-						"imgNums" : [ 4065308, 4065309, 4065310, 4065312,5014031,
-								4065311 ]
+						"imgNums" : [ 4065308, 4065309, 4065310, 4065312,4065311,5014031,
+								 ]
 					},
 					{
 						"titles" : "Letter from Dorothy Loudon to Arthur Gorton, regarding events during the national touring production of Luv",
