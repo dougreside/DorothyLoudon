@@ -35,9 +35,6 @@
  	case "LoudonPages":
  		$html = file_get_contents($prefix."assets/js/LoudonPages.js");
  	break;
- 	case "finding-aid-css":
- 		$html = file_get_contents($prefix."assets/css/finding-aid.css");
- 	break;
  	case "finding-aid-js":
  		$html = file_get_contents($prefix."assets/js/finding-aid.js");
  	break;
