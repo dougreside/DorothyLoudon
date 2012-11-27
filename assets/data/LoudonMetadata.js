@@ -8237,7 +8237,7 @@ LoudonMMS = [
 					},
 					{
 						"titles" : "[Transcript of WRVR review of The Fig Leaves Are Falling; bottom]",
-						"imgNums" : [ 4061249 ]
+						"imgNums" : [ 4061248 ]
 					},
 					{
 						"titles" : "[Transcript of UPI review of The Fig Leaves Are Falling; bottom]",

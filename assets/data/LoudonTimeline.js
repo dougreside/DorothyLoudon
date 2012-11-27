@@ -6,7 +6,7 @@ LoudonTimeline=
 		"startDate":"2012,1,26",
         "date": [
             {
-                "startDate":"1925,9,25",
+                "startDate":"1925,09,25",
                 "headline":"Childhood",
                 "text":"<ul><p>Born in Boston, Dorothy Loudon grew up in Indianapolis and, primarily, the small town of Claremont, New Hampshire. Both parents were musicians - her father was an amateur saxophonist and her mother, a pianist, at one point played the organ in Filene\'s Department Store - and before her professional debut, Dorothy could play 1500 standards. After graduating from Claremont\'s Stevens High School in 1943, Loudon spent two years at Syracuse University, then dropped out to study at the Alviene School for Dramatics and then the American Theater Wing in Manhattan.</p></div>",
                 "asset":
@@ -33,7 +33,7 @@ LoudonTimeline=
              
             },
             {
-                "startDate":"1946,6,1",
+                "startDate":"1946,06,1",
                 "endDate":"1962,1,1",
                 "headline":"Cabaret career",
                 "text":"<p>After signing with the top talent agency MCA, Loudon quickly became \"one of the most sought-after singers in the Bistro Belt,\" playing regular gigs at Le Ruban Bleu (at 4 E. 56th St.) and then the Blue Angel (a few blocks away at 152 E. 55th St.) as well as out-of-town engagements in Boston, Philadelphia, Cleveland, Dallas, and even Bermuda. Influenced by both Bessie Smith and Fats Waller, Loudon developed a unique patter that interspersed comedic songs and monologues with straight renditions of classic numbers. Loudon recorded one album of her supper club material, <em>Live at the Blue Angel</em>, for Coral Records in 1959.</p>",
@@ -62,7 +62,7 @@ LoudonTimeline=
             	"relatedItems":[261989]
             },
             {
-                "startDate":"1963,9,24",
+                "startDate":"1963,09,24",
                 "endDate":"1964,6,16",
                 "headline":"Garry Moore Show",
                 "text":"<p>Loudon received her first national exposure on this television variety program, in which she performed songs and appeared in comedy sketches with host Moore and his sidekick Durward Kirby. Although the press depicted her as a replacement for the hugely popular Carol Burnett, who had left Moore&rsquo;s program in 1962, Loudon - following several unsuccessful auditions - was in fact summoned as a last-minute substitute for an ailing Judy Holliday. Good reviews led to a contract for eleven more appearances, but Loudon&rsquo;s shot at television stardom was thwarted when CBS cancelled Moore&rsquo;s show in 1964.</p>",
@@ -77,7 +77,7 @@ LoudonTimeline=
             
             },
             {
-                "startDate":"1968,9,29",
+                "startDate":"1968,09,29",
                 "endDate":"1968,11,23",
                 "headline":"No&euml;l Coward's Sweet Potato",
                 "text":"<p>English actor Roderick Cook and choreographer Lee Theodore conceived this revue of Coward songs and skits that got mixed reviews and closed after 44 performances. Amid an oddball cast that included George Grizzard, Carole Shelley, Bonnie Schon, Tom Kneebone, and a young Robert LuPone, Loudon performed a torch song (\"If Love Were All\") and a tap number with dancer Arthur Mitchell. Clive Barnes wrote that Loudon had \"just that quality of sweet, motherly bitchery that Coward so often needs.\"</p>",
@@ -105,7 +105,7 @@ LoudonTimeline=
                 "relatedItems": [262300]
             },
             {
-                "startDate":"1971,2,16",
+                "startDate":"1971,02,16",
                 "endDate":"1971,3,30",
                 "headline":"Lolita, My Love",
                 "text":"<p>Alan Jay Lerner (<em>Camelot</em>) and John Barry, composer of a dozen James Bond film scores, adapted Vladimir Nabokov\'s novel Lolita into this musical tragicomedy. Loudon played the nymphet\'s mother, Charlotte Haze (the role essayed by Shelley Winters in the Stanley Kubrick film), and stopped the show with the number \"Sur les quais de Ramsdale, Vermont.\" Once again, Loudon worked with first-rate talent, but the ambitious production closed out of town after tryouts in Boston. Was the subject matter just too creepy for Broadway?</p>",
@@ -119,7 +119,7 @@ LoudonTimeline=
                 "relatedItems": [261851]
             },
             {
-                "startDate":"1969,1,2",
+                "startDate":"1969,01,2",
                 "endDate":"1969,1,6",
                 "headline":"The Fig Leaves are Falling",
                 "text":"<p>This satire of suburban mores featured Loudon as the wife of a Larchmont commuter (Barry Nelson) who contemplates a dalliance with his hippie secretary.  The critics were brutal but almost universally spared Loudon, who had three good numbers (particularly \"All of My Laughter\") and copped a Tony nomination even though the show folded after four performances. A cult item because of the names attached - George Abbott directed, Albert Hague composed, and popular song parodist Allan Sherman did the book and lyrics - Fig Leaves also featured future pop idol David Cassidy as Loudon\'s son.</p>",
@@ -133,7 +133,7 @@ LoudonTimeline=
                 "relatedItems":[261851,262550]
             },
 			{
-             "startDate":"1973,4,23",
+             "startDate":"1973,04,23",
                 "endDate":"1973,6,17",
                 "headline":"The Women",
                 "text":"<p>Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)</p>",
@@ -148,7 +148,7 @@ LoudonTimeline=
             },
 
 			{
-                         "startDate":"1977,4,21",
+                         "startDate":"1977,04,21",
                 "endDate":"1978,8,14",
                 "headline":"Annie",
                 "text":"<p>Loudon won a Tony Award and finally became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism. It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in <em>Annie&rsquo;s</em> tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.</p>",
@@ -177,7 +177,7 @@ LoudonTimeline=
                 "relatedItems":[261671,261709,262547]
             },
 			{
-                "startDate":"1980,3,26",
+                "startDate":"1980,03,26",
                 "endDate":"1980,6,29",
                 "headline":"Sweeney Todd",
                 "text":"<p>A year into its Broadway run, Dorothy Loudon and George Hearn took over for original stars Angela Lansbury and Len Cariou in this demanding Sondheim show. Though the replacements received universally positive reviews, the production closed four months later. &ldquo;[I[f you know Steve&rsquo;s and my history, our shows seem to get to this number of performances and no more,&rdquo; director Hal Prince sighed in a farewell note to Loudon. Incidentally, it wasn&rsquo;t the first time Loudon had performed Sondheim; she&rsquo;d sung &ldquo;Truly Content,&rdquo; his one-off contribution to the Off-Broadway revue The World of Jules Feiffer, in 1962.</p>",
@@ -247,7 +247,7 @@ LoudonTimeline=
                 "relatedItems":[261592,261545,5008910,5008714,5008572,5008344]
             },
             {
-                "startDate":"1971,10",
+                "startDate":"1971,10,1",
                   "endDate":"1972,2",
                 "headline":"The Effect of Gamma Rays<br/> on Man-in-the-Moon Marigolds",
                 "text":"<p>Paul Zindel&rsquo;s intense, all-female drama was the off-Broadway hit of 1970, winning Obies for Best Play and for Sada Thompson&rsquo;s performance as the monstrous mother of two fragile teenagers. Loudon, playing her first significant straight dramatic part, took Thompson&rsquo;s place for the touring company, which traveled to Detroit, Baltimore, and San Francisco. Loudon delayed her wedding in order to play Beatrice, a role she often cited in interviews as one of her favorites.</p>",
@@ -276,7 +276,7 @@ LoudonTimeline=
             },
       
             {
-                "startDate":"1991,7",
+                "startDate":"1991,07",
                 "endDate":"1991,8",
                 "headline":"The Matchmaker",
                 "text":"<p>Although Loudon might have seemed a natural to succeed Carol Channing in <em>Hello, Dolly</em>, she would not play Dolly Levi until this Off-Broadway revival of Thornton Wilder&rsquo;s straight play <em>The Matchmaker</em>. This brief run at the Roundabout, Loudon&rsquo;s first New York production since <em>Jerry&rsquo;s Girls</em>, was also trouble-plagued: the opening was delayed when her leading man, Kenneth Mars, was replaced by Joseph Bova, and then again after Loudon damaged her vocal cords.</p>",
@@ -290,7 +290,7 @@ LoudonTimeline=
                 "relatedItems":[262300]
             },
             {
-                "startDate":"1992,6,10",
+                "startDate":"1992,06,10",
                 "headline":"Sondheim: A Celebration at Carnegie Hall",
                 "text":"<p>Directed by Scott Ellis and choreographed by Susan Stroman, this gala benefit assembled big Broadway names (Patti LuPone, Glenn Close, Bernadette Peters), as well as opera, ballet, and pop performers, all doing Sondheim. Loudon&rsquo;s inventive, seriocomic medley of &ldquo;Losing My Mind,&rdquo; from <em>Follies</em>, and &ldquo;You Could Drive a Person Crazy,&rdquo; from <em>Company</em>, &ldquo;stopped the show,&rdquo; according to Rex Reed. A taped version aired on PBS&rsquo;s Great Performance series in March 1993.</p>",
                 "asset":
@@ -383,7 +383,7 @@ LoudonTimeline=
                 "relatedItems":["Bench",262540,261057,260994,261080,261126,261341,261277,262491,262505,262506,262509,262511,262515,262523]
             },
             {
-                "startDate":"1971,12",
+                "startDate":"1971,12,1",
                 "endDate":"1977",
                 "headline":"Marriage to Norman Paris",
                 "text":"<p>Dorothy Loudon was accompanied by the Norman Paris Trio for some of her cabaret performances and her Blue Angel album. Off-mic, Paris was her companion for nearly twenty-five years, although they waited until December 18, 1971, to marry. Paris segued from club dates into work as an arranger and occasional composer for live television (<em>I've Got a Secret</em>; <em>Evening Primrose</em>; <em>Big Blue Marble</em>), Broadway (<em>The Owl and the Pussycat</em>), pop albums (<em>Still Crazy After All These Years</em>), and independent films (<em>David and Lisa</em>). A diabetes sufferer, Paris died suddenly only six weeks after Loudon won the Tony Award for <em>Annie</em>. He was 51.</p>",
