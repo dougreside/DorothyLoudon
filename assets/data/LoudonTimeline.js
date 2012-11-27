@@ -36,7 +36,7 @@ LoudonTimeline=
                 "startDate":"1946,6,1",
                 "endDate":"1962,1,1",
                 "headline":"Cabaret career",
-                "text":"<p>After signing with the top talent agency MCA, Loudon quickly became \"one of the most sought-after singers in the Bistro Belt,\" playing regular gigs at Le Ruban Bleu (at 4 E. 56th St.) and then the Blue Angel (a few blocks away at 152 E. 55th St.) as well as out-of-town engagements in Boston, Philadelphia, Cleveland, Dallas, and even Bermuda. Influenced by both Bessie Smith and Fats Waller, Loudon developed a unique patter that interspersed comedic songs and monologues with straight renditions of classic numbers. (Fats Waller was an early influence.) Loudon recorded one album of her supper club material, <em>Live at the Blue Angel</em>, for Coral Records in 1959.</p>",
+                "text":"<p>After signing with the top talent agency MCA, Loudon quickly became \"one of the most sought-after singers in the Bistro Belt,\" playing regular gigs at Le Ruban Bleu (at 4 E. 56th St.) and then the Blue Angel (a few blocks away at 152 E. 55th St.) as well as out-of-town engagements in Boston, Philadelphia, Cleveland, Dallas, and even Bermuda. Influenced by both Bessie Smith and Fats Waller, Loudon developed a unique patter that interspersed comedic songs and monologues with straight renditions of classic numbers. Loudon recorded one album of her supper club material, <em>Live at the Blue Angel</em>, for Coral Records in 1959.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062310",
@@ -108,7 +108,7 @@ LoudonTimeline=
                 "startDate":"1971,2,16",
                 "endDate":"1971,3,30",
                 "headline":"Lolita, My Love",
-                "text":"<p>Alan Jay Lerner (Camelot) and John Barry, composer of the James Bond theme, adapted Vladimir Nabokov\'s novel Lolita into this musical tragicomedy. Loudon played the nymphet\'s mother, Charlotte Haze (the role essayed by Shelley Winters in the Stanley Kubrick film), and stopped the show with the number \"Sur les quais de Ramsdale, Vermont.\" Once again, Loudon worked with first-rate talent, but the ambitious production closed out of town after tryouts in Boston. Was the subject matter just too creepy for Broadway?</p>",
+                "text":"<p>Alan Jay Lerner (<em>Camelot</em>) and John Barry, composer of a dozen James Bond film scores, adapted Vladimir Nabokov\'s novel Lolita into this musical tragicomedy. Loudon played the nymphet\'s mother, Charlotte Haze (the role essayed by Shelley Winters in the Stanley Kubrick film), and stopped the show with the number \"Sur les quais de Ramsdale, Vermont.\" Once again, Loudon worked with first-rate talent, but the ambitious production closed out of town after tryouts in Boston. Was the subject matter just too creepy for Broadway?</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061262",
@@ -136,7 +136,7 @@ LoudonTimeline=
              "startDate":"1973,4,23",
                 "endDate":"1973,6,17",
                 "headline":"The Women",
-                "text":"<p>Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith.. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)</p>",
+                "text":"<p>Loudon&rsquo;s return to Broadway after Three Men on a Horse was another 1930s revival. Always a lure for all-star casts, this time Claire Boothe Luce&rsquo;s The Women reeled in Myrna Loy, Rhonda Fleming, Alexis Smith, Kim Hunter, Lainie Kazan, and Loudon as Edith. &ldquo;As a woman who dislikes babies but stays pregnant, she gives motherhood a graceful coup de grace from a hospital bed when a visitor asks worriedly, &lsquo;What is that on the baby&rsquo;s face?&rsquo; and Loudon, cigarette in hand, baby in the other, replies offhandedly, &lsquo;Just an ash.&rsquo;&rdquo; (William B. Collins, Philadelphia Inquirer)</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061967",
@@ -151,7 +151,7 @@ LoudonTimeline=
                          "startDate":"1977,4,21",
                 "endDate":"1978,8,14",
                 "headline":"Annie",
-                "text":"<p>Loudon won a Tony Award and finally became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism. It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in Annie&rsquo;s tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.</p>",
+                "text":"<p>Loudon won a Tony Award and finally became a genuine Broadway star in this huge hit, an upbeat adaptation of the Little Orphan Annie comic strip that went against the tide of Watergate-era cynicism. It almost didn&rsquo;t happen: the actress who originated Miss Hannigan in <em>Annie&rsquo;s</em> tryout at the Goodspeed Opera House played it straight, and at the last minute old friend Mike Nichols pulled Loudon from semi-obscurity to take over as the scheming orphanage matron. A reluctant Loudon, fearing the audience would hate her, added notes of humor and pathos, and a classic character was born.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4048317",
@@ -194,7 +194,7 @@ LoudonTimeline=
                 "startDate":"1981,11,19",
                 "endDate":"1982,3,13",
                 "headline":"The West Side Waltz",
-                "text":"<p>A follow-up to his hit play On Golden Pond, this comedy-drama by Ernest Thompson also dealt with the hardships of aging and also starred Katharine Hepburn, who had done the film version of On Golden Pond. Loudon auditioned to play a violinist neighbor to Hepburn&rsquo;s irascible, widowed pianist, and claimed in interviews that Hepburn selected her after rejecting 500 other actresses. The play received mixed reviews and, after tryouts on the West Coast, ran for 126 performances on Broadway.</p>",
+                "text":"<p>A follow-up to his hit play <em>On Golden Pond</em>, this comedy-drama by Ernest Thompson also dealt with the hardships of aging and also starred Katharine Hepburn, who had done the film version of On Golden Pond. Loudon auditioned to play a violinist neighbor to Hepburn&rsquo;s irascible, widowed pianist, and claimed in interviews that Hepburn selected her after rejecting 500 other actresses. The play received mixed reviews and, after tryouts on the West Coast, ran for 126 performances on Broadway.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4062070",
@@ -208,7 +208,7 @@ LoudonTimeline=
                 "startDate":"1983,12,11",
                 "endDate":"1985,1,28",
                 "headline":"Noises Off",
-                "text":"<p>Loudon headed the ensemble in this big hit, a fast-moving slapstick romp that writer Michael Frayn and director Michael Blakemore transposed from the London stage. Frayn&rsquo;s conceit was to interweave the romantic entanglements of a third-rate theater troupe with performances of the bad play they&rsquo;re performing.  Loudon, who played Dotty Otley (and her alter ego, the housekeeper Mrs. Clackett) thought that the play was a bigger hit in New York than in London because American audiences - having never suffered the idiotic sex farces that Noises Off spoofed - were laughing with the play-within-a-play rather than at it.</p>",
+                "text":"<p>Loudon headed the ensemble in this big hit, a fast-moving slapstick romp that writer Michael Frayn and director Michael Blakemore transposed from the London stage. Frayn&rsquo;s conceit was to interweave the romantic entanglements of a third-rate theater troupe with performances of the bad play they&rsquo;re performing.  Loudon, who played Dotty Otley (and her alter ego, the housekeeper Mrs. Clackett) thought that the play was a bigger hit in New York than in London because American audiences - having never suffered the idiotic sex farces that <em>Noises Off</em> spoofed - were laughing with the play-within-a-play rather than at it.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061479",
@@ -222,7 +222,7 @@ LoudonTimeline=
                 "startDate":"1985,12,18",
                   "endDate":"1986,4,20",
                 "headline":"Jerry's Girls",
-                "text":"<p>This revue of Jerry Herman songs had a protracted, four-year cabaret and touring history (including a version featuring Annie&rsquo;s Andrea McArdle) before it arrived on Broadway at the St. James Theatre (once home to Herman&rsquo;s Hello, Dolly!), with headliners Leslie Uggams, Chita Rivera, and Loudon backed by a large all-female chorus. Loudon comedic material, but also &ldquo;Song on the Sand&rdquo; from La Cage aux Folles and &ldquo;Time Heals Everything&rdquo; from Mack &amp; Mabel. The opening was pushed back a week after Loudon, who had injured her leg just before Annie opened, broke her foot during previews.</p>",
+                "text":"<p>This revue of Jerry Herman songs had a protracted, four-year cabaret and touring history (including a version featuring Annie\'s Andrea McArdle) before it arrived on Broadway at the St. James Theatre (once home to Herman\'s <em>Hello, Dolly!</em>), with headliners Leslie Uggams, Chita Rivera, and Loudon backed by a large all-female chorus. Loudon handled most of the comedic material, but also sang \"Song on the Sand\" (from <em>La Cage aux Folles</em>) and \"Time Heals Everything\" (from <em>Mack &amp; Mabel</em>) straight. The opening was pushed back a week after Loudon broke her foot during previews; coincidentally, she had suffered a similar injury just before <em>Annie</em> debuted.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061760",
@@ -264,7 +264,7 @@ LoudonTimeline=
                 "startDate":"1988",
                   "endDate":"1989",
                 "headline":"Driving Miss Daisy",
-                "text":"<p>Alfred Uhry&rsquo;s hugely popular, Pulitzer Prize-winning off-Broadway hit also enjoyed a long run in Chicago. The third Tony winner to step that production, following Sada Thompson and Ellen Burstyn, Loudon assumed the title role eight months into the run, playing opposite familiar character Bill Cobbs as the chauffeur Hoke. After almost a year in Chicago, Loudon briefly reprised Miss Daisy for a 1994 production in Hartford, Connecticut, with The Love Boat&rsquo;s Ted Lange as Hoke.</p>",
+                "text":"<p>Alfred Uhry&rsquo;s hugely popular, Pulitzer Prize-winning Off-Broadway hit also enjoyed a long run in Chicago. The third Tony winner to step that production, following Sada Thompson and Ellen Burstyn, Loudon assumed the title role eight months into the run, playing opposite familiar character Bill Cobbs as the chauffeur Hoke. After almost a year in Chicago, Loudon briefly reprised Miss Daisy for a 1994 production in Hartford, Connecticut, with <em>The Love Boat&rsquo;s</em> Ted Lange as Hoke.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061076",
@@ -279,7 +279,7 @@ LoudonTimeline=
                 "startDate":"1991,7",
                 "endDate":"1991,8",
                 "headline":"The Matchmaker",
-                "text":"<p>Although Loudon might have seemed a natural to succeed Carol Channing in Hello, Dolly, she would not play Dolly Levi until this off-Broadway revival of Thornton Wilder&rsquo;s straight play The Matchmaker. This brief run at the Roundabout, Loudon&rsquo;s first New York production since Jerry&rsquo;s Girls, was also trouble-plagued: the opening was delayed when her leading man, Kenneth Mars, was replaced by Joseph Bova, and then again after Loudon damaged her vocal cords.</p>",
+                "text":"<p>Although Loudon might have seemed a natural to succeed Carol Channing in <em>Hello, Dolly</em>, she would not play Dolly Levi until this Off-Broadway revival of Thornton Wilder&rsquo;s straight play <em>The Matchmaker</em>. This brief run at the Roundabout, Loudon&rsquo;s first New York production since <em>Jerry&rsquo;s Girls</em>, was also trouble-plagued: the opening was delayed when her leading man, Kenneth Mars, was replaced by Joseph Bova, and then again after Loudon damaged her vocal cords.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061976",
@@ -292,7 +292,7 @@ LoudonTimeline=
             {
                 "startDate":"1992,6,10",
                 "headline":"Sondheim: A Celebration at Carnegie Hall",
-                "text":"<p>Directed by Scott Ellis and choreographed by Susan Stroman, this gala benefit assembled big Broadway names (Patti LuPone, Glenn Close, Bernadette Peters), as well as opera, ballet, and pop performers, all doing Sondheim. Loudon&rsquo;s inventive, seriocomic medley of &ldquo;Losing My Mind,&rdquo; from Follies, and &ldquo;You Could Drive a Person Crazy,&rdquo; from Company, &ldquo;stopped the show,&rdquo; according to Rex Reed. A taped version aired on PBS&rsquo;s Great Performance series in March 1993.</p>",
+                "text":"<p>Directed by Scott Ellis and choreographed by Susan Stroman, this gala benefit assembled big Broadway names (Patti LuPone, Glenn Close, Bernadette Peters), as well as opera, ballet, and pop performers, all doing Sondheim. Loudon&rsquo;s inventive, seriocomic medley of &ldquo;Losing My Mind,&rdquo; from <em>Follies</em>, and &ldquo;You Could Drive a Person Crazy,&rdquo; from <em>Company</em>, &ldquo;stopped the show,&rdquo; according to Rex Reed. A taped version aired on PBS&rsquo;s Great Performance series in March 1993.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061276",
@@ -344,7 +344,7 @@ LoudonTimeline=
             {
                 "startDate":"1984",
                 "headline":"Garbo Talks",
-                "text":"<p>Loudon made her film debut as a reclusive cat lady in this comedy from Sidney Lumet (the director of her first Broadway show). As with her only other feature, Clint Eastwood&rsquo;s Midnight in the Garden of Good and Evil (1997), it was a good part but only a cameo. Loudon never broke the curse of the cinema: Carol Burnett played Miss Hannigan in Annie, Doris Day was to replace her in an unmade movie of The West Side Waltz, and - most intriguingly - she dropped out of Jerry Lewis&rsquo;s The Ladies Man (1961), in a role (later recast, then cut) that might have made Hollywood beckon.</p>",
+                "text":"<p>Loudon made her film debut as a reclusive cat lady in this comedy from Sidney Lumet (the director of her first Broadway show). As with her only other feature, Clint Eastwood&rsquo;s <em>Midnight in the Garden of Good and Evil</em> (1997), it was a good part but only a cameo. Loudon never broke the curse of the cinema: Carol Burnett played Miss Hannigan in <em>Annie</em>, Doris Day was to replace her in an unmade movie of <em>The West Side Waltz</em>, and - most intriguingly - she dropped out of Jerry Lewis&rsquo;s <em>The Ladies Man</em> (1961), in a role (later recast, then cut) that might have made Hollywood beckon.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061307",
@@ -383,10 +383,10 @@ LoudonTimeline=
                 "relatedItems":["Bench",262540,261057,260994,261080,261126,261341,261277,262491,262505,262506,262509,262511,262515,262523]
             },
             {
-                "startDate":"1971",
+                "startDate":"1971,12",
                 "endDate":"1977",
                 "headline":"Marriage to Norman Paris",
-                "text":"<p>Dorothy Loudon was accompanied by the Norman Paris Trio for some of her cabaret performances and her Blue Angel album. Off-mic, Paris was her companion for nearly twenty-five years, although they waited until December 18, 1971, to marry. Paris segued from club dates into work as an arranger and occasional composer for live television (<em>I've Got a Secret</em>; <em>Evening Primrose</em>; <em>Big Blue Marble</em>), Broadway (<em>The Owl and the Pussycat</em>), pop albums (<em>Still Crazy After All These Years</em>), and independent films (<em>David and Lisa</em>). A diabetes sufferer, Paris died suddenly only six weeks after Loudon won the Tony Award for Annie. He was 51.</p>",
+                "text":"<p>Dorothy Loudon was accompanied by the Norman Paris Trio for some of her cabaret performances and her Blue Angel album. Off-mic, Paris was her companion for nearly twenty-five years, although they waited until December 18, 1971, to marry. Paris segued from club dates into work as an arranger and occasional composer for live television (<em>I've Got a Secret</em>; <em>Evening Primrose</em>; <em>Big Blue Marble</em>), Broadway (<em>The Owl and the Pussycat</em>), pop albums (<em>Still Crazy After All These Years</em>), and independent films (<em>David and Lisa</em>). A diabetes sufferer, Paris died suddenly only six weeks after Loudon won the Tony Award for <em>Annie</em>. He was 51.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4065613",
