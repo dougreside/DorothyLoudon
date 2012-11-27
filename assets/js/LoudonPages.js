@@ -1,5 +1,6 @@
 itemImages=[];
 showNum=262505;
+globalPage = 1;
 function getHashParts(){
 	hashparts=[];
 	hash = window.location.href;
@@ -149,11 +150,10 @@ if (pparts.length>1){
 				var book = $(this),
 				currentPage = book.turn('page'),
 				pages = book.turn('pages');
-			
 				// Update the current URI
+				globalPage = page;
+				//Hash.go(showNum+'/' + page).update();
 			
-				Hash.go(showNum+'/' + page).update();
-
 				// Show and hide navigation buttons
 
 				disableControls(page);
@@ -219,19 +219,12 @@ if (pparts.length>1){
 				$(this).turn('center');
 				plh = parent.location.href;
 				
-				if (plh.indexOf("/page")>0){
-					pend = plh.indexOf("/page");
-				}
-				else{
-					pend = plh.length;
-				}
-				parent.location.href=plh.substring(0,pend)+"/page/"+page;
 				
 				
 				if (page<2) { 
 					$(this).turn('peel', 'br');
 			
-					$("#captions").html("<div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./?v=zoom#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
+					$("#captions").html("<strong>Double click image to zoom</strong><div class='textNav'><span id='nextText'>Turn the page</span></div><div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./?v=zoom#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
 				}
 				else{
 				
@@ -247,16 +240,26 @@ if (pparts.length>1){
 				if  ((typeof itemImages[cap]!="undefined")&&($(this).turn("display")=="double")){
 			
 				
-						sidebarText=" <strong>Double click image to zoom</strong> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./?v=zoom#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText=" <strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Pages: "+cap+" &amp; "+(cap+1)+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./?v=zoom#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					
 					
 				}
 				else{
-					sidebarText = "<strong>Double click image to zoom</strong> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
+					sidebarText = "<strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Page: "+cap+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
 				}
 				$("#captions").html(sidebarText);
 				}
-		
+				that = $(this);
+				$("#nextText").click(function(){that.turn("next")});
+				$("#prevText").click(function(){that.turn("previous")});
+
+				if (plh.indexOf("/page")>0){
+					pend = plh.indexOf("/page");
+				}
+				else{
+					pend = plh.length;
+				}
+				parent.location.href=plh.substring(0,pend)+"/page/"+page;
 			},
 
 			missing: function (event, pages) {
@@ -395,23 +398,35 @@ if (pparts.length>1){
 function addZoomControls(){
 	
 };
- 	$(window).on("hashchange",function(){
- 
+ 	$(window).on("hashchange",function(e){
+ 		
  		hashparts = getHashParts();
- 		 if (hashparts.length>0){
+ 		
+ 		
+ 		if (hashparts.length>0){
  
  		 if (hashparts[0]!=showNum){
  		 	$(".thumbnails>div>ul").empty();
 		 	$(".magazine").turn("destroy");
  			loadApp({"hashparts":parts});
  		 }
- 		
- 			if (typeof page!="undefined") {
- 		
-				if ($('.magazine').turn('is')){
-					$('.magazine').turn('page', page);
-				}
- 			}
+ 		 if ((typeof globalPage == "undefined")){
+ 		page = hashparts[1];
+ 		if (typeof page!="undefined") {
+ 	 		
+			if ($('.magazine').turn('is')){
+				$('.magazine').turn('page', page);
+			}
+			}
+ 		 }
+ 		 else{
+ 			
+ 			if ($('.magazine').turn('is')){
+				$('.magazine').turn('page', globalPage);
+			}
+ 			 
+ 		 }
+ 			
  	}});
 	$(window).resize(function() {
 		resizeViewport();

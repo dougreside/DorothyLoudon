@@ -80,6 +80,10 @@
 				})
 				 }
 				 }
+				 else{
+			
+					 $("#bookframe").attr({"src":"./?v=turner#"+parts[3]+"/"+framepage});
+				 }
 			  }
 			  
 				 else{
@@ -178,7 +182,7 @@ function resetEventHash(base,hash,s,e){
 			
 			captionLink="#";
 			if (val.relatedItems!=undefined){
-				captionLink ="#element/"+(key+1)+"/item/"+val.relatedItems[0];
+				captionLink =val.asset.url;
 			}
 			dateparts = val.startDate.split(",");
 			humanyear = dateparts[0]; 
