@@ -51,7 +51,7 @@ LoudonTimeline=
                 "startDate":"1962,11,10",
                 "endDate":"1962,11,17",
                 "headline":"Nowhere to Go But Up",
-                "text":"<p>Loudon\'s Broadway debut was an ill-fated Prohibition-era musical comedy by James Lipton (yes, the Inside the Actors Studio host) and Sol Berkowitz.  After a disastrous Philadelphia tryout director Sidney Lumet was replaced by Mel Brooks, whose rewrites couldn\'t save it; co-star Bert Convy called it Nowhere to Throw But Up.  The New York notices weren\'t all bad (Loudon, playing a gangster\'s moll, inaugurated a tradition of being singled out for praise in otherwise mixed or bad reviews) but the show folded after a week.</p>",
+                "text":"<p>Loudon\'s Broadway debut was an ill-fated Prohibition-era musical comedy by James Lipton (yes, the <em>Inside the Actors Studio</em> host) and Sol Berkowitz.  After a disastrous Philadelphia tryout director Sidney Lumet was replaced by Mel Brooks, whose rewrites couldn\'t save it; co-star Bert Convy called it Nowhere to Throw But Up.  The New York notices weren\'t all bad (Loudon, playing a gangster\'s moll, inaugurated a tradition of being singled out for praise in otherwise mixed or bad reviews) but the show folded after a week.</p>",
                 "asset":
                 {
                     "media":"http://images.nypl.org/index.php?t=w&id=4061446",
