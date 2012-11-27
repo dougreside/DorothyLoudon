@@ -78,10 +78,12 @@
 				$("#mainImage").replaceWith("<img src='"+isrc+"'/>");
 				//window.location.reload();
 				});*/
-				$("#Rotate").click(function(e){
-					$("#mainImage").rotateRight()
+				$("#RotateLeft").click(function(e){
+					$("#mainImage").rotateLeft()
 				});
-				
+				$("#RotateRight").click(function(e){
+					$("#mainImage").rotateLeft()
+				});
 				
 				$("#BackButton").click(function(e){
 				e.preventDefault();
@@ -105,7 +107,9 @@
       </div>
 	<img class="spotlight" src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/bg_spotlight.png" />
 	<div class="container">
-		<div class="header"> <span class="Zoom" id="ZoomIn"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/zoom-out.gif"/></span> <span class="Zoom" id="Rotate"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/reset.gif"/></span> <span class="Zoom" id="ZoomOut"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/zoom-in.gif"/></span></div>
+		<div class="header"> <span class="Zoom" id="ZoomIn"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/zoom-out.gif"/></span>  <span class="Zoom" id="ZoomOut"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/zoom-in.gif"/></span>
+		<span class="Zoom" id="RotateLeft"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/rotate-left.gif"/></span>
+		<span class="Zoom" id="RotateRight"><img height=30 src="https://s3.amazonaws.com/dorothyloudon.nypl.org/assets/images/rotate-right.gif"/></span></div>
 
 		<div id="imageBox">
 		</div>
