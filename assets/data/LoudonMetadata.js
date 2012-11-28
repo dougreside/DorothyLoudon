@@ -9604,6 +9604,7 @@ LoudonMMS = [
 			"id" : "261183",
 			"type" : "images",
 			"title" : "Annie.  [Libretto.]",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie. [Libretto.]",
 				"imgNums" : [ 5009252, 5009253, 5009254, 5009255, 5009256,
@@ -9670,6 +9671,7 @@ LoudonMMS = [
 			"id" : "261183.5",
 			"type" : "images",
 			"title" : "Annie.  [Libretto Fragments.]",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie. [Libretto Fragments.]",
 				"imgNums" : [ 5009202, 5009203, 5009204, 5009205, 5009206,
@@ -9707,6 +9709,7 @@ LoudonMMS = [
 		{
 			"id" : "261289",
 			"type" : "images",
+			"display" : "single",
 			"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Jerry's Girls",
@@ -9738,6 +9741,7 @@ LoudonMMS = [
 		{
 			"id" : "261341",
 			"type" : "images",
+			"display" : "single",
 			"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Love Letters",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Love Letters",
@@ -9747,6 +9751,7 @@ LoudonMMS = [
 		{
 			"id" : "261361",
 			"type" : "images",
+			"display" : "single",
 			"title" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Noises Off",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached riders, for Noises Off",
@@ -9756,6 +9761,7 @@ LoudonMMS = [
 		{
 			"id" : "261404",
 			"type" : "images",
+			"display" : "single",
 			"title" : "Dorothy Loudon's Actors' Equity contract, with attached rider, for Winning Is Better",
 			"images" : [ {
 				"titles" : "Dorothy Loudon's Actors' Equity contract, with attached rider, for Winning Is Better",
@@ -10570,6 +10576,7 @@ LoudonMMS = [
 			"id" : "5008910",
 			"type" : "images",
 			"title" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft September 25, 1989",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft September 25, 1989",
 				"imgNums" : [ 5008910, 5008911, 5008912, 5008913, 5008914,
@@ -10628,6 +10635,7 @@ LoudonMMS = [
 			"id" : "5008714",
 			"type" : "images",
 			"title" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft November 1, 1989",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft November 1, 1989",
 				"imgNums" : [ 5008714, 5008715, 5008716, 5008717, 5008718,
@@ -10670,6 +10678,7 @@ LoudonMMS = [
 			"id" : "5008572",
 			"type" : "images",
 			"title" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft (Act 2) December 5, 1989",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie 2:  Miss Hannigan's Revenge, Rehearsal Draft (Act 2) December 5, 1989",
 				"imgNums" : [ 5008572, 5008573, 5008574, 5008575, 5008576,
@@ -10703,6 +10712,7 @@ LoudonMMS = [
 			"id" : "5008344",
 			"type" : "images",
 			"title" : "Annie 2: Miss Hannigan's Revenge, Undated draft",
+			"copyright": "&copy; Thomas Meehan / Martin Charnin",
 			"images" : [ {
 				"titles" : "Annie 2: Miss Hannigan's Revenge, Undated draft",
 				"imgNums" : [ 5008344, 5008345, 5008346, 5008347, 5008348,

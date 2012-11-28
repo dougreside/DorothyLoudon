@@ -92,11 +92,13 @@ function loadApp(inputs) {
 
 bookWidth=800;
 bookDisplay="double";
-if (thisItem.display=="single"){
+
+if ((thisItem.display=="single")||($("#all").width()<1000)){
 	bookWidth = 500;
 	bookDisplay= "single";
 }
-if ($.isTouch){
+
+if (($.isTouch)){
 	//bookDisplay = "single";
 	//bookWidth = 500;
 	$("#sidebar").hide();
@@ -218,13 +220,14 @@ if (pparts.length>1){
 				}
 				$(this).turn('center');
 				plh = parent.location.href;
-				
-				
-				
+				copyrightDiv = "";
+				if (typeof thisItem.copyright != "undefined"){
+				copyrightDiv = "<div class='copyrightDiv'>"+thisItem.copyright+"</div><br/>";
+				}
 				if (page<2) { 
 					$(this).turn('peel', 'br');
 			
-					$("#captions").html("<strong>Double click image to zoom</strong><div class='textNav'><span id='nextText'>Turn the page</span></div><div class='captionLeft'>"+itemImages[0].caption+"<br/> <a href='./?v=zoom#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
+					$("#captions").html("<strong>Double click image to zoom</strong><div class='textNav'><span id='nextText'>Turn the page</span></div><div class='captionLeft'>"+itemImages[0].caption+copyrightDiv+"<br/> <a href='./?v=zoom#"+itemImages[0].image+"' target='_popout'>Open/rotate image in new window [Image id: "+itemImages[0].image+"]</a></div>")
 				}
 				else{
 				
@@ -240,12 +243,12 @@ if (pparts.length>1){
 				if  ((typeof itemImages[cap]!="undefined")&&($(this).turn("display")=="double")){
 			
 				
-						sidebarText=" <strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Pages: "+cap+" &amp; "+(cap+1)+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'>"+itemImages[cap].caption+" <a href='./?v=zoom#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
+						sidebarText=" <strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Pages: "+cap+" &amp; "+(cap+1)+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/> <br/><div class='captionLeft'>"+itemImages[cap-1].caption+copyrightDiv+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Left image id: "+itemImages[cap-1].image+"]</a></div><br/><br/><div class='captionRight'> <a href='./?v=zoom#"+itemImages[cap].image+"' target='_popout'>Open image in new window  [Right image id: "+itemImages[cap].image+"]</a></div>";
 					
 					
 				}
 				else{
-					sidebarText = "<strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Page: "+cap+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
+					sidebarText = "<strong>Double click image to zoom</strong><div class='textNav'><div class='loc'>Page: "+cap+" of "+itemImages.length+"</div><span id='prevText'>Previous Page</span> | <span id='nextText'>Next Page</span></div> <br/><br/><div class='captionLeft'>"+itemImages[cap-1].caption+copyrightDiv+" <a href='./?v=zoom#"+itemImages[cap-1].image+"' target='_popout'>Open/rotate in new window  [Image id: "+itemImages[cap-1].image+"]</a></div>";
 				}
 				$("#captions").html(sidebarText);
 				}

@@ -37,8 +37,8 @@
 					 else{
 						 framepage = 1;
 					 }
-					 
-					 framestring = "<iframe id='bookframe' height=550 width=1200 src='?v=turner#"+parts[3]+"/"+framepage+"'></iframe>";
+					 fwidth = $(window).width()*.90;
+					 framestring = "<iframe id='bookframe' height=550 width="+fwidth+" src='?v=turner#"+parts[3]+"/"+framepage+"'></iframe>";
 					   
 					 $("iframe").on("mouseover",function(e){$(this).focus()});
 			    
