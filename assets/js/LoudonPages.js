@@ -99,10 +99,11 @@ if ((thisItem.display=="single")||($("#all").width()<1000)){
 }
 
 if (($.isTouch)){
-	//bookDisplay = "single";
-	//bookWidth = 500;
+
+	
 	$("#sidebar").hide();
-	$("#all").css({"left":"20px"});
+	$("#all").css({"left":"20px","width":"1000"});
+	$("#magazine-viewport").css({"width":"100%"})
 }
 	// Create the flipbook
 pparts = getHashParts();
